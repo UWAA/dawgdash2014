@@ -4,19 +4,23 @@ module.exports = function(grunt) {
   grunt.initConfig({
     jshint: {
       options: {
-        jshintrc: '.jshintrc'
+        jshintrc: '.jshintrc',
+        globals: {
+          jQuery: true
+        }
+      
       },
       all: [
         'Gruntfile.js',
         'assets/js/*.js',
-        '!assets/js/scripts.min.js'
+        '!assets/js/*.min.js'
       ]
     },
     less: {
       dist: {
         files: {
           'assets/css/main.min.css': [
-            'assets/less/app.less'
+            'assets/less/style.less'
           ]
         },
         options: {

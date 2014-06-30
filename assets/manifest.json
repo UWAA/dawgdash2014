@@ -1,0 +1,7 @@
+{
+  "dest": "assets/manifest.json",
+  "assets/css/main.min.css": {
+    "path": "assets/css/main.f33c.min.css",
+    "hash": "f33c"
+  }
+}

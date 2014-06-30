@@ -1,21 +1,19 @@
-<header class="banner navbar navbar-default navbar-static-top" role="banner">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="<?php echo home_url(); ?>/"><?php bloginfo('name'); ?></a>
+<div class="purple-patch tan-band wordmark-white" id="branding" role="banner">
+<div id="thin-strip">
+    <div role="navigation">
+      <ul>
+        <li><a href="http://www.washington.edu/">UW Home</a></li>
+        <li><a href="http://www.washington.edu/home/directories.html">Directories</a></li>
+        <li><a href="http://www.washington.edu/discover/visit/uw-events">Calendar</a></li>
+        <li><a href="http://www.lib.washington.edu/">Libraries</a></li>
+        <li><a href="http://www.washington.edu/maps">Maps</a></li>
+        <li><a href="http://myuw.washington.edu/">My UW</a></li>
+        <li class="visible-desktop"><a href="http://www.bothell.washington.edu/">UW Bothell</a></li>
+        <li class="visible-desktop"><a href="http://www.tacoma.uw.edu/">UW Tacoma</a></li>
+        <li class="visible-phone"><a href="http://www.uw.edu/news">News</a></li>
+        <li class="visible-phone"><a href="http://www.gohuskies.com/">UW Athletics</a></li>
+      </ul>
     </div>
-
-    <nav class="collapse navbar-collapse" role="navigation">
-      <?php
-        if (has_nav_menu('primary_navigation')) :
-          wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav navbar-nav'));
-        endif;
-      ?>
-    </nav>
   </div>
-</header>
+
+

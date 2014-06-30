@@ -3,6 +3,9 @@
  */
 
 @import "bootstrap/bootstrap.less";
+@import "custom-mixins.less";
+@import "thinstrip-ALL.less";
+
 
 /* ==========================================================================
    Base
@@ -83,8 +86,19 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
    Media Queries
    ========================================================================== */
 
-@media (min-width: @screen-sm-min) { }
 
-@media (min-width: @screen-md-min) { }
 
-@media (min-width: @screen-lg-min) { }
+
+
+@media (min-width: @screen-xs-min) {
+@import "thinstrip-MOB.less";
+ }
+
+
+@media (min-width: @screen-sm-min) {
+@import "thinstrip-TAB.less"; }
+
+
+
+@media (min-width: @screen-md-min) {
+@import "thinstrip-DESK.less"; }
