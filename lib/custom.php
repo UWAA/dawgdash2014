@@ -5,7 +5,50 @@
 
 
 //Add RaceDetail Meta Boxes
-require (get_template_directory(). '/lib/custom/racemeta.php');
+//require (get_template_directory(). '/lib/custom/racemeta.php');
+require (get_template_directory(). '/lib/custom/customMetaBuilder.php');
 
 // Register Custom Post Types
 require (get_template_directory(). '/lib/custom/customPosts.php');
+
+
+
+add_CustomMetaBox('dd_race_meta', array(
+'title' => 'DawgDash Custom Fields', // the title of the meta box
+'pages' => array('dd_raceinfo'),  // post types on which you want the metabox to appear
+'context' => 'normal', // meta box context (see above)
+'priority' => 'high', // meta box priority (see above)
+'fields' => array( // array describing our fields
+array(
+'name' => 'Race Date',
+'id' => 'dd_race_date',
+'type' => 'text',
+),
+array(
+'name' => 'Race Length',
+'id' => 'dd_race_length',
+'type' => 'text',
+),
+array(
+'name' => 'Race Start Time',
+'id' => 'dd_race_start_time',
+'type' => 'text',
+),
+array(
+'name' => 'Race City',
+'id' => 'dd_race_city',
+'type' => 'text',
+),
+array(
+'name' => 'Alt. Length One',
+'id' => 'dd_race_alt_length_1',
+'type' => 'text',
+),
+array(
+'name' => 'Alt. Length Two',
+'id' => 'dd_race_alt_length_2',
+'type' => 'text',
+),
+
+)
+));

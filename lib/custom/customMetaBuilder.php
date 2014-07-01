@@ -1,54 +1,83 @@
 <?php
-/* Create the DawgDash Custom Field Admin Boxes */
-
-function call_DawgDash_MetaBoxes() {
-	new DawgDash_MetaBoxes();
-}
-
-if (is_admin() ) {
-	add_action('load-post.php', 'call_DawgDash_MetaBoxes');
-	add_action('load-post-new.php', 'call_DawgDash_MetaBoxes');
-}
-
 //
-// DawgDash_MetaBoxes Class
-//////////////////////////////////
-
-class DawgDash_MetaBoxes {
-
-	public function __construct() {
-		add_action ('add_meta_boxes', array($this, 'add_meta_box'));
-		add_action( 'save_post', array( $this, 'save'));
-	} //end constructor
+// Custom Admin Meta Box API
+// V 1.0
+// http://www.wproots.com/ultimate-guide-to-meta-boxes-in-wordpress/
+//////////////
 
 
-	public function add_meta_box($post_type) {
-		$post_types = array('dd_raceinfo');  //Determines on what admin panels this meta box will show up.
-		if (in_array($post_type, $post_types)) {
-			add_meta_box(
-				'dd_meta_fields_box'
-				,'DawgDash Special Fields'   //TODO- If ever internationalized or wrapped into a plugin, this need to be updated: http://codex.wordpress.org/I18n_for_WordPress_Developers
-				,array($this, 'render_meta_box_content')
-				,$post_type
-				,'advanced' //can be 'normal' or 'side'
-				,'high'  //helps with display order
-			);
-		}  //endif
-	} //end function add_meta_box
 
-	
+class CustomMetaBox {
+
+	protected $meta_box;
+	protected $id;
+
+	static $prefix = "_uwaa_mb_";
+
+	// Create Meta Boxes based on input
+
+	public function __construct($id, $options) {
+		if(!is_admin()) {
+			return;
+		}
+
+		$this->meta_box = $options;
+		$this->id = $id;
+
+		add_action ('add_meta_boxes', array(&$this, 'add'));
+		add_action( 'save_post', array(&$this, 'save'));
+
+	}
+
+	//Add meta boxes for multiple post types
+	public function add() {
+		foreach ($this->meta_box['pages'] as $page) {
+			add_meta_box($this->id, $this->meta_box['title'], array(&$this,
+				'show') , $page, $this->meta_box['context'], $this->meta_box['priority']);
+		}
+	}
+
+	//Callback to show selected fields
+	public function show($post) {
+		//echo '<input type="hidden" name="' . $this->id . '_meta_box_nonce" value="', wp_create_nonce('smartmetabox' . $this->id) , '" />';
+		wp_nonce_field($this->id, $this->id.'_nonce' );
+
+
+		
+
+		echo '<table class="form-table">';
+		foreach ($this->meta_box['fields'] as $field) {
+			extract($field);
+			$id = self::$prefix . $id;
+			$value = self::get($field['id']);
+
+		// Input Type Array
+		$lookup = array(
+		"text" => "<input type=\"text\" name=\"$id\" value=\"$value\" class=\"widefat\" />",
+		"textarea" => "<textarea name='$id' class='widefat' rows='10'>$value</textarea>",
+		"editor" => 1,
+		"checkbox" => "<input type='checkbox' name='$id' value='$name' $checked />",
+		"select" => isset($select) ? $select : '',
+		"file" => "<input type='file' name='$id' id='$id' />"
+		);
+			if (empty($value) && !sizeof(self::get($field['id'], false))) {
+				$value = isset($field['default']) ? $default : '';
+			}
+				echo '<tr>', '<th style="width:20%"><label for="', $id, '">', $name, '</label></th>', '<td>';
+				echo $lookup[is_array($type) ? $type[0] : $type];
+				if (isset($desc)) {
+				echo '&nbsp;<span class="description">' . $desc . '</span>';
+				}
+				echo '</td></tr>';
+		}
+		echo '</table>';
+	}
+
+
 	public function save($post_id) {
 
 	//no nonce?  no saving this post...
-	if (!isset($_POST['dd_meta_fields_content_nonce'])) {
-		return $post_id;
-	}
-
-	//Take the POST variable and set it here
-	$nonce = $_POST['dd_meta_fields_content_nonce'];
-
-	//Is this nonce legit?  If not...
-	if (!wp_verify_nonce($nonce, 'dd_meta_fields_content')) {
+	if (!isset($_POST[$this->id .'_nonce'])  || !wp_verify_nonce($_POST[$this->id .'_nonce'], $this->id ) ) {
 		return $post_id;
 	}
 
@@ -70,35 +99,56 @@ class DawgDash_MetaBoxes {
 		}
 	}
 
-	//We're good,  clean that action.
-	$mydata = sanitize_text_field($_POST['dd_racelength']);
+	
 
-	//Save that action
-	update_post_meta($post_id, '_my_meta_value_key', $mydata);
+	foreach ($this->meta_box['fields'] as $field) {
+		$name = self::$prefix . $field['id'];
+		$sanitize_callback = (isset($field['sanitize_callback'])) ? $field['sanitize_callback'] : '';
+		if (isset($_POST[$name])) {  //LATER- Add File Uploads If Needed
+			$old = self::get($field['id'], true, $post_id);
+			$new = $_POST[$name];
+			if ($new != $old) {
+				self::set($field['id'], $new, $post_id, $sanitize_callback);
+			} 
+		} elseif ($field['type'] == 'checkbox') {
+			self::set($field['id'], 'false', $post_id, $sanitize_callback);
+		} else {
+			self::delete($field['id'], $name);
+		}
+	}
+
 
 	}//end public function save
 
+	static function get($name, $single = true, $post_id = null ) {
+		global $post;
+		return get_post_meta(isset($post_id) ? $post_id : $post->ID, self::$prefix . $name, $single);
+	}
 
-	public function render_meta_box_content ($post) {
-		//Add nonce for security, will be checked later.
-		wp_nonce_field('dd_meta_fields_content','dd_meta_fields_content_nonce');
+	static function set ($name, $new, $post_id = null, $sanitize_callback = '') {
+		global $post;
 
-		//Use get_post_meta to pull out the values we want if they already exist
-		$value = get_post_meta($post->ID, '_my_meta_value_key', true);
+		$id = (isset($post_id)) ? $post_id : $post->ID;
+		$meta_key = self::$prefix . $name;
+		$new = ($sanitize_callback != '' && is_callable($sanitize_callback)) ? call_user_func($sanitize_callback, $new, $meta_key, $id) : $new;
+		return update_post_meta($id, $meta_key, $new);
+	}
 
-		//Render the form, with the current value (if set)
-		echo '<label for="dd_racelength">';
-		echo 'Length of the Race';
-		echo '</label>';
-		echo '<input type="text" id="dd_racelength" name="dd_racelength"';
-		echo ' value=" '. esc_attr($value) .'" size="15" />';
+	static function delete($name, $post_id= null) {
+		global $post;
+		return delete_post_meta(isset($post_id) ? $post_id : $post->ID, self::$prefix . $name);
 
-	}  //end function render_meta_box_content
-
+	}
 
 
+};  //class
+
+function add_CustomMetaBox($id, $options) {
+	new CustomMetaBox($id, $options);
+}
 
 
-}  //class
+
+
 
 

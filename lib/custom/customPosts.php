@@ -6,7 +6,7 @@ function dd_register_raceInfo() {
 		'singular_name'       => _x( 'Race', 'Post Type Singular Name', 'dd_custom' ),
 		'menu_name'           => __( 'Race Pages', 'dd_custom' ),
 		'parent_item_colon'   => __( 'Parent Item:', 'dd_custom' ),
-		'all_items'           => __( 'All Items', 'dd_custom' ),
+		'all_items'           => __( 'All Races', 'dd_custom' ),
 		'view_item'           => __( 'View Item', 'dd_custom' ),
 		'add_new_item'        => __( 'Add New Item', 'dd_custom' ),
 		'add_new'             => __( 'Add New', 'dd_custom' ),

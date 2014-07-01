@@ -7,10 +7,7 @@
     <div class="entry-content">
       <?php the_content(); ?>
     </div>
-    <div class="race_info">
-    <h2>Race Distance</h2>
-    <?php echo get_post_meta(get_the_id(), '_my_meta_value_key', true); ?>
-  </div>
+   
     <footer>
       <?php wp_link_pages(array('before' => '<nav class="page-nav"><p>' . __('Pages:', 'roots'), 'after' => '</p></nav>')); ?>
     </footer>
