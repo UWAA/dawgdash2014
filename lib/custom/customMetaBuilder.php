@@ -2,7 +2,9 @@
 //
 // Custom Admin Meta Box API
 // V 1.0
+// Inspiration:
 // http://www.wproots.com/ultimate-guide-to-meta-boxes-in-wordpress/
+// https://github.com/JeffreyWay/Easy-WordPress-Custom-Post-Types
 //////////////
 
 

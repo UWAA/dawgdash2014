@@ -11,14 +11,16 @@ require (get_template_directory(). '/lib/custom/customMetaBuilder.php');
 // Register Custom Post Types
 require (get_template_directory(). '/lib/custom/customPosts.php');
 
+// Build Custom Shortcodes
+require (get_template_directory(). '/lib/custom/dd_shortcodes.php');
 
 
 add_CustomMetaBox('dd_race_meta', array(
-'title' => 'DawgDash Custom Fields', // the title of the meta box
-'pages' => array('dd_raceinfo'),  // post types on which you want the metabox to appear
+'title' => 'DawgDash Custom Fields', // Meta Box Title
+'pages' => array('dd_raceinfo'),  // Post Types
 'context' => 'normal', // meta box context (see above)
 'priority' => 'high', // meta box priority (see above)
-'fields' => array( // array describing our fields
+'fields' => array( // Array detailing the fields we will make
 array(
 'name' => 'Race Date',
 'id' => 'dd_race_date',
