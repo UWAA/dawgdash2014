@@ -17,6 +17,7 @@ map.featureLayer.on('ready', function(){
 
 for (var i = 0; i < features.length; i++) {
     typesObj[features[i].properties.title] = true;
+    //typesObj[features[i].geometry.type] = true;
   }
   for (var k in typesObj) {
     types.push(k);
@@ -39,7 +40,8 @@ for (var i = 0; i < features.length; i++) {
       // or number, it says if that is in a object.
       // 2 in { 2: true } // true
       // 2 in { } // false
-      return (feature.properties.title in enabled);
+     return (feature.properties.title in enabled);
+     //return (feature.properties.title in enabled);
     });
   }
 
@@ -81,6 +83,10 @@ function toggleAndCheck () {
   
 }
 
+function justToggle() {
+  $(this).parent().toggleClass('active');
+}
+
 function checkCheck () {
    var $this = $(this);
    var isChecked = $(this).find('input').prop('checked');
@@ -101,7 +107,10 @@ function checkCheck () {
 
 }
 
-  $('#course-ui').on('click', '.ui_menu_box', toggleAndCheck).on('mouseup', '.ui_menu_box', checkCheck);
+  $('#course-ui')
+    .on('click', '.ui_menu_box', toggleAndCheck)
+    .on('click', '.ui_menu_box label', justToggle)
+    .on('mouseup', '.ui_menu_box', checkCheck);
 });//end onReady for FeatureLayer
     //var $this = $(this);
  //$this.find('input').prop('checked');
