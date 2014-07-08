@@ -17,7 +17,7 @@ function dd_register_raceInfo() {
 		'not_found_in_trash'  => __( 'Not found in Trash', 'dd_custom' ),
 	);
 	$args = array(
-		'label'               => __( 'dd_raceInfo', 'dd_custom' ),
+		'label'               => __( 'races', 'dd_custom' ),
 		'description'         => __( 'Race Information Posts', 'dd_custom' ),
 		'labels'              => $labels,
 		'supports'            => array( 'title', 'editor', 'thumbnail', 'custom-fields', 'page-attributes', 'post-formats', ),
@@ -35,7 +35,7 @@ function dd_register_raceInfo() {
 		'publicly_queryable'  => true,
 		'capability_type'     => 'post',
 	);
-	register_post_type( 'dd_raceInfo', $args );
+	register_post_type( 'races', $args );
 
 }
 

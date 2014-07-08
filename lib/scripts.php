@@ -11,7 +11,7 @@
  * 3. /theme/assets/js/main.min.js (in footer)
  */
 function roots_scripts() {
-  wp_enqueue_style('roots_main', get_template_directory_uri() . '/assets/css/main.min.css', false, '34ff5b1cfd6bb9203feb15db821bacbc');
+  wp_enqueue_style('roots_main', get_template_directory_uri() . '/assets/css/main.min.css', false, 'f0dd47c77e280816f24f955649413767');
   // jQuery is loaded using the same method from HTML5 Boilerplate:
   // Grab Google CDN's latest jQuery with a protocol relative URL; fallback to local if offline
   // It's kept in the header instead of footer to avoid conflicts with plugins.
@@ -26,7 +26,7 @@ function roots_scripts() {
   }
 
   wp_register_script('modernizr', get_template_directory_uri() . '/assets/js/vendor/modernizr-2.7.0.min.js', array(), null, false);
-  wp_register_script('roots_scripts', get_template_directory_uri() . '/assets/js/scripts.min.js', array(), '78fe49baf5fe8bc0ec2220ec761a7898', true);
+  wp_register_script('roots_scripts', get_template_directory_uri() . '/assets/js/scripts.min.js', array(), '3516426b635579f76f15af7a08359d8e', true);
   wp_enqueue_script('modernizr');
   wp_enqueue_script('jquery');
   wp_enqueue_script('roots_scripts');
@@ -43,7 +43,7 @@ wp_register_style('mapbox', '//api.tiles.mapbox.com/mapbox.js/v1.6.4/mapbox.css'
 
 
 //Lightbox for main homepage Stylesheet for Race Course Map
-wp_register_script('lightbox', get_template_directory_uri().'/assets/js/vendor/lightbox-2.7.1.min.js', array(), null, false);
+wp_register_script('lightbox', get_template_directory_uri().'/assets/js/vendor/jquery.magnific-popup.min.js', array(), null, false);
 
 // http://wordpress.stackexchange.com/a/12450
 function roots_jquery_local_fallback($src, $handle = null) {

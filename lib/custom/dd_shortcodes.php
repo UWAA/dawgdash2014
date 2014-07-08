@@ -15,6 +15,7 @@ class dd_shortCodes {
     	add_shortcode('bartag', array($this, 'bartag_func') );
     	add_shortcode('accordion-start', array($this, 'accordion_start_func'));
     	add_shortcode('accordion-stop', array($this, 'accordion_stop_func'));
+    	add_shortcode('video', array($this, 'videoWrapper_func'));
 	}
 
 
@@ -22,7 +23,7 @@ class dd_shortCodes {
 	// [faq-title target="#target element for collapse"]
 	public function faq_title_func( $atts, $content="" ) {
 	    $a = shortcode_atts( array(
-	        'target' => 'the ID of the element to collapes',
+	        'target' => 'the ID of the element to collapese',
 	    ), $atts );
 
 	    return "<div data-toggle=\"collapse\" data-parent=\"#accordion\" href=\"#{$a['target']}\">$content</div>";
@@ -31,7 +32,7 @@ class dd_shortCodes {
 	// [faq-title target="#target element for collapse"]
 	public function faq_content_func( $atts, $content="" ) {
 	    $a = shortcode_atts( array(
-	        'target' => 'the ID of the element to collapes',
+	        'target' => 'the ID of the element to collapese',
 	    ), $atts );
 
 	    return "<div class=\"collapse\" id=\"{$a['target']}\">$content</div>";
@@ -42,11 +43,21 @@ class dd_shortCodes {
     return   '<div id="accordion">';
 	}
 
-	// [accordion-stop]
+	// [accordion-stop]  //TODO  MAKE THIS A WRAPPING FUNCTION
 	public function accordion_stop_func( ) {
     return   '</div>';
 	}
 
+
+	public function videoWrapper_func ($atts, $content="") {
+		$a = shortcode_atts( array(
+	        
+	    ), $atts );
+		
+		return "<div class=\"videoWrapper pull-right\">$content</div>";
+
+		
+	}
 
 
 };

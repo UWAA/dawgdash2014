@@ -5,7 +5,6 @@
 
 
 //Add RaceDetail Meta Boxes
-//require (get_template_directory(). '/lib/custom/racemeta.php');
 require (get_template_directory(). '/lib/custom/customMetaBuilder.php');
 
 // Register Custom Post Types
@@ -17,7 +16,7 @@ require (get_template_directory(). '/lib/custom/dd_shortcodes.php');
 
 add_CustomMetaBox('dd_race_meta', array(
 'title' => 'DawgDash Custom Fields', // Meta Box Title
-'pages' => array('dd_raceinfo'),  // Post Types
+'pages' => array('races'),  // Post Types
 'context' => 'normal', // meta box context (see above)
 'priority' => 'high', // meta box priority (see above)
 'fields' => array( // Array detailing the fields we will make
