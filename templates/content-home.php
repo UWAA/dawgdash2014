@@ -11,8 +11,12 @@
       <?php the_content(); ?>
     </div>
 
-    <div class="dd_info_boxes">
-      <!-- Will be where our three special boxes come from -->
+    <div class="gallery-strip">
+       <?php get_template_part('templates/gallery-strip'); ?>
+    </div>
+
+    <div class="info-boxes">
+          <?php /*get_template_part('templates/info-boxes');*/ echo "info boxes here"; ?>
     </div>
    
     <footer>

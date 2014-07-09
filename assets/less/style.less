@@ -5,10 +5,13 @@
 @import "bootstrap/bootstrap.less";
 @import "custom-mixins.less";
 @import "thinstrip-ALL.less";
+@import "nav-menu.less";
 @import "info-bar-ALL.less";
+@import "gallery-strip.less";
 @import "map-ui.less";
 @import "lightbox.less";
 @import "videoWrapper.less";
+
 
 /* ==========================================================================
    Base
@@ -23,7 +26,14 @@ body { }
    Header
    ========================================================================== */
 
-.banner { }
+.banner {
+   .container();
+   background-image: url("http://placekitten.com/1200/280");
+   height: 280px;
+   position: relative;
+
+
+ }
 
 
 
@@ -31,7 +41,24 @@ body { }
    Content
    ========================================================================== */
 
-.content { }
+.content { 
+
+.entry-content{
+   .make-row();
+}
+
+.gallery-strip {
+   .make-row();
+}
+
+.info-boxes {
+   .make-row();
+}
+
+
+
+
+}
 
 
 
@@ -42,7 +69,9 @@ body { }
 .main { }
 
 /* Gallery Shortcode */
-.gallery-row { padding: 15px 0; }
+// gallery-row { padding: 15px 0; }
+
+//Not using this....
 
 
 

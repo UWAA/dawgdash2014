@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Race Page
+Template Name: Template Custom
 */
 ?>
 

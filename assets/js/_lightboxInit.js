@@ -6,6 +6,9 @@
 
 $(document).ready(function() {
 
-	$('.lightbox').magnificPopup({type:'image'});
+	$('.lightbox-movie').magnificPopup({
+		type:'iframe',
+		disableOn:'430'
+	});
 
 });

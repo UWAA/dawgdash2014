@@ -21,8 +21,8 @@ wp_enqueue_script('seattle_map');
     <div id="map-container"><nav id='course-ui' class='menu-ui'></nav><div id="map"></div></div>
     
     <footer>
-      <?php wp_link_pages(array('before' => '<nav class="page-nav"><p>' . __('Pages:', 'roots'), 'after' => '</p></nav>')); ?>
+      
     </footer>
-    <?php comments_template('/templates/comments.php'); ?>
+   
   </article>
 <?php endwhile; ?>
