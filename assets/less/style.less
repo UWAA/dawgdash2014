@@ -11,15 +11,16 @@
 @import "map-ui.less";
 @import "lightbox.less";
 @import "videoWrapper.less";
+@import "typography-ALL.less";
+@import "accordian-ALL.less";
 
 
 /* ==========================================================================
    Base
    ========================================================================== */
 
-body { }
-#map-container{position: relative;height:500px;}
-#map { position:absolute; top:0; bottom:0; width:100%; }    
+body { padding-top: 30px;}
+
 
 
 /* ==========================================================================
@@ -28,8 +29,9 @@ body { }
 
 .banner {
    .container();
-   background-image: url("http://placekitten.com/1200/280");
-   height: 280px;
+   padding: 0;
+   background-image: url("http://placekitten.com/1200/346");
+   height: 346px;
    position: relative;
 
 
@@ -43,18 +45,30 @@ body { }
 
 .content { 
 
+
+
 .entry-content{
    .make-row();
+   .make-xs-column(12);
 }
 
 .gallery-strip {
    .make-row();
+   .make-xs-column(12);
 }
 
 .info-boxes {
    .make-row();
+   .make-xs-column(12);
 }
 
+#map-container {
+   .make-row();
+   .make-xs-column(12);
+}
+
+#map-container{position: relative;height:500px;}
+#map { position:absolute; top:0; bottom:0; width:100%; }    
 
 
 

@@ -35,7 +35,7 @@ class dd_shortCodes {
 	        'target' => 'the ID of the element to collapese',
 	    ), $atts );
 
-	    return "<div class=\"collapse\" id=\"{$a['target']}\">$content</div>";
+	    return "<div class=\"collapse\" id=\"{$a['target']}\">$content</div><hr>";
 	}
 
 	// [accordion-start]

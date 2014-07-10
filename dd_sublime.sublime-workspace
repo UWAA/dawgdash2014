@@ -1,0 +1,1396 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"light",
+				"lightboxInit"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bo",
+				"bolder"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"sho",
+				"shortcode_atts"
+			],
+			[
+				"r",
+				"rgba(r,g,b,a)"
+			],
+			[
+				"wp_re",
+				"wp_register_script"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"is",
+				"isChecked"
+			],
+			[
+				"togg",
+				"toggleAndCheck"
+			],
+			[
+				"cour",
+				"course-ui"
+			],
+			[
+				"menu",
+				"ui_menu_box"
+			],
+			[
+				"dd_",
+				"dd_meta_fields_content"
+			],
+			[
+				"current",
+				"current_user_can"
+			],
+			[
+				"post",
+				"post_id"
+			],
+			[
+				"post_",
+				"post_type"
+			],
+			[
+				"def",
+				"defined"
+			],
+			[
+				"pubic",
+				"public"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"feild",
+				"fieldDefID"
+			],
+			[
+				"fil",
+				"filterParam"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"resul",
+				"results_array"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"min-",
+				"min-width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "assets/less/nav-menu.less",
+			"settings":
+			{
+				"buffer_size": 245,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/js/maps/seattle_map.js",
+			"settings":
+			{
+				"buffer_size": 3310,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/scripts.php",
+			"settings":
+			{
+				"buffer_size": 3684,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/content-home.php",
+			"settings":
+			{
+				"buffer_size": 755,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/less/typography-ALL.less",
+			"settings":
+			{
+				"buffer_size": 151,
+				"line_ending": "Windows",
+				"name": "ty"
+			}
+		},
+		{
+			"file": "assets/less/style.less",
+			"settings":
+			{
+				"buffer_size": 3147,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/header-top-navbar.php",
+			"settings":
+			{
+				"buffer_size": 1000,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 3373,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/header.php",
+			"settings":
+			{
+				"buffer_size": 397,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"selected_items":
+		[
+			[
+				"js",
+				"JSHint: Set `node` Path"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 389.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/js/_weather.js",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/less/thinstrip-DESK.less",
+		"/C/Users/bperick.NETID/AppData/Roaming/Sublime Text 3/Packages/JSHint Gutter/JSHint.sublime-settings",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/less/bootstrap/variables.less",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/single-races.php",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/less/accordian-ALL.less",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/lib/custom/dd_shortcodes.php",
+		"/C/Users/bperick.NETID/Downloads/features.json",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/lib/scripts.php",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/lib/config.php",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/less/nav-menu.less",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/js/vendor/flowtype.js",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/templates/header.php",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/template-custom.php",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/less/gallery-strip.less",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/templates/content-home.php",
+		"/H/doskey.bat",
+		"/C/vm/dev.local/puphpet/shell/initial-setup.sh",
+		"/C/vm/dev.local/puphpet/shell/execute-files.sh",
+		"/C/development/projects/phpmyadmin/config.inc.php",
+		"/C/development/projects/wordpress/wp-config.php",
+		"/C/development/projects/wordpress/.htaccess",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/templates/content-page.php",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/less/map-ui.less",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/less/videoWrapper.less",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/js/maps/crap.js",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/js/_lightboxInit.js",
+		"/C/Users/bperick.NETID/AppData/Local/Temp/fz3temp-1/.htaccess",
+		"/I/groups/UWAA/MARK_MEM/Virtual Media/Ben Temp/mapbox credentials.txt",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/less/info-bar-ALL.less",
+		"/C/development/projects/index.html",
+		"/Z/cheer/football/cal/index.html",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/templates/gallery-strip.php",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/page-home.php",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/less/style.less",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/js/vendor/modernizr-2.7.0.min.js",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/js/maps/seattle_map.js",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/less/lightbox.less",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/js/vendor/jquery.magnific-popup.min.js",
+		"/C/Users/bperick.NETID/Desktop/92125-Val-Kilmer-chomp-gif-Top-Gun-I-7HKt.gif",
+		"/C/development/projects/bullshit.php",
+		"/C/development/configuration/mysql_backups/backup.sql",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/lib/custom/customPosts.php",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/lib/custom.php",
+		"/C/vm/dev.local/puphpet/puppet/Puppetfile",
+		"/C/vm/dev.local-gen1/puphpet/config.yaml",
+		"/C/vm/dev.local/puphpet/puppet/manifest.pp",
+		"/C/vm/dev.local/Vagrantfile",
+		"/C/vm/dev.local/puphpet/shell/ssh-keygen.sh",
+		"/C/vm/dev.local/puphpet/files/exec-once/empty",
+		"/C/vm/dev.local/puphpet/config.yaml",
+		"/C/vm/dev.local/puphpet/puppet/hiera.yaml",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/less/bullshit.html",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/single.php",
+		"/H/.ssh/config",
+		"/C/Program Files (x86)/Git/Git Bash.vbs",
+		"/C/Users/bperick.NETID/.ssh/bitbucket_rsa.pub",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/js/_map-ui.js",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/single-dd_raceinfo.php",
+		"/H/shortcuts/powerdown.bat",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/templates/content-single.php",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/lib/custom/customMetaBuilder.php",
+		"/H/shortcuts/sublime.bat",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/less/bootstrap/bootstrap.less",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/less/thinstrip-ALL.less",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/js/_thin-strip.js",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/less/thinstrip-TAB.less",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/templates/header-top-navbar.php",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/less/thinstrip-MOB.less",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/.jshintrc",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/Gruntfile.js",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/templates/dd_raceinfo-single.php",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/less/custom-mixins.less",
+		"/C/Users/bperick.NETID/Desktop/yamato-hashin.bat",
+		"/H/shortcuts/dawgdash.bat",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/style.css",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/lib/custom/racemeta.php",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/js/thin-strip.js",
+		"/C/development/projects/wordpress/wp-content/themes/UW-2013/less/common-ALL.less",
+		"/C/development/projects/wordpress/wp-content/themes/UW-2013/less/shortcodes-ALL.less",
+		"/C/development/projects/wordpress/wp-content/themes/UW-2013/less/style.less",
+		"/C/development/projects/wordpress/wp-content/themes/UW-2013/less/typography-ALL.less",
+		"/C/development/projects/wordpress/wp-content/themes/UW-2013/less/widgets-ALL.less",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/less/app.less",
+		"/C/development/projects/cheer/football/hawaii/Gruntfile.js",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/functions.php",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/js/scripts.4c01.min.js",
+		"/C/development/projects/wordpress/wp-content/plugins/hello.php",
+		"/C/development/projects/wordpress/wp-content/plugins/index.php",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/less/bootstrap/breadcrumbs.less",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/js/plugins/bootstrap/affix.js",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/package.json",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/less/bootstrap/badges.less",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash2014/Gruntfile.js",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash2014/library/less/_grid.less",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash2014/library/less/_mixins.less",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash2014/library/scss/config.rb",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash2014/library/bones.php",
+		"/C/development/projects/wordpress/wp-config.php.new.php",
+		"/C/development/projects/dawgdash/library/css/style.css",
+		"/C/development/projects/phpmyadmin/libraries/session.inc.php",
+		"/C/development/projects/phpmyadmin/libraries/core.lib.php",
+		"/C/development/projects/wordpress/phpinfo.php",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash2014/package.json",
+		"/C/development/projects/cheer/football/hawaii/package.json",
+		"/C/development/projects/wordpress/package.json",
+		"/C/development/projects/.htaccess",
+		"/C/Users/bperick.NETID/AppData/Local/Temp/fz3temp-1/header.php",
+		"/C/Users/bperick.NETID/AppData/Local/Temp/fz3temp-1/bones.php",
+		"/C/Users/bperick.NETID/AppData/Local/Temp/fz3temp-1/admin.php",
+		"/C/development/projects/phpmyadmin/config.sample.inc.php",
+		"/C/development/projects/wordpress/.htaccess.bak",
+		"/C/development/projects/wordpress/wp-config-sample.php",
+		"/C/development/projects/phpmyadmin/libraries/common.inc.php",
+		"/C/Users/bperick.NETID/AppData/Local/Temp/fz3temp-1/style 2.css",
+		"/C/Users/bperick.NETID/AppData/Local/Temp/fz3temp-1/style.css",
+		"/C/development/projects/dawgdash/library/css/ie.css",
+		"/C/Users/bperick.NETID/AppData/Local/Temp/fz3temp-1/login.css",
+		"/C/development/projects/dawgdash/README.md",
+		"/C/development/projects/trumbaembed/trumbaSort.js",
+		"/C/development/projects/trumbaembed/scratch",
+		"/C/development/projects/trumbaembed/index.html",
+		"/C/development/projects/trumbaembed/scripts/underscore.js",
+		"/C/development/projects/cheer/football/hawaii/less/content-row-SM.less",
+		"/C/development/projects/cheer/football/hawaii/index.html",
+		"/Z/cheer/football/hawaii/css/style.css",
+		"/C/development/projects/cheer/football/hawaii/less/content-row.less",
+		"/C/development/projects/cheer/football/hawaii/less/content-row-XS.less"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"1",
+			"dd_races",
+			"dd_raceInfo",
+			"root",
+			"title",
+			"properties",
+			"i",
+			"title",
+			"start",
+			"static",
+			"CustomMetaBox",
+			"foo",
+			"bartag",
+			"foo",
+			"h3",
+			"race_alt_length_2",
+			"race_alt_length_1",
+			"dd_race_alt_length_1",
+			"length_1",
+			"_uwaa_mb_dd_race_date",
+			"h2",
+			"dawgdash_post_meta_setup",
+			"border-radius",
+			"app.less",
+			"app",
+			"js/",
+			"css/",
+			"less/",
+			"vendor",
+			"vendo",
+			"essay",
+			"</option>",
+			"academic",
+			"a",
+			"button",
+			"<button",
+			"button",
+			"			○",
+			"		○",
+			"</label>",
+			"</tr><tr>",
+			"<td>",
+			"\">",
+			"selectLis",
+			".dev.",
+			">>",
+			"a href",
+			"“",
+			"”",
+			"10px",
+			"cleanBenefitData($results_array);\n		stripURL($results_array['benefit_content']);	\n		extractURL($results_array['url']);",
+			"p",
+			"featu",
+			"p",
+			"a",
+			"p",
+			"lead",
+			"typ",
+			"type",
+			"modal",
+			"(",
+			"16",
+			"6",
+			"0",
+			"class=\"lead\"",
+			"<li>",
+			"2",
+			"<!--  <div class=\"left-bg-color purple-background \"></div>\n       <div class=\"right-bg-color lt-purple-background \"></div> -->",
+			"bottom-shadow",
+			"ssh",
+			"getdetails",
+			".copy",
+			"  <!-- <div class=\"orange-spacer\"></div> -->",
+			"div",
+			"<div class=\"link\">",
+			"&raquo;",
+			"href=\"#\"",
+			" @screen-sm) {}",
+			"//",
+			"}",
+			"\">",
+			"{",
+			"&em",
+			"<br/>",
+			"-",
+			"p",
+			"$db_clean",
+			"?",
+			"=",
+			"california",
+			"california_1",
+			"california",
+			"California",
+			"california",
+			"California",
+			"california",
+			"California",
+			"hawaii",
+			"Hawaii",
+			"story",
+			"storyName",
+			"=",
+			"'",
+			"comments",
+			"storyName",
+			"1",
+			"storyName",
+			"hawaii_2",
+			"1",
+			"storyName",
+			"storyEmail",
+			"email",
+			"storyName",
+			"height:194px;",
+			"40%",
+			"100",
+			"<div class=\"orange-spacer\"></div>",
+			"// display:table;",
+			"height:194px;",
+			"max-width:230px;",
+			"<div class=\"image\">",
+			"max-width:230px;\n		//width: 38.888%;\n		// display:table-cell;\n		float:left;\n		display:block;",
+			"<div class=\"image\">\n                <img src=\"http://fpoimg.com/230x194?text=gametickets\" id=\"tickets\" alt=\"placeholder\">\n              </div>",
+			"inline",
+			".copy{\n		display:inline;",
+			"inline",
+			"width",
+			"width:"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "assets/less/nav-menu.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 245,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								69,
+								69
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close"
+							],
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/js/maps/seattle_map.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3310,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								429,
+								429
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "lib/scripts.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3684,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2138,
+								2138
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 315.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "templates/content-home.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 755,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								76,
+								76
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "assets/less/typography-ALL.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 151,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								149,
+								149
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "ty",
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close"
+							],
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "assets/less/style.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								341,
+								341
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close"
+							],
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "templates/header-top-navbar.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1000,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								997,
+								997
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "Gruntfile.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3373,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "templates/header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 397,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21,
+								21
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 193.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "dd_sublime.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Z:\\cheer\\football\\hawaii\\css\\style.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 207.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

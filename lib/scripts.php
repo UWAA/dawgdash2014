@@ -11,7 +11,8 @@
  * 3. /theme/assets/js/main.min.js (in footer)
  */
 function roots_scripts() {
-  wp_enqueue_style('roots_main', get_template_directory_uri() . '/assets/css/main.min.css', false, '9ccb9d353bd08f16af4714d3440d8343');
+  wp_enqueue_style('roots_main', get_template_directory_uri() . '/assets/css/main.min.css', false, '2799495b914d21b6627bcfa9ca5607b9');
+  wp_enqueue_style('web_fonts', 'http://fonts.googleapis.com/css?family=Open+Sans:300,600,700|Ultra', array(), null, false);
   // jQuery is loaded using the same method from HTML5 Boilerplate:
   // Grab Google CDN's latest jQuery with a protocol relative URL; fallback to local if offline
   // It's kept in the header instead of footer to avoid conflicts with plugins.
@@ -25,10 +26,14 @@ function roots_scripts() {
     wp_enqueue_script('comment-reply');
   }
 
+//
+// Flowtype Register
+  wp_register_script('flowtype', get_template_directory_uri() . '/assets/js/vendor/flowtype.js', array(), null, false);
   wp_register_script('modernizr', get_template_directory_uri() . '/assets/js/vendor/modernizr-2.7.0.min.js', array(), null, false);
-  wp_register_script('roots_scripts', get_template_directory_uri() . '/assets/js/scripts.min.js', array(), '306e1f6f2341ba7bbfc47bf3440ed028', true);
+  wp_register_script('roots_scripts', get_template_directory_uri() . '/assets/js/scripts.min.js', array(), '733bd213a0c6654c55cdf7b7f3501429', true);
   wp_enqueue_script('modernizr');
   wp_enqueue_script('jquery');
+  wp_enqueue_script('flowtype');
   wp_enqueue_script('roots_scripts');
 }
 add_action('wp_enqueue_scripts', 'roots_scripts', 100);
@@ -36,6 +41,7 @@ add_action('wp_enqueue_scripts', 'roots_scripts', 100);
 //MapBox Scripts for Race Course Maps
 wp_register_script('mapbox', '//api.tiles.mapbox.com/mapbox.js/v1.6.4/mapbox.js', array(), null, false);
 wp_register_script('seattle_map', get_template_directory_uri(). '/assets/js/maps/seattle_map.js');
+wp_register_script('lightboxInit', get_template_directory_uri(). '/assets/js/lightboxInit.js');
 
 
 //MapBox Stylesheet for Race Course Map

@@ -24,6 +24,7 @@ function roots_main_class() {
   } else {
     // Classes on full width pages
     $class = 'col-sm-12';
+    //$class = '';
   }
 
   return $class;
