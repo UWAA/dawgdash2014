@@ -1,7 +1,16 @@
+
+
+var SW = L.latLng(47.6430704492123, -122.334308624268);
+var NE = L.latLng(47.6774957780179, -122.274227142334);
+var bounds = L.latLngBounds(SW, NE);
+
+
 var map = L.mapbox.map('map', 'bperick.ilp0kaof', {
 	tileLayer: {
 		detectRetina:true
-	}
+	},
+  maxBounds:bounds,
+  minZoom:12,
 	})
     .setView([47.6610, -122.3075], 14);
 
@@ -9,11 +18,17 @@ var map = L.mapbox.map('map', 'bperick.ilp0kaof', {
 var course_ui = document.getElementById('course-ui');
    
 
+//Disable Scroll Wheel Zoom
+map.scrollWheelZoom.disable();
+
+
+
 map.featureLayer.on('ready', function(){
 
 	var typesObj = {};
 	var types = [];
 	var features = map.featureLayer.getGeoJSON().features;
+
 
 for (var i = 0; i < features.length; i++) {
     typesObj[features[i].properties.title] = true;

@@ -14,6 +14,9 @@ require (get_template_directory(). '/lib/custom/customPosts.php');
 require (get_template_directory(). '/lib/custom/dd_shortcodes.php');
 
 
+//Add 'active' menu class to nav when on home page
+// require (get_template_directory(). '/lib/custom/customNavMenu.php')
+
 add_CustomMetaBox('dd_race_meta', array(
 'title' => 'DawgDash Custom Fields', // Meta Box Title
 'pages' => array('races'),  // Post Types

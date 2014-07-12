@@ -13,13 +13,15 @@
 @import "videoWrapper.less";
 @import "typography-ALL.less";
 @import "accordian-ALL.less";
+@import "patch.less";
+@import "buttons-ALL.less";
 
 
 /* ==========================================================================
    Base
    ========================================================================== */
 
-body { padding-top: 30px;}
+body { }
 
 
 
@@ -28,9 +30,11 @@ body { padding-top: 30px;}
    ========================================================================== */
 
 .banner {
-   .container();
+   .container-fluid();
+   margin-top: 30px;
    padding: 0;
    background-image: url("http://placekitten.com/1200/346");
+   background-size: cover;
    height: 346px;
    position: relative;
 

@@ -1,4 +1,5 @@
 <header class="banner" role="banner">
+	<div class="patch-container"><?php get_template_part('templates/patch'); ?></div>
         <a class="brand" href="<?php echo home_url('/') ?>"><?php bloginfo('name'); ?></a>
       <nav class="nav-main" role="navigation">
         <?php
@@ -8,3 +9,4 @@
         ?>
       </nav>
 </header>
+</div>  <!-- end branding/header (UW style) -->

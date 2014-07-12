@@ -16,6 +16,7 @@ class dd_shortCodes {
     	add_shortcode('accordion-start', array($this, 'accordion_start_func'));
     	add_shortcode('accordion-stop', array($this, 'accordion_stop_func'));
     	add_shortcode('video', array($this, 'videoWrapper_func'));
+    	add_shortcode('registerButton', array($this, 'registerButton_func'));
 	}
 
 
@@ -57,6 +58,14 @@ class dd_shortCodes {
 		return "<div class=\"videoWrapper pull-right\">$content</div>";
 
 		
+	}
+
+	public function registerButton_func($atts)	{
+		$a = shortcode_atts( array(
+	        'link' => 'Link to Registration Page'
+	    ), $atts );
+
+	    return "<a id=\"registerButton\" title=\"link to registration page\" href=\"{$a['link']}\">Register Now</a>";
 	}
 
 

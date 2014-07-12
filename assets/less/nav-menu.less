@@ -10,19 +10,41 @@
 }
 
 ul.dd-nav {
-	
 
-		li{
-			background-color: @uw-gold;
+		
+		
+		li.active {
+			background-color: @uw-gold;	
+
+
+			a {
+				color:@white;
+
+				&:hover{
+					background-color: inherit;
+					cursor: pointer;
+				}
+			}
+		}
+		
+
+
+		li {
+			background-color: @purple;
+			color:#6c6c7a;
 			margin: 20px 0;
 			width: 248px;
+			padding-left: 10px;
 
-
-
-			a{
-				color:@white;
+			a {
+				color: #6c6c7a;
 				padding: 4px 0;
-				margin-left: 10px;
+
+				&:hover {
+					color: @white;
+					background-color: inherit;
+				}
+		
 			}
 		}
 }
