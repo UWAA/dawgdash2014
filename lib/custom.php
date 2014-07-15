@@ -4,6 +4,7 @@
  */
 
 add_filter( 'use_default_gallery_style', '__return_false' );
+//remove_filter( 'the_content', 'wpautop' );
 //Add RaceDetail Meta Boxes
 require (get_template_directory(). '/lib/custom/customMetaBuilder.php');
 

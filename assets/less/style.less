@@ -51,10 +51,9 @@ body { }
 
 
 
-.entry-content{
-   .make-row();
-   .make-xs-column(12);
-}
+// .entry-content{
+
+// }
 
 .gallery-strip {
    .make-row();
@@ -84,7 +83,9 @@ body { }
    Primary Content
    ========================================================================== */
 
-.main { }
+.main {
+.container();
+ }
 
 /* Gallery Shortcode */
 // gallery-row { padding: 15px 0; }
@@ -105,17 +106,18 @@ body { }
    Posts
    ========================================================================== */
 
-.hentry header { }
+.hentry header { .make-xs-column(12);}
 .hentry time { }
 .hentry .byline { }
 .hentry .entry-content {
-
-.copy-container {
    .container();
+.copy-row {
+   .make-row();
+   
 }
 
 .copy-columns{
-   .make-xs-column(12);
+   .make-sm-column(12);
 }
 
 
@@ -133,7 +135,7 @@ body { }
 
 .content-info {
    .container-fluid();
-   height:200px;
+   height:100px;
    background-color: @purple;
 
 
@@ -162,14 +164,16 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 
 @media (min-width: @screen-xs-min) {
-@import "thinstrip-MOB.less";
+// @import "thinstrip-MOB.less";
  }
 
 
 @media (min-width: @screen-sm-min) {
-@import "thinstrip-TAB.less"; }
+// @import "thinstrip-TAB.less"; 
+}
 
 
 
 @media (min-width: @screen-md-min) {
-@import "thinstrip-DESK.less"; }
+// @import "thinstrip-DESK.less";
+ }

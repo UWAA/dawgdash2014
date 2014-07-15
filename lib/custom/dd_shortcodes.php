@@ -26,7 +26,7 @@ class dd_shortCodes {
 	        'target' => 'the ID of the element to collapese',
 	    ), $atts );
 
-	    return "<div data-toggle=\"collapse\" data-parent=\"#accordion\" href=\"#{$a['target']}\">$content</div>";
+	    return "<div data-toggle=\"collapse\" data-parent=\"#accordion\" href=\"#{$a['target']}\"><h2>$content</h2></div>";
 	}
 
 	// [faq-title target="#target element for collapse"]
@@ -35,12 +35,12 @@ class dd_shortCodes {
 	        'target' => 'the ID of the element to collapese',
 	    ), $atts );
 
-	    return "<div class=\"collapse\" id=\"{$a['target']}\">$content</div><hr>";
+	    return "<div class=\"collapse\" id=\"{$a['target']}\"><p>$content</p></div><hr>";
 	}
 
 	// [accordion-start]
 	public function accordion_func($atts, $content="" ) {
-    return   '<div id="accordion">'.do_shortcode($content).'</div';
+    return   '<div id="accordion">'.do_shortcode($content).'</div>';
 	}
 
 	public function videoWrapper_func ($atts, $content="") {
@@ -66,7 +66,7 @@ class dd_shortCodes {
 	        
 	    ), $atts );
 
-	    return '<div class="row"><div class="copy-container"><div class="copy-columns">'. do_shortcode($content). '</div></div></div>';
+	    return '<div class="copy-row"><div class="copy-columns"><p>'. do_shortcode($content). '</p></div></div>';
 	}
 
 

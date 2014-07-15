@@ -2,9 +2,13 @@
 //gallery-bar.less
 /////////////
 
+@number-of-images: (12);
+@gallery-width: (149px * @number-of-images) + @number-of-images;
+
 .gallery-row {
-	margin:30px;
-	.container-fluid();
+	margin:30px 0; 
+	//.container-fluid();
+	.make-row();
 }
 
 .holder {
@@ -14,11 +18,12 @@
 	width:100%;
 
 	.gallery {
-	
+	overflow: hidden;
 	height:100%;
 	max-height: 100px;
-	width: 200%;
-	background-color: @white;	
+	width: @gallery-width;
+	background-color: @white;
+	position: relative;	
 	dl {
 		width: 149px;
 		height: 100px;

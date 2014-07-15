@@ -23,8 +23,9 @@ function roots_main_class() {
     $class = 'col-sm-8';
   } else {
     // Classes on full width pages
-    $class = '';
-    //$class = '';
+    // $class = 'col-sm-12';
+    return;
+    // $class = 'container';
   }
 
   return $class;
