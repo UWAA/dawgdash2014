@@ -4787,6 +4787,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 #thin-strip div:after,
 #info-bar:before,
 #info-bar:after,
+.gallery-row:before,
+.gallery-row:after,
+.holder:before,
+.holder:after,
 .patch-container:before,
 .patch-container:after,
 .banner:before,
@@ -4825,6 +4829,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .modal-footer:after,
 #thin-strip div:after,
 #info-bar:after,
+.gallery-row:after,
+.holder:after,
 .patch-container:after,
 .banner:after,
 .content .entry-content:after,
@@ -5146,11 +5152,60 @@ ul.dd-nav li a:hover {
 #info-bar li:first-child {
   padding-left: 0;
 }
+.gallery-row {
+  margin: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.gallery-row > .navbar-header,
+.gallery-row > .navbar-collapse {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+@media (min-width: 768px) {
+  .gallery-row > .navbar-header,
+  .gallery-row > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
 .holder {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
   overflow-x: scroll;
   height: 100%;
-  margin: 30px 0;
   width: 100%;
+}
+@media (min-width: 768px) {
+  .holder {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .holder {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .holder {
+    width: 1170px;
+  }
+}
+.holder > .navbar-header,
+.holder > .navbar-collapse {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+@media (min-width: 768px) {
+  .holder > .navbar-header,
+  .holder > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+  }
 }
 .holder .gallery {
   height: 100%;

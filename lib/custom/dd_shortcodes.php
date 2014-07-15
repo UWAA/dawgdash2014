@@ -9,12 +9,10 @@ class dd_shortCodes {
 
 
 	public function __construct()
-    {
-    	add_shortcode('faq-title', array($this, 'faq_title_func') );
-    	add_shortcode('faq-content', array($this, 'faq_content_func') );
-    	add_shortcode('bartag', array($this, 'bartag_func') );
-    	add_shortcode('accordion-start', array($this, 'accordion_start_func'));
-    	add_shortcode('accordion-stop', array($this, 'accordion_stop_func'));
+    {	
+    	add_shortcode('faq-title', array($this, 'faq_title_func'));
+    	add_shortcode('faq-content', array($this, 'faq_content_func'));
+    	add_shortcode('accordion', array($this, 'accordion_func'));
     	add_shortcode('video', array($this, 'videoWrapper_func'));
     	add_shortcode('registerButton', array($this, 'registerButton_func'));
     	add_shortcode('copyArea', array($this, 'copy_func'));
@@ -41,15 +39,9 @@ class dd_shortCodes {
 	}
 
 	// [accordion-start]
-	public function accordion_start_func( ) {
-    return   '<div id="accordion">';
+	public function accordion_func($atts, $content="" ) {
+    return   '<div id="accordion">'.do_shortcode($content).'</div';
 	}
-
-	// [accordion-stop]  //TODO  MAKE THIS A WRAPPING FUNCTION
-	public function accordion_stop_func( ) {
-    return   '</div>';
-	}
-
 
 	public function videoWrapper_func ($atts, $content="") {
 		$a = shortcode_atts( array(
