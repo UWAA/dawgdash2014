@@ -17,6 +17,7 @@ class dd_shortCodes {
     	add_shortcode('accordion-stop', array($this, 'accordion_stop_func'));
     	add_shortcode('video', array($this, 'videoWrapper_func'));
     	add_shortcode('registerButton', array($this, 'registerButton_func'));
+    	add_shortcode('copyArea', array($this, 'copy_func'));
 	}
 
 
@@ -66,6 +67,14 @@ class dd_shortCodes {
 	    ), $atts );
 
 	    return "<a id=\"registerButton\" title=\"link to registration page\" href=\"{$a['link']}\">Register Now</a>";
+	}
+
+		public function copy_func($atts, $content="")	{
+		$a = shortcode_atts( array(
+	        
+	    ), $atts );
+
+	    return '<div class="row"><div class="copy-container"><div class="copy-columns">'. do_shortcode($content). '</div></div></div>';
 	}
 
 

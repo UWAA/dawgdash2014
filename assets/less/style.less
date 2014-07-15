@@ -70,7 +70,7 @@ body { }
    .make-row();
    .make-xs-column(12);
 }
-
+.map-row{.make-row();.container-fluid(); margin-top: 30px;}
 #map-container{position: relative;height:500px;}
 #map { position:absolute; top:0; bottom:0; width:100%; }    
 
@@ -108,7 +108,21 @@ body { }
 .hentry header { }
 .hentry time { }
 .hentry .byline { }
-.hentry .entry-content { }
+.hentry .entry-content {
+
+.copy-container {
+   .container();
+}
+
+.copy-columns{
+   .make-xs-column(12);
+}
+
+
+
+
+
+ }
 .hentry footer { }
 
 
@@ -117,7 +131,13 @@ body { }
    Footer
    ========================================================================== */
 
-.content-info { }
+.content-info {
+   .container-fluid();
+   height:200px;
+   background-color: @purple;
+
+
+ }
 
 
 

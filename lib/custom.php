@@ -3,7 +3,7 @@
  * Custom functions
  */
 
-
+add_filter( 'use_default_gallery_style', '__return_false' );
 //Add RaceDetail Meta Boxes
 require (get_template_directory(). '/lib/custom/customMetaBuilder.php');
 
