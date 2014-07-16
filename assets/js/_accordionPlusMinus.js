@@ -4,9 +4,10 @@ $(document).ready(function() {
 
 	function toggleMinusPlus(e) {
 		$(e.target)
-			.prev('.faq-heading')
+			.siblings('.faq-heading')
 			.find('.oi')
 			.toggleClass('oi-plus oi-minus');
+		console.log('clicked');
 	}
 
 	$('#accordion').on('hide.bs.collapse', toggleMinusPlus);

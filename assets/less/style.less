@@ -7,15 +7,10 @@
 @import "custom-mixins.less";
 @import "thinstrip-ALL.less";
 @import "nav-menu.less";
-@import "info-bar-ALL.less";
-@import "gallery-strip.less";
-@import "map-ui.less";
-@import "lightbox.less";
-@import "videoWrapper.less";
-@import "typography-ALL.less";
-@import "accordian-ALL.less";
-@import "patch.less";
 @import "buttons-ALL.less";
+@import "typography-ALL.less";
+@import "info-bar-ALL.less";
+@import "accordian-ALL.less";
 
 
 /* ==========================================================================
@@ -33,7 +28,7 @@ body { }
 .banner {
    margin: 30px -15px 0;
    padding: 0;
-   background-image: url("http://placekitten.com/1200/346");
+   background-image: url("../img/dd_header_1200.jpg");
    background-size: cover;
    height: 346px;
    position: relative;
@@ -162,21 +157,38 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
    Media Queries
    ========================================================================== */
 
+@media (max-width: @screen-xs-max) {
+   @import "banner-MOB.less";
+   @import "thinstrip-MOB.less";
+}
 
 
 
 
 @media (min-width: @screen-xs-min) {
-@import "thinstrip-MOB.less";
+
+
  }
 
 
 @media (min-width: @screen-sm-min) {
 @import "thinstrip-TAB.less"; 
+@import "banner-TAB.less";
+@import "branding-TAB.less";
+@import "nav-menu-TAB.less";
 }
 
 
 
 @media (min-width: @screen-md-min) {
 @import "thinstrip-DESK.less";
+@import "banner-DESK.less";
+@import "nav-menu-DESK.less";
+@import "branding-ALL.less";
+@import "gallery-strip.less";
+@import "map-ui.less";
+@import "lightbox.less";
+@import "videoWrapper.less";
+
+
  }
