@@ -6359,166 +6359,13 @@ figure.alignnone {
    ========================================================================== */
 @media (max-width: 767px) {
   .banner {
-    background-image: url("../img/dd_logo_320.png");
-    background-color: #39275b;
-    background-size: cover;
-    height: 118px;
-    position: relative;
-  }
-  #header {
-    background: url("http://www.washington.edu/static/mobile/image/top_bg_z.jpg") repeat-x scroll center top #ffffff;
-    position: relative;
-  }
-  .patch {
-    display: none;
-  }
-  .wordmark {
-    background: url("../img/mobile-header/logo1x.png") no-repeat 0 0 transparent !important;
-    width: 263px;
-    height: 44px;
-    text-indent: -9999px;
-    overflow: hidden;
-    display: block;
-  }
-  #listicon-wrapper {
-    background: url("../img/mobile-header/dropdowns1x.png") no-repeat -29px 0px transparent;
-    position: absolute;
-    top: 4px;
-    right: 10px;
-    width: 35px;
-    height: 30px;
-    display: block;
-    text-indent: -9999px;
-    overflow: hidden;
-  }
-  #slide {
-    -webkit-box-shadow: 0 0 11px #0e0e0e;
-    box-shadow: 0 0 11px #0e0e0e;
-    z-index: 1;
-  }
-  #uw-mobile-panel {
-    position: fixed;
-    top: 0;
-    left: 15%;
-    width: 85%;
-    overflow: scroll;
-    -webkit-overflow-scrolling: touch;
-    height: 100%;
-  }
-  .logged-in #uw-mobile-panel {
-    top: 28px;
-  }
-  #dawgdrops-mobile {
-    padding: 20px 20px 5px;
-  }
-  #dawgdrops-mobile ul {
-    margin: 0;
-  }
-  #dawgdrops-mobile li {
-    padding: 2px 0;
-  }
-  #dawgdrops-mobile > li {
-    background: none;
-    padding: 2px 0;
-    border-bottom: 1px solid #999999;
-  }
-  #dawgdrops-mobile > li > a {
-    color: #39275b;
-    font-weight: 600;
-    padding: 0 0 5px 0;
-    display: block;
-  }
-  #dawgdrops-mobile > li > a:after {
-    content: "+";
-    position: absolute;
-    right: 23px;
-    font-size: 27px;
-    color: #d7a900;
-  }
-  #dawgdrops-mobile li > a:only-child:after {
-    content: '';
-  }
-  #dawgdrops-mobile a {
-    color: #555555;
-    display: block;
-    padding: 5px 5px 5px 10px;
-  }
-  #dawgdrops-mobile .sub-menu,
-  #dawgdrops-mobile .children {
-    margin: 5px 0 0 -8px;
-  }
-  #dawgdrops-mobile .sub-menu li,
-  #dawgdrops-mobile .children li {
-    margin-bottom: 3px;
-    background: none no-repeat left 7px #fafafa;
-  }
-  #dawgdrops-mobile .dawg-inactive ul {
-    display: none;
-    height: 0;
-  }
-  #dawgdrops-mobile .dawg-active ul {
-    display: block;
-    height: auto;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-  #thin-strip {
-    height: 0;
-    visibility: hidden;
-  }
-  .search-options {
-    display: none;
-  }
-  .main-search {
-    display: none;
-  }
-  #mobile-thin-strip {
-    padding: 10px 20px;
-  }
-  .mobile-search {
-    padding: 7px 15px;
-    background: url("http://www.washington.edu/static/mobile/image/top_bg_z.jpg") repeat-x scroll center top #ffffff;
-  }
-  .mobile-search form {
-    -webkit-box-shadow: inset 2px 2px 4px #888888;
-    box-shadow: inset 2px 2px 4px #888888;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-    overflow: hidden;
-    width: 100%;
-    height: 30px;
-    border: none;
-    background: url("http://www.washington.edu/static/mobile/image/mag.gif") no-repeat right center #ffffff;
-    display: block;
-    margin: 0;
-  }
-  .mobile-search input {
-    -webkit-appearance: none;
-    height: 25px;
-    padding: 3px 0 5px 15px;
-    border: none;
-    width: 100%;
-    background: none;
-    font-size: 15px;
-    color: #484848;
-  }
-}
-@media (min-width: 768px) {
-  .header-weather,
-  .header-forcast {
-    display: none;
-  }
-  #thin-strip {
-    visibility: visible;
-    height: 30px;
-  }
-  .banner {
     background-image: url("../img/dd_header_768.jpg");
     background-size: cover;
     height: 221px;
     position: relative;
   }
+}
+@media (min-width: 480px) {
   .patch-container {
     margin-right: auto;
     margin-left: auto;
@@ -6537,7 +6384,7 @@ figure.alignnone {
     background: url(../img/dd_logo_768.png) no-repeat;
     z-index: 1;
     position: absolute;
-    left: 0;
+    left: 10px;
     top: 30px;
     width: 309px;
     height: 171px;
@@ -6627,7 +6474,7 @@ figure.alignnone {
   .nav-main {
     position: absolute;
     right: 0;
-    top: 20%;
+    top: 25%;
   }
   ul.dd-nav li.active {
     background-color: #d7a900;
@@ -6643,7 +6490,7 @@ figure.alignnone {
     background-color: #39275b;
     color: #6c6c7a;
     margin: 16px 0;
-    width: 248px;
+    width: 175px;
     padding-left: 10px;
   }
   ul.dd-nav li a {
@@ -6669,94 +6516,42 @@ figure.alignnone {
     color: #ffffff;
     background-color: #39275b;
   }
+  .header-weather,
+  .header-forcast {
+    display: none;
+  }
+  #thin-strip {
+    visibility: visible;
+    height: 30px;
+  }
 }
-@media (min-width: 768px) and (min-width: 768px) {
+@media (min-width: 480px) and (min-width: 768px) {
   .patch-container {
     width: 750px;
   }
 }
-@media (min-width: 768px) and (min-width: 992px) {
+@media (min-width: 480px) and (min-width: 992px) {
   .patch-container {
     width: 970px;
   }
 }
-@media (min-width: 768px) and (min-width: 1200px) {
+@media (min-width: 480px) and (min-width: 1200px) {
   .patch-container {
     width: 1170px;
   }
 }
-@media (min-width: 768px) and (min-width: 768px) {
+@media (min-width: 480px) and (min-width: 768px) {
   .patch-container > .navbar-header,
   .patch-container > .navbar-collapse {
     margin-right: 0;
     margin-left: 0;
   }
 }
-@media (min-width: 992px) {
-  #thin-strip {
-    height: 30px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: #39275B;
-    z-index: 3;
-    -webkit-box-shadow: 0 0px 6px #333333;
-    box-shadow: 0 0px 6px #333333;
-    overflow: hidden;
-    background-color: #39275b;
-    visibility: visible;
-  }
-  #thin-strip.thin-fixed {
-    position: fixed;
-    top: 0px;
-  }
-  .logged-in #thin-strip.thin-fixed {
-    top: 28px;
-  }
-  .thin-fixed div {
-    background: url("../img/mobile-header/logo1x.png") no-repeat -35px -5px;
-  }
-  #thin-strip div {
-    height: 30px;
-  }
-  #thin-strip ul {
-    float: right;
-  }
-  #thin-strip li {
-    float: left;
-    list-style: none;
-    padding: 5px 10px 0 0;
-    margin-left: 0;
-    background: none;
-    padding-left: 0;
-  }
-  #thin-strip li a {
-    color: #fff;
-    font-size: 80%;
-    text-transform: uppercase;
-    font-weight: bold;
-  }
-  #thin-strip img {
-    margin-top: -8px;
-  }
-  .header-weather,
-  .header-forcast {
-    display: block;
-  }
-  .patch {
-    display: block;
-  }
-  .banner {
-    background-image: url("../img/dd_header_1200.jpg");
-    background-size: cover;
-    height: 346px;
-    position: relative;
-  }
+@media (min-width: 768px) {
   .nav-main {
     position: absolute;
     right: 0;
-    top: 40%;
+    top: 20%;
   }
   ul.dd-nav li.active {
     background-color: #d7a900;
@@ -6771,7 +6566,7 @@ figure.alignnone {
   ul.dd-nav li {
     background-color: #39275b;
     color: #6c6c7a;
-    margin: 20px 0;
+    margin: 16px 0;
     width: 248px;
     padding-left: 10px;
   }
@@ -6902,6 +6697,135 @@ figure.alignnone {
     -webkit-transform: skew(14deg, 0deg);
     -ms-transform: skewX(14deg) skewY(0deg);
     transform: skew(14deg, 0deg);
+  }
+  .nav-main {
+    position: absolute;
+    right: 0;
+    top: 40%;
+  }
+  ul.dd-nav li.active {
+    background-color: #d7a900;
+  }
+  ul.dd-nav li.active a {
+    color: #ffffff;
+  }
+  ul.dd-nav li.active a:hover {
+    background-color: inherit;
+    cursor: pointer;
+  }
+  ul.dd-nav li {
+    background-color: #39275b;
+    color: #6c6c7a;
+    margin: 20px 0;
+    width: 248px;
+    padding-left: 10px;
+  }
+  ul.dd-nav li a {
+    color: #6c6c7a;
+    padding: 4px 0;
+  }
+  ul.dd-nav li a:hover {
+    color: #ffffff;
+    background-color: inherit;
+  }
+  .home ul.dd-nav li {
+    background-color: #d7a900;
+    color: #ffffff;
+    margin: 20px 0;
+    width: 248px;
+    padding-left: 10px;
+  }
+  .home ul.dd-nav li a {
+    color: #ffffff;
+    padding: 4px 0;
+  }
+  .home ul.dd-nav li a:hover {
+    color: #ffffff;
+    background-color: #39275b;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  .patch-container {
+    width: 750px;
+  }
+}
+@media (min-width: 768px) and (min-width: 992px) {
+  .patch-container {
+    width: 970px;
+  }
+}
+@media (min-width: 768px) and (min-width: 1200px) {
+  .patch-container {
+    width: 1170px;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  .patch-container > .navbar-header,
+  .patch-container > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+@media (min-width: 992px) {
+  #thin-strip {
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #39275B;
+    z-index: 3;
+    -webkit-box-shadow: 0 0px 6px #333333;
+    box-shadow: 0 0px 6px #333333;
+    overflow: hidden;
+    background-color: #39275b;
+    visibility: visible;
+  }
+  #thin-strip.thin-fixed {
+    position: fixed;
+    top: 0px;
+  }
+  .logged-in #thin-strip.thin-fixed {
+    top: 28px;
+  }
+  .thin-fixed div {
+    background: url("../img/mobile-header/logo1x.png") no-repeat -35px -5px;
+  }
+  #thin-strip div {
+    height: 30px;
+  }
+  #thin-strip ul {
+    float: right;
+  }
+  #thin-strip li {
+    float: left;
+    list-style: none;
+    padding: 5px 10px 0 0;
+    margin-left: 0;
+    background: none;
+    padding-left: 0;
+  }
+  #thin-strip li a {
+    color: #fff;
+    font-size: 80%;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  #thin-strip img {
+    margin-top: -8px;
+  }
+  .header-weather,
+  .header-forcast {
+    display: block;
+  }
+  .patch {
+    display: block;
+  }
+  .banner {
+    background-image: url("../img/dd_header_1200.jpg");
+    background-size: cover;
+    height: 346px;
+    position: relative;
   }
   .gallery-row {
     margin: 30px 0;
@@ -7362,28 +7286,6 @@ figure.alignnone {
     left: 0;
     width: 100%;
     height: 100%;
-  }
-}
-@media (min-width: 992px) and (min-width: 768px) {
-  .patch-container {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) and (min-width: 992px) {
-  .patch-container {
-    width: 970px;
-  }
-}
-@media (min-width: 992px) and (min-width: 1200px) {
-  .patch-container {
-    width: 1170px;
-  }
-}
-@media (min-width: 992px) and (min-width: 768px) {
-  .patch-container > .navbar-header,
-  .patch-container > .navbar-collapse {
-    margin-right: 0;
-    margin-left: 0;
   }
 }
 @media (min-width: 992px) and (min-width: 768px) {

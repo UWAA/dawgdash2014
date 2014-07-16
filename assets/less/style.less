@@ -159,23 +159,24 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 @media (max-width: @screen-xs-max) {
    @import "banner-MOB.less";
-   @import "thinstrip-MOB.less";
+
 }
 
 
 
 
 @media (min-width: @screen-xs-min) {
-
-
+@import "banner-MOB.less";
+@import "branding-MOB.less";
+@import "nav-menu-MOB.less";
+@import "thinstrip-MOB.less";
  }
 
 
 @media (min-width: @screen-sm-min) {
-@import "thinstrip-TAB.less"; 
-@import "banner-TAB.less";
-@import "branding-TAB.less";
 @import "nav-menu-TAB.less";
+@import "branding-ALL.less";
+@import "nav-menu-DESK.less";
 }
 
 
@@ -184,7 +185,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @import "thinstrip-DESK.less";
 @import "banner-DESK.less";
 @import "nav-menu-DESK.less";
-@import "branding-ALL.less";
+
 @import "gallery-strip.less";
 @import "map-ui.less";
 @import "lightbox.less";
