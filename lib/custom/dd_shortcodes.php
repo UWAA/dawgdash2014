@@ -26,7 +26,7 @@ class dd_shortCodes {
 	        'target' => 'the ID of the element to collapese',
 	    ), $atts );
 
-	    return "<div data-toggle=\"collapse\" data-parent=\"#accordion\" href=\"#{$a['target']}\"><h2>$content</h2></div>";
+	    return "<div data-toggle=\"collapse\" data-parent=\"#accordion\" href=\"#{$a['target']}\"><span class=\"oi oi-plus\"></span><h2>$content</h2></div>";
 	}
 
 	// [faq-title target="#target element for collapse"]
@@ -66,7 +66,7 @@ class dd_shortCodes {
 	        
 	    ), $atts );
 
-	    return '<div class="copy-row"><div class="copy-columns"><p>'. do_shortcode($content). '</p></div></div>';
+	    return '<div class="copy-container"><div class="copy-row"><div class="copy-columns"><p>'. do_shortcode($content). '</p></div></div></div>';
 	}
 
 
