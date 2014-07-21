@@ -4,7 +4,7 @@
 	position: relative;
 	&:after{
 		content:"";
-		background: url(../img/dd_logo_768.png) no-repeat;
+		background: url(../img/dd_logo_hm_768.png) no-repeat;
 		z-index: 1;
 		position: absolute;
 		left:10px;
@@ -18,19 +18,12 @@
 	
 }
 
+.seattle .patch-container:after{
+	background: url(../img/dd_logo_Seattle_768.png) no-repeat;
+}
 
-.purple-patch .patch {
-	background-color: #39275B
-}
-.hide-patch .patch {
-	display: none;
-}
-.hide-patch .wordmark {
-	left: 0;
-}
-.wordmark-white .wordmark {
-	background-position: 0 -197px;
-}   
+
+
 
 
 // CSS Patch
@@ -48,55 +41,10 @@
 		position: absolute;
 		background-color: @white;
 	}
-	
-	
 
-	.w1 {
-	width: 23.5%;
-	height: 8%;
-	left: 18%;
-	top: 29.5%;
-}
-.w2 {
-	top: 29.5%;
-	height: 44%;
-	width: 7%;
-	left: 43.7%;
-	.skew(-15deg,0deg);
-}
-.w3 {
-	top: 29.5%;
-	height: 8%;
-	width: 17.5%;
-	left: 65.8%;
-}
-.w4 {
-	left: 52%;
-	top: 39.5%;
-	width: 12.5%;
-	height: 34.5%;
-	.skew(14deg,0deg);
-}
-.w5 {
-	width: 12.2%;
-	height: 37.5%;
-	.skew(14deg,0deg);
-	left: 27.7%;
-	top: 36.8%;
-}
-.w6 {
-	top: 34%;
-	left: 66.7%;
-	.skew(-14.5deg,0deg);
-	height: 39.5%;
-	width: 7.3%;
-}
-.w7 {
-	width: 6.5%;
-	height: 43.5%;
-	top: 29.5%;
-	left: 56.6%;
-	.skew(14deg, 0deg);
 }
 
+.branding-footer {
+	float: right;
+	margin:10px 0;
 }

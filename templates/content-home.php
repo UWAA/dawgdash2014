@@ -1,5 +1,4 @@
 <?php
-
   wp_enqueue_script('lightbox');
   wp_enqueue_script('lightboxInit');
  while (have_posts()) : the_post(); ?>

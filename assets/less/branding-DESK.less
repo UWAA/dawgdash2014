@@ -1,33 +1,40 @@
-.patch-container {
-	.container();
+ .patch-container {
 	height:100%;
+	.container();
 	position: relative;
-	&:after{
+	&:after {
 		content:"";
-		background: url(../img/dd_logo_hm_768.png) no-repeat;
-		z-index: 1;
+		background: url(../img/dd_logo_hm_1200.png) no-repeat;
+		z-index: 1 !important;
 		position: absolute;
-		left:10px;
-		top:30px;
-		width:309px;
-		height:171px;
+		left:0;
+		top:70px;
+		width: 471px;
+		height:260px;
 		
 
 	}
-
 	
 }
 
 .seattle .patch-container:after{
-	background: url(../img/dd_logo_Seattle_768.png) no-repeat;
+	background: url(../img/dd_logo_Seattle_1200.png) no-repeat;
 }
+
+
+
+
+
+
+
+
 
 .patch {
 	position: absolute;
 	display: block;
-	width: 67px;
+	width: 90px;
 	top: -35px;
-	height: 67px;
+	height: 90px;
 	background-color: @uw-gold;
 	z-index: 999;
 	

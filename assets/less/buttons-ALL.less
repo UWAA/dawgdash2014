@@ -1,6 +1,7 @@
 //buttons-ALL.less
 
 #registerButton {
+	margin-top: 30px;
 	font-family: 'Ultra', serif;
 	font-weight: 400;
 	font-size: 21px;
@@ -9,7 +10,22 @@
 	background-color: @uw-gold;
 	color:white;
 	padding: 1px 15px;
+	text-decoration: none;
+	width:100%;
+	text-align: center;
+	border: 0;
+	display: block;
+
+	&:hover{
+		background-color: #edcb80; 
+	}
 }
+
+
+// TODO
+@media (max-width: @screen-xs) {
+#registerButton {margin-top: 30px;}
+	}
 
 .info-box-button {
 	position: absolute;

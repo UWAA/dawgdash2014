@@ -4,7 +4,19 @@
  */
 
 add_filter( 'use_default_gallery_style', '__return_false' );
-//remove_filter( 'the_content', 'wpautop' );
+
+add_action('template_redirect', 'seattle_redirect');
+
+function seattle_redirect() {
+// Redirect until other pages are done
+	global $post;
+	$post_slug=$post->post_name;
+	if ($post_slug != 'seattle') {	
+  	wp_redirect(home_url('/races/seattle/'), 302); exit;
+	}
+}
+
+
 //Add RaceDetail Meta Boxes
 require (get_template_directory(). '/lib/custom/customMetaBuilder.php');
 

@@ -11,4 +11,13 @@ $(document).ready(function() {
 		disableOn:'430'
 	});
 
+
+	$('.magnificGallery').magnificPopup({
+		type: 'image',
+		gallery:{
+			enabled:true,
+
+		}
+	});
+
 });

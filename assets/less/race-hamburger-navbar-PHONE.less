@@ -1,0 +1,113 @@
+.race-hamburger-navbar {
+	.responsive-visibility();
+	
+
+	// CSS Patch
+
+.patch {
+	position: absolute;
+	display: block;
+	width: 40px;
+	top:0;
+	left:15px;
+	height: 40px;
+	background-color: @uw-gold;
+	z-index: 999;
+
+	div {
+		position: absolute;
+		background-color: @white;
+	}
+	
+
+
+}   
+.w1 {
+	width: 23.5%;
+	height: 8%;
+	left: 18%;
+	top: 29.5%;
+}
+.w2 {
+	top: 29.5%;
+	height: 44%;
+	width: 7%;
+	left: 43.7%;
+	.skew(-15deg,0deg);
+}
+.w3 {
+	top: 29.5%;
+	height: 8%;
+	width: 17.5%;
+	left: 65.8%;
+}
+.w4 {
+	left: 52%;
+	top: 39.5%;
+	width: 12.5%;
+	height: 34.5%;
+	.skew(14deg,0deg);
+}
+.w5 {
+	width: 12.2%;
+	height: 37.5%;
+	.skew(14deg,0deg);
+	left: 27.7%;
+	top: 36.8%;
+}
+.w6 {
+	top: 34%;
+	left: 66.7%;
+	.skew(-14.5deg,0deg);
+	height: 39.5%;
+	width: 7.3%;
+}
+.w7 {
+	width: 6.5%;
+	height: 43.5%;
+	top: 29.5%;
+	left: 56.6%;
+	.skew(14deg, 0deg);
+}
+
+	.hamburger-toggle {
+		margin-top:15px;
+		background-color: @uw-gold;
+		width: 57px;
+		padding:2px;
+		text-align: center;
+	}
+
+
+
+
+	.hamburger {
+		background-color: darken(@purple, 6.5%);
+		width:60%;
+		float:right;
+		li {
+			
+			clear:both;
+			background-color: @purple;
+			display:block;
+			margin-bottom: 10px;
+
+			a{
+				padding: 5px 15px;
+			}
+
+
+			&:first-child {
+				margin-top: 10px;
+
+			}			
+		}
+	}
+
+
+}
+
+.navbar-collapse {
+		border-top:1px solid @purple;
+		box-shadow: none;
+}
