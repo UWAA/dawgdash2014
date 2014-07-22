@@ -5068,6 +5068,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .modal-footer:after,
 #thin-strip div:before,
 #thin-strip div:after,
+.holder:before,
+.holder:after,
 .content .gallery-strip:before,
 .content .gallery-strip:after,
 .content .info-boxes:before,
@@ -5100,6 +5102,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .panel-body:after,
 .modal-footer:after,
 #thin-strip div:after,
+.holder:after,
 .content .gallery-strip:after,
 .content .info-boxes:after,
 .content #map-container:after,
@@ -6358,9 +6361,68 @@ ul.dd-nav li a:hover {
   -ms-transform: skewX(14deg) skewY(0deg);
   transform: skew(14deg, 0deg);
 }
-.gallery {
+.gallery-row {
+  margin: 30px 0;
+}
+.holder {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+.holder > .navbar-header,
+.holder > .navbar-collapse {
+  margin-right: -15px;
   margin-left: -15px;
+}
+@media (min-width: 480px) {
+  .holder > .navbar-header,
+  .holder > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+.holder .gallery {
   text-align: center;
+  overflow: hidden;
+  height: 100%;
+  max-height: 100px;
+  width: 1800px;
+  background-color: #ffffff;
+  position: relative;
+}
+.holder .gallery .animate {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.holder .gallery dl {
+  width: 149px;
+  height: 100px;
+  display: inline-block;
+  margin-right: 1px;
+}
+.holder .gallery dl dt a.img-thumbnail {
+  padding: 0;
+}
+.ms-touch.holder {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  -ms-overflow-style: none;
+  /* Hides the scrollbar. */
+  -ms-scroll-chaining: none;
+  /* Prevents Metro from swiping to the next tab or app. */
+  -ms-scroll-snap-type: mandatory;
+  /* Forces a snap scroll behavior on your images. */
+  -ms-scroll-snap-points-x: snapInterval(0%, 100%);
+  /* Defines the y and x intervals to snap to when scrolling. */
+}
+.gallery-item {
+  float: left;
+  margin: 1px;
 }
 .menu-ui {
   background: #eee;
@@ -7283,49 +7345,6 @@ figure.alignnone {
   }
 }
 @media (min-width: 768px) {
-  .patch-container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    height: 100%;
-    position: relative;
-  }
-  .patch-container > .navbar-header,
-  .patch-container > .navbar-collapse {
-    margin-right: -15px;
-    margin-left: -15px;
-  }
-  .patch-container:after {
-    content: "";
-    background: url(../img/dd_logo_hm_768.png) no-repeat;
-    z-index: 1;
-    position: absolute;
-    left: 10px;
-    top: 30px;
-    width: 309px;
-    height: 171px;
-  }
-  .seattle .patch-container:after {
-    background: url(../img/dd_logo_Seattle_768.png) no-repeat;
-  }
-  .patch {
-    position: absolute;
-    display: block;
-    width: 73px;
-    top: -35px;
-    height: 73px;
-    background-color: #d7a900;
-    z-index: 999;
-  }
-  .patch div {
-    position: absolute;
-    background-color: #ffffff;
-  }
-  .branding-footer {
-    float: right;
-    margin: 10px 0;
-  }
   .nav-main {
     position: absolute;
     right: 0;
@@ -7370,6 +7389,49 @@ figure.alignnone {
   .home ul.dd-nav li a:hover {
     color: #ffffff;
     background-color: #39275b;
+  }
+  .patch-container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100%;
+    position: relative;
+  }
+  .patch-container > .navbar-header,
+  .patch-container > .navbar-collapse {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .patch-container:after {
+    content: "";
+    background: url(../img/dd_logo_hm_768.png) no-repeat;
+    z-index: 1;
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    width: 309px;
+    height: 171px;
+  }
+  .seattle .patch-container:after {
+    background: url(../img/dd_logo_Seattle_768.png) no-repeat;
+  }
+  .patch {
+    position: absolute;
+    display: block;
+    width: 73px;
+    top: -35px;
+    height: 73px;
+    background-color: #d7a900;
+    z-index: 999;
+  }
+  .patch div {
+    position: absolute;
+    background-color: #ffffff;
+  }
+  .branding-footer {
+    float: right;
+    margin: 10px 0;
   }
   #registerButton {
     display: inline;

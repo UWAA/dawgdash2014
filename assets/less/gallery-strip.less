@@ -1,78 +1,83 @@
-// //
-// //gallery-bar.less
-// /////////////
+//
+//gallery-bar.less
+/////////////
 
-// @number-of-images: (12);
-// @gallery-width: (149px * @number-of-images) + @number-of-images;
+@number-of-images: (12);
+@gallery-width: (149px * @number-of-images) + @number-of-images;
 
-// .gallery-row {
-// 	margin:30px 0; 
-// 	//.container-fluid();
-// 	// .make-row();
-// }
+.gallery-row {
+	margin:30px 0; 
+	//.container-fluid();
+	// .make-row();
+}
 
-// .holder {
-// 	.container-fluid();
-// 	padding:0;
-// 	overflow-x: scroll;
-// 	height: 100%;
-// 	width:100%;
+.holder {
+	.container-fluid();
+	padding:0;
+	overflow:hidden;
+	height: 100%;
+	width:100%;
 
-// 	.gallery {
-// 	text-align: center;
+	.gallery {
+	text-align: center;
+	overflow:hidden;
+	height:100%;
+	max-height: 100px;
+	width: @gallery-width;
+	background-color: @white;
+	position: relative;	
 
-// 	overflow: hidden;
-// 	height:100%;
-// 	max-height: 100px;
-// 	width: @gallery-width;
-// 	background-color: @white;
-// 	position: relative;	
-// 	dl {
-// 		width: 149px;
-// 		height: 100px;
-// 		display: inline-block;
-// 		margin-right: 1px;
+	.animate{
+	-webkit-transition:all 0.3s;
+	transition:all 0.3s;
+	}
+
+
+	dl {
+		width: 149px;
+		height: 100px;
+		display: inline-block;
+		margin-right: 1px;
 		
 
-// 		dt{
+		dt{
 
 
-// 		a.img-thumbnail{
-// 		padding:0;
+		a.img-thumbnail{
+		padding:0;
 
-// 		}
+		}
 
 
-// 		}
+		}
 
-// 	}
-// }
-
-// }
-
-// .ms-touch.holder {
-//   overflow-x: scroll;
-//   overflow-y: hidden;
-  
-//   -ms-overflow-style: none;
-//   /* Hides the scrollbar. */
-  
-//   -ms-scroll-chaining: none;
-//   /* Prevents Metro from swiping to the next tab or app. */
-  
-//   -ms-scroll-snap-type: mandatory;
-//   /* Forces a snap scroll behavior on your images. */
-  
-//   -ms-scroll-snap-points-x: snapInterval(0%, 100%);
-//   /* Defines the y and x intervals to snap to when scrolling. */
-// }
-
- .gallery{
- 	margin-left:-15px;
- 	text-align: center;
+	}
 }
-// 	.gallery-item{
-// 		float:left;
-// 		margin: 1px;
-// 	}
+
+}
+
+.ms-touch.holder {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  
+  -ms-overflow-style: none;
+  /* Hides the scrollbar. */
+  
+  -ms-scroll-chaining: none;
+  /* Prevents Metro from swiping to the next tab or app. */
+  
+  -ms-scroll-snap-type: mandatory;
+  /* Forces a snap scroll behavior on your images. */
+  
+  -ms-scroll-snap-points-x: snapInterval(0%, 100%);
+  /* Defines the y and x intervals to snap to when scrolling. */
+}
+
+//  .gallery{
+//  	margin-left:-15px;
+//  	text-align: center;
 // }
+	.gallery-item{
+		float:left;
+		margin: 1px;
+	}
