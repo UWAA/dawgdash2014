@@ -6106,8 +6106,18 @@ ul.dd-nav li a:hover {
   background-color: #edcb80;
 }
 .registerButton-Container .small {
-  font-size: 65%;
+  font-size: .45em;
   margin: 5px;
+}
+@media (max-width: 992px) {
+  .registerButton-Container .small {
+    font-size: .55em;
+  }
+}
+@media (max-width: 768px) {
+  .registerButton-Container .small {
+    font-size: .75em;
+  }
 }
 @media (max-width: 480px) {
   #registerButton {
@@ -7273,6 +7283,49 @@ figure.alignnone {
   }
 }
 @media (min-width: 768px) {
+  .patch-container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100%;
+    position: relative;
+  }
+  .patch-container > .navbar-header,
+  .patch-container > .navbar-collapse {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .patch-container:after {
+    content: "";
+    background: url(../img/dd_logo_hm_768.png) no-repeat;
+    z-index: 1;
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    width: 309px;
+    height: 171px;
+  }
+  .seattle .patch-container:after {
+    background: url(../img/dd_logo_Seattle_768.png) no-repeat;
+  }
+  .patch {
+    position: absolute;
+    display: block;
+    width: 73px;
+    top: -35px;
+    height: 73px;
+    background-color: #d7a900;
+    z-index: 999;
+  }
+  .patch div {
+    position: absolute;
+    background-color: #ffffff;
+  }
+  .branding-footer {
+    float: right;
+    margin: 10px 0;
+  }
   .nav-main {
     position: absolute;
     right: 0;
@@ -7317,49 +7370,6 @@ figure.alignnone {
   .home ul.dd-nav li a:hover {
     color: #ffffff;
     background-color: #39275b;
-  }
-  .patch-container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    height: 100%;
-    position: relative;
-  }
-  .patch-container > .navbar-header,
-  .patch-container > .navbar-collapse {
-    margin-right: -15px;
-    margin-left: -15px;
-  }
-  .patch-container:after {
-    content: "";
-    background: url(../img/dd_logo_hm_768.png) no-repeat;
-    z-index: 1;
-    position: absolute;
-    left: 10px;
-    top: 30px;
-    width: 309px;
-    height: 171px;
-  }
-  .seattle .patch-container:after {
-    background: url(../img/dd_logo_Seattle_768.png) no-repeat;
-  }
-  .patch {
-    position: absolute;
-    display: block;
-    width: 73px;
-    top: -35px;
-    height: 73px;
-    background-color: #d7a900;
-    z-index: 999;
-  }
-  .patch div {
-    position: absolute;
-    background-color: #ffffff;
-  }
-  .branding-footer {
-    float: right;
-    margin: 10px 0;
   }
   #registerButton {
     display: inline;

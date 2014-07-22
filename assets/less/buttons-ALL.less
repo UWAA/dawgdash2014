@@ -24,7 +24,9 @@
 .registerButton-Container {
 
 	.small{
-		font-size: 65%;
+		@media (max-width: @screen-md) {font-size: .55em;}		
+		@media (max-width: @screen-sm) {font-size: .75em;}		
+		font-size: .45em;
 		margin:5px;
 	}
 }
