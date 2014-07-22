@@ -72,7 +72,7 @@ class dd_shortCodes {
 	        'link' => 'Link to Registration Page'
 	    ), $atts );
 
-	    return "<a id=\"registerButton\" title=\"link to registration page\" href=\"{$a['link']}\">Register Now</a>";
+	    return "<div class=\"registerButton-Container\"><a id=\"registerButton\" title=\"link to registration page\" href=\"{$a['link']}\">Register Now</a><p class=\"small\">This button will link to getmeregistered.com</p></div>";
 	}
 
 		public function copy_func($atts, $content="")	{

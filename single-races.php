@@ -20,7 +20,7 @@ wp_enqueue_script('lightboxInit');
           <div class="container">
           <div class="row">
           <header>
-            <h1 class="entry-title"><?php the_title(); ?> Dawg Dash</h1>
+            <h1 class="entry-title">Dawg Dash <?php the_title(); ?></h1>
             <?php get_template_part('templates/info-bar'); ?>
           </header>
           </div>
