@@ -7,9 +7,11 @@
             
     </header>
     <div class="entry-content">
+    <div class="copy-container"><div class="copy-row"><div class="copy-columns">
     <h2 class="entry-title"><?php the_title(); ?></h2>
       <?php the_content(); ?>
     </div>
+    </div></div></div>
 
     <div class="gallery-strip">
        <?php get_template_part('templates/gallery-strip'); ?>

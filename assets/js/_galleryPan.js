@@ -9,8 +9,8 @@ $(document).ready( function() {
 
 
 	var el = document.querySelector(".gallery");
-	var startX = Math.round((el.parentNode.offsetWidth - el.offsetWidth) / 2);
-	var startY = Math.round((el.parentNode.offsetHeight - el.offsetHeight) / 2);
+	var startX = Math.round((el.parentNode.offsetWidth - el.offsetWidth));
+	//var startY = Math.round((el.parentNode.offsetHeight - el.offsetHeight));
 
 	var ticking = false;
 	var transform;
@@ -21,7 +21,7 @@ $(document).ready( function() {
 
 	function resetElementEnd() {
 		transform = {
-			translate: { x: startX, y: startY },
+			translate: { x: startX,  },
 			scale: 1,
 			rotate: 0
 		};
@@ -31,7 +31,7 @@ $(document).ready( function() {
 
 	function updateElementTransform() {
 		var value = [
-		'translate3d(' + transform.translate.x + 'px, ' + transform.translate.y + 'px, 0)',
+		'translateX(' + transform.translate.x + 'px)',
 		'scale(' + transform.scale + ', ' + transform.scale + ')',
 		'rotate(' + transform.rotate + 'deg)'];
 		el.style.webkitTransform = el.style.transform = value.join(" ");
@@ -45,10 +45,14 @@ $(document).ready( function() {
 		}
 	}
 	var hammertime = new Hammer(el);
+
+	hammertime.set({
+
+	});
 	hammertime.on("pan", function(ev){
 		transform.translate = {
 	x: startX + ev.deltaX,
-	y: startY + ev.deltaY
+	//y: startY + ev.deltaY
 	};
 	requestElementUpdate();
 		console.log(ev);

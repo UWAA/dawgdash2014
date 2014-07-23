@@ -17,6 +17,7 @@ class dd_shortCodes {
     	add_shortcode('registerButton', array($this, 'registerButton_func'));
     	add_shortcode('copyArea', array($this, 'copy_func'));
     	add_shortcode('sponsorGallery', array($this, 'sponsorGallery_func'));
+    	add_shortcode('touchGallery', array($this, 'touchGallery_func'));
 	}
 
 
@@ -91,6 +92,13 @@ class dd_shortCodes {
     return   '<div class="sponsor-gallery ' . $a['class'] . '">'.do_shortcode($content).'<hr></div>';
 	}
 
+// [sponsor gallery-start]
+	public function touchGallery_func($atts, $content="" ) {
+		$a = shortcode_atts( array(
+	        'class' => '',
+	    ), $atts );
+    return   '<div class="gallery-row" ' . $a['class'] . '"><div class="holder">'.do_shortcode($content).'</div></div>';
+	}
 
 };
 

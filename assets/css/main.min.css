@@ -6371,7 +6371,7 @@ ul.dd-nav li a:hover {
   padding-right: 15px;
   padding: 0;
   overflow: hidden;
-  height: 100%;
+  height: 100px;
   width: 100%;
 }
 .holder > .navbar-header,
