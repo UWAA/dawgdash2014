@@ -7,33 +7,59 @@
 
 .gallery-row {
 	margin:30px 0; 
-	//.container-fluid();
-	// .make-row();
+	overflow: hidden;
+	height: 100px;
+	position: relative;
+
+
+
+	.oi{
+		background-color: @purple;
+		color: lighten(@purple, 40%);
+		line-height: 80px;
+		padding: 0 5px;
+		margin: 10px 0;
+		font-size: 1em !important;
+		position: absolute;
+	}
+
+	.control-left {
+	left:0;
+	}
+
+	.control-right {
+	right:0;
+	}
 }
 
 .holder {
 	.container-fluid();
 	padding:0;
-	overflow:hidden;
-	height: 100px;
+	overflow-x:scroll;
+	overflow-y: hidden;
+	height: 120px;
 	width:100%;
+	position: relative;
+
+
 
 	.gallery {
-	text-align: center;
-	overflow:hidden;
+	//position: absolute;
+	overflow:visible;
 	height:100%;
 	max-height: 100px;
 	width: @gallery-width;
 	background-color: @white;
-	position: relative;	
-
-	.animate{
+	// position: relative;
+	touch-action:pan-x;
 	-webkit-transition:all 0.3s;
 	transition:all 0.3s;
-	}
+	
 
 
-	dl {
+	
+
+	dl.gallery-item  {
 		width: 149px;
 		height: 100px;
 		display: inline-block;
@@ -54,30 +80,22 @@
 	}
 }
 
+	// @animation-distance: 150px;
+	// .move-right{
+	// 	transform: translateX(@animation-distance);
+	// }
+
+	// .move-left{
+	// 	transform: translateX(-(@animation-distance));
+	// }
+	
+
 }
 
-.ms-touch.holder {
-  overflow-x: scroll;
-  overflow-y: hidden;
-  
-  -ms-overflow-style: none;
-  /* Hides the scrollbar. */
-  
-  -ms-scroll-chaining: none;
-  /* Prevents Metro from swiping to the next tab or app. */
-  
-  -ms-scroll-snap-type: mandatory;
-  /* Forces a snap scroll behavior on your images. */
-  
-  -ms-scroll-snap-points-x: snapInterval(0%, 100%);
-  /* Defines the y and x intervals to snap to when scrolling. */
-}
+
 
 //  .gallery{
 //  	margin-left:-15px;
 //  	text-align: center;
 // }
-	.gallery-item{
-		float:left;
-		margin: 1px;
-	}
+	

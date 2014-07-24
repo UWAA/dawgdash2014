@@ -1,66 +1,63 @@
 
-$(document).ready( function() {
 
-	var reqAnimationFrame = (function () {
-	return window[Hammer.prefixed(window, 'requestAnimationFrame')] || function (callback) {
-	window.setTimeout(callback, 1000 / 60);
-	};
-	})();
+$(document).ready(function() {
+	var $gallery = $('.gallery');
+	var $holder = $('.holder');
+	var $leftControl = $('.control-left');
+	var $rightControl = $('.control-right');
+	var $this = $(this);
+	var $holderScrollPosition;
+	//var distance;
 
+	//Constants
+	
 
-	var el = document.querySelector(".gallery");
-	var startX = Math.round((el.parentNode.offsetWidth - el.offsetWidth));
-	//var startY = Math.round((el.parentNode.offsetHeight - el.offsetHeight));
+	function getScrollDistance() {
+	var pictureWidth = 149,
+		holderWidth = $holder.width(),
+		numberOfPictures = 12,
+		visiblePictures = Math.round(holderWidth/pictureWidth),
+		unseenPictures = numberOfPictures - visiblePictures;
+		distance = $holder.width();
+		return distance;
+}
+	
+	
+		
+	
+	
 
-	var ticking = false;
-	var transform;
-
-	function resetElementStart() {
-		el.className = '';
+	$leftControl.click(function() {
+		var $holderScrollPosition = $holder.scrollLeft();
+		if ($holderScrollPosition === 0) {
+			console.log ('scroll position is '+$holderScrollPosition+'');
+			console.log('nowhere to scroll');
+			return;
+		} else {
+		getScrollDistance();
+		var distance = 0;
+		console.log('left-clicked');
+		$holder.animate({
+			scrollLeft:distance
+		}, 300);
 	}
-
-	function resetElementEnd() {
-		transform = {
-			translate: { x: startX,  },
-			scale: 1,
-			rotate: 0
-		};
-		el.className = 'animate gallery';
-		requestElementUpdate();
-	}
-
-	function updateElementTransform() {
-		var value = [
-		'translateX(' + transform.translate.x + 'px)',
-		'scale(' + transform.scale + ', ' + transform.scale + ')',
-		'rotate(' + transform.rotate + 'deg)'];
-		el.style.webkitTransform = el.style.transform = value.join(" ");
-		ticking = false;
-	}
-
-	function requestElementUpdate() {
-		if(!ticking) {
-			ticking = true;
-			reqAnimationFrame(updateElementTransform);
-		}
-	}
-	var hammertime = new Hammer(el);
-
-	hammertime.set({
 
 	});
-	hammertime.on("pan", function(ev){
-		transform.translate = {
-	x: startX + ev.deltaX,
-	//y: startY + ev.deltaY
-	};
-	requestElementUpdate();
-		console.log(ev);
+
+	$rightControl.click(function() {
+		getScrollDistance();
+		console.log('right-clicked');
+		$holder.animate({
+			scrollLeft:distance
+		}, 300);
+
 	});
-	//hammertime.on("panstart rotatestart pinchstart", resetElementStart);
-	//hammertime.on("panend rotateend pinchend pancancel rotatecancel pinchcancel", resetElementEnd);
 
 
-resetElementEnd();
+/*	$rightControl.click(function() {
+		$gallery.toggleClass('move-right');
+	});*/
 
 });
+
+

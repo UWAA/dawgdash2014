@@ -6363,6 +6363,24 @@ ul.dd-nav li a:hover {
 }
 .gallery-row {
   margin: 30px 0;
+  overflow: hidden;
+  height: 100px;
+  position: relative;
+}
+.gallery-row .oi {
+  background-color: #39275b;
+  color: #9c84ca;
+  line-height: 80px;
+  padding: 0 5px;
+  margin: 10px 0;
+  font-size: 1em !important;
+  position: absolute;
+}
+.gallery-row .control-left {
+  left: 0;
+}
+.gallery-row .control-right {
+  right: 0;
 }
 .holder {
   margin-right: auto;
@@ -6370,9 +6388,11 @@ ul.dd-nav li a:hover {
   padding-left: 15px;
   padding-right: 15px;
   padding: 0;
-  overflow: hidden;
-  height: 100px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  height: 120px;
   width: 100%;
+  position: relative;
 }
 .holder > .navbar-header,
 .holder > .navbar-collapse {
@@ -6387,42 +6407,23 @@ ul.dd-nav li a:hover {
   }
 }
 .holder .gallery {
-  text-align: center;
-  overflow: hidden;
+  overflow: visible;
   height: 100%;
   max-height: 100px;
   width: 1800px;
   background-color: #ffffff;
-  position: relative;
-}
-.holder .gallery .animate {
+  touch-action: pan-x;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-.holder .gallery dl {
+.holder .gallery dl.gallery-item {
   width: 149px;
   height: 100px;
   display: inline-block;
   margin-right: 1px;
 }
-.holder .gallery dl dt a.img-thumbnail {
+.holder .gallery dl.gallery-item dt a.img-thumbnail {
   padding: 0;
-}
-.ms-touch.holder {
-  overflow-x: scroll;
-  overflow-y: hidden;
-  -ms-overflow-style: none;
-  /* Hides the scrollbar. */
-  -ms-scroll-chaining: none;
-  /* Prevents Metro from swiping to the next tab or app. */
-  -ms-scroll-snap-type: mandatory;
-  /* Forces a snap scroll behavior on your images. */
-  -ms-scroll-snap-points-x: snapInterval(0%, 100%);
-  /* Defines the y and x intervals to snap to when scrolling. */
-}
-.gallery-item {
-  float: left;
-  margin: 1px;
 }
 .menu-ui {
   background: #eee;

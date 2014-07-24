@@ -97,7 +97,7 @@ class dd_shortCodes {
 		$a = shortcode_atts( array(
 	        'class' => '',
 	    ), $atts );
-    return   '<div class="gallery-row" ' . $a['class'] . '"><div class="holder">'.do_shortcode($content).'</div></div>';
+    return   '<div class="gallery-row' . $a['class'] . '"><div class="holder">'.do_shortcode($content).'</div><span class="oi oi-chevron-left control-left" data-glyph="chevron-left"></span><span class="oi oi-chevron-right control-right" data-glyph="chevron-right"></span></div>';
 	}
 
 };
