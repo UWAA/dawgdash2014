@@ -7,49 +7,57 @@ $(document).ready(function() {
 	var $rightControl = $('.control-right');
 	var $this = $(this);
 	var $holderScrollPosition;
-	//var distance;
+	var holderWidth;
+	var distance;
+	
 
 	//Constants
 	
 
-	function getScrollDistance() {
-	var pictureWidth = 149,
-		holderWidth = $holder.width(),
-		numberOfPictures = 12,
-		visiblePictures = Math.round(holderWidth/pictureWidth),
-		unseenPictures = numberOfPictures - visiblePictures;
-		distance = $holder.width();
-		return distance;
-}
-	
+	var scrollGallery = (function() {
+		
+		var distance;
+		function scrollDistance() {
+			var holderWidth = $holder.width();
+			var $holderScrollPosition = $holder.scrollLeft();
+			if ($holderScrollPosition < holderWidth) {
+				distance = holderWidth;
+			} else {
+				distance = ($holderScrollPosition + holderWidth);
+			}
+		}
+			
+			return {
+				left: function() {
+				var holderWidth = $holder.width();
+				var $holderScrollPosition = $holder.scrollLeft();
+				distance = ($holderScrollPosition - holderWidth);
+				$holder.animate({scrollLeft:distance}, 300);
+				return;
+			},
+			right: function() {
+				scrollDistance();
+				$holder.animate({scrollLeft:distance}, 300);
+				return;
+			}
+			};
+		
+	})();
+		
 	
 		
 	
 	
 
 	$leftControl.click(function() {
-		var $holderScrollPosition = $holder.scrollLeft();
-		if ($holderScrollPosition === 0) {
-			console.log ('scroll position is '+$holderScrollPosition+'');
-			console.log('nowhere to scroll');
-			return;
-		} else {
-		getScrollDistance();
-		var distance = 0;
 		console.log('left-clicked');
-		$holder.animate({
-			scrollLeft:distance
-		}, 300);
-	}
-
+		scrollGallery.left();
 	});
 
 	$rightControl.click(function() {
-		getScrollDistance();
 		console.log('right-clicked');
-		$holder.animate({
-			scrollLeft:distance
-		}, 300);
+		scrollGallery.right();
+		
 
 	});
 
@@ -59,5 +67,4 @@ $(document).ready(function() {
 	});*/
 
 });
-
 
