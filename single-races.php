@@ -34,11 +34,11 @@ wp_enqueue_script('lightboxInit');
       
   </article>
 
-<div class="map-row">
+
 <div class="container-fluid">
  <div id="map-container">
  <nav id='course-ui' class='menu-ui'></nav><div id="map"></div>
-  </div>
+  
   </div>
 </div>
 <footer>

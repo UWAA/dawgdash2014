@@ -6964,6 +6964,7 @@ img.mfp-img {
 .content #map-container {
   position: relative;
   height: 300px;
+  margin: 0 -15px 0;
 }
 .content #map {
   position: absolute;

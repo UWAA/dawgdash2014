@@ -133,9 +133,9 @@ function checkCheck () {
 }
 
   $('#course-ui')
-    .on('click', '.ui_menu_box', toggleAndCheck)
-    .on('click', '.ui_menu_box label', justToggle)
-    .on('mouseup', '.ui_menu_box', checkCheck);
+    .on('click touchstart', '.ui_menu_box', toggleAndCheck)
+    .on('click touchstart', '.ui_menu_box label', justToggle)
+    .on('mouseup touchend', '.ui_menu_box', checkCheck);
 });//end onReady for FeatureLayer
 
 
