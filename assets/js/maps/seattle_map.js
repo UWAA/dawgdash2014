@@ -4,15 +4,25 @@ var SW = L.latLng(47.6430704492123, -122.334308624268);
 var NE = L.latLng(47.6774957780179, -122.274227142334);
 var bounds = L.latLngBounds(SW, NE);
 
+var clientWidth = $(window).width();
 
 var map = L.mapbox.map('map', 'bperick.ilp0kaof', {
 	tileLayer: {
-		detectRetina:true
-	},
+		detectRetina:true,
+  },
   maxBounds:bounds,
-  minZoom:12,
-	})
-    .setView([47.6610, -122.3075], 14);
+  minZoom:15,
+	});
+
+  if (clientWidth < 480) {
+    map.setView([47.6570, -122.3080], 16);
+  } else {
+    map.setView([47.6560, -122.3095], 16);
+  }
+    
+
+
+
 
 
 var course_ui = document.getElementById('course-ui');
@@ -127,9 +137,6 @@ function checkCheck () {
     .on('click', '.ui_menu_box label', justToggle)
     .on('mouseup', '.ui_menu_box', checkCheck);
 });//end onReady for FeatureLayer
-    //var $this = $(this);
- //$this.find('input').prop('checked');
-  //$this.toggleClass('active');
 
 
 

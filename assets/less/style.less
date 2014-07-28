@@ -69,11 +69,11 @@ body { }
 }
 
 #map-container {
-   .make-row();
-   .make-xs-column(12);
+   
+   
 }
-.map-row{.make-row();.container-fluid(); margin-top: 30px;}
-#map-container{position: relative;height:500px;}
+.map-row{.make-row(); /* margin-top: 30px; */}
+#map-container{position: relative;height:300px;}
 #map { position:absolute; top:0; bottom:0; width:100%; }    
 
 
@@ -167,6 +167,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
    ========================================================================== */
 
 @media (max-width: 479px) {
+
    body{padding-top:50px;}
    @import "banner-PHONE.less";
    @import "race-hamburger-navbar-PHONE.less";
@@ -179,6 +180,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 
 @media (min-width: @screen-xs-min) {
+.content #map-container{position: relative;height:500px;}
 @import "banner-MOB.less";
 @import "branding-MOB.less";
 @import "nav-menu-MOB.less";

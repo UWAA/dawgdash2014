@@ -5074,10 +5074,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .content .gallery-strip:after,
 .content .info-boxes:before,
 .content .info-boxes:after,
-.content #map-container:before,
-.content #map-container:after,
-.content .map-row:before,
-.content .map-row:after,
 .content .map-row:before,
 .content .map-row:after,
 .hentry .entry-content .copy-container:before,
@@ -5105,8 +5101,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .holder:after,
 .content .gallery-strip:after,
 .content .info-boxes:after,
-.content #map-container:after,
-.content .map-row:after,
 .content .map-row:after,
 .hentry .entry-content .copy-container:after,
 .hentry .entry-content .copy-row:after {
@@ -5971,7 +5965,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   left: 0;
   right: 0;
   background-color: #39275B;
-  z-index: 3;
+  z-index: 1003;
   -webkit-box-shadow: 0 0px 6px #333333;
   box-shadow: 0 0px 6px #333333;
   overflow: hidden;
@@ -6298,7 +6292,7 @@ ul.dd-nav li a:hover {
   top: -35px;
   height: 95px;
   background-color: #d7a900;
-  z-index: 999;
+  z-index: 1004;
 }
 .patch div {
   position: absolute;
@@ -6441,13 +6435,20 @@ ul.dd-nav li a:hover {
   display: block;
   margin: 0;
   padding: 0;
-  padding: 9px;
+  padding: 9px 0 9px 5px;
   text-decoration: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
   text-align: left;
 }
 .menu-ui div input {
-  margin-right: 5px;
+  margin-right: 10px;
+  display: inline-block;
+}
+.menu-ui div label {
+  max-width: 75%;
+  font-weight: normal;
+  line-height: 1.3;
+  display: inline-block;
 }
 .menu-ui div:first-child {
   border-radius: 3px 3px 0 0;
@@ -6466,6 +6467,20 @@ ul.dd-nav li a:hover {
 }
 .menu-ui div.active:hover {
   background: #39275b;
+}
+.leaflet-bottom,
+.leaflet-top {
+  z-index: 3;
+}
+@media (max-width: 479px) {
+  .menu-ui {
+    width: 100px;
+  }
+  .menu-ui input,
+  .menu-ui label {
+    display: inline-block;
+    vertical-align: middle;
+  }
 }
 /* Magnific Popup CSS */
 .mfp-bg {
@@ -6941,40 +6956,14 @@ img.mfp-img {
   padding-left: 15px;
   padding-right: 15px;
 }
-.content #map-container {
-  margin-left: -15px;
-  margin-right: -15px;
-  position: relative;
-  float: left;
-  width: 100%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
 .content .map-row {
   margin-left: -15px;
   margin-right: -15px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-top: 30px;
-}
-.content .map-row > .navbar-header,
-.content .map-row > .navbar-collapse {
-  margin-right: -15px;
-  margin-left: -15px;
-}
-@media (min-width: 480px) {
-  .content .map-row > .navbar-header,
-  .content .map-row > .navbar-collapse {
-    margin-right: 0;
-    margin-left: 0;
-  }
+  /* margin-top: 30px; */
 }
 .content #map-container {
   position: relative;
-  height: 500px;
+  height: 300px;
 }
 .content #map {
   position: absolute;
@@ -7219,6 +7208,10 @@ figure.alignnone {
   }
 }
 @media (min-width: 480px) {
+  .content #map-container {
+    position: relative;
+    height: 500px;
+  }
   .banner {
     background-image: url("../img/dd_header_768.jpg");
     background-size: cover;
@@ -7258,7 +7251,6 @@ figure.alignnone {
     top: -35px;
     height: 67px;
     background-color: #d7a900;
-    z-index: 999;
   }
   .patch div {
     position: absolute;
@@ -7424,7 +7416,6 @@ figure.alignnone {
     top: -35px;
     height: 73px;
     background-color: #d7a900;
-    z-index: 999;
   }
   .patch div {
     position: absolute;
@@ -7469,7 +7460,6 @@ figure.alignnone {
     left: 0;
     right: 0;
     background-color: #39275B;
-    z-index: 3;
     -webkit-box-shadow: 0 0px 6px #333333;
     box-shadow: 0 0px 6px #333333;
     overflow: hidden;
@@ -7605,7 +7595,6 @@ figure.alignnone {
     top: -35px;
     height: 90px;
     background-color: #d7a900;
-    z-index: 999;
   }
   .patch div {
     position: absolute;
