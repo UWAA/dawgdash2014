@@ -6412,9 +6412,9 @@ ul.dd-nav li a:hover {
   max-height: 100px;
   width: 1800px;
   background-color: #ffffff;
+  ms-touch-action: pax-x;
   touch-action: pan-x;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  z-index: 1044;
 }
 .holder .gallery dl.gallery-item {
   width: 149px;
