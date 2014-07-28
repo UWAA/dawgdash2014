@@ -2,7 +2,7 @@
 
 wp_enqueue_script('mapbox');
 wp_enqueue_style('mapbox');
-wp_enqueue_script('hammerjs');
+
 
 
 wp_enqueue_script('seattle_map');
