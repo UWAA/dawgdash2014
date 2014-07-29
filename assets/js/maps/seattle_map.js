@@ -109,7 +109,10 @@ function toggleAndCheck () {
 }
 
 function justToggle() {
+  event.stopPropagation();
   $(this).parent().toggleClass('active');
+  $(this).siblings('input').prop('checked', true)
+
 }
 
 function checkCheck () {
@@ -133,9 +136,9 @@ function checkCheck () {
 }
 
   $('#course-ui')
-    .on('click tap', '.ui_menu_box', toggleAndCheck)
-    .on('click tap', '.ui_menu_box label', justToggle)
-    .on('mouseup touchend', '.ui_menu_box', checkCheck);
+    .on('tap', '.ui_menu_box, .ui_menu_box label', toggleAndCheck)
+    .on('mousedown tap', 'label', justToggle)
+    .on('end', '.ui_menu_box', checkCheck);
 });//end onReady for FeatureLayer
 
 

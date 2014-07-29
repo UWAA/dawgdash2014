@@ -77,9 +77,9 @@ trigger( e );
 }
 
 $el
-.bind( "touchstart MSPointerDown", start )
-.bind( "touchmove MSPointerMove", move )
-.bind( "touchend MSPointerUp", end )
+.bind( "touchstart MSPointerDown pointerdown", start )
+.bind( "touchmove MSPointerMove pointerup", move )
+.bind( "touchend MSPointerUp pointerup", end )
 .bind( "click", end );
 });
 };
