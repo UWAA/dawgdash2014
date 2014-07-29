@@ -5140,7 +5140,19 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .affix {
   position: fixed;
 }
+@-webkit-viewport {
+  width: device-width;
+}
+@-moz-viewport {
+  width: device-width;
+}
 @-ms-viewport {
+  width: device-width;
+}
+@-o-viewport {
+  width: device-width;
+}
+@viewport {
   width: device-width;
 }
 .visible-xs,
@@ -6928,10 +6940,6 @@ img.mfp-img {
 /* ==========================================================================
    Base
    ========================================================================== */
-body {
-  -ms-touch-action: manipulation;
-  touch-action: manipulation;
-}
 /* ==========================================================================
    Header
    ========================================================================== */

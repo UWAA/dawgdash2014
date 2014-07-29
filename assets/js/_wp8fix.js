@@ -1,14 +1,14 @@
 //Windows Phone 8 Fix
 
-if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
-  var msViewportStyle = document.createElement('style');
-  msViewportStyle.appendChild(
-    document.createTextNode(
-      '@-ms-viewport{width:auto!important}'
-    )
-  );
-  document.querySelector('head').appendChild(msViewportStyle);
+(function() {
+if ("-ms-user-select" in document.documentElement.style &&
+(navigator.userAgent.match(/IEMobile/) ||
+navigator.userAgent.match(/ZuneWP7/) ||
+navigator.userAgent.match(/WPDesktop/))) {
+var msViewportStyle = document.createElement("style");
+msViewportStyle.appendChild(
+document.createTextNode("@-ms-viewport{width:auto!important}")
+);
+document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
 }
-
-
-// $('#accordion').addEventListener("selectstart", function(e) { e.preventDefault(); }, false);
+})();

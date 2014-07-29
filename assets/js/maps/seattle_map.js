@@ -12,6 +12,9 @@ var map = L.mapbox.map('map', 'bperick.ilp0kaof', {
   },
   maxBounds:bounds,
   minZoom:15,
+  scrollWheelZoom:false,
+  doubleClickZoom:false,
+  tap:false
 	});
 
   if (clientWidth < 480) {
@@ -28,8 +31,8 @@ var map = L.mapbox.map('map', 'bperick.ilp0kaof', {
 var course_ui = document.getElementById('course-ui');
    
 
-//Disable Scroll Wheel Zoom
-map.scrollWheelZoom.disable();
+// //Disable Scroll Wheel Zoom
+// map.scrollWheelZoom.disable();
 
 
 
@@ -103,16 +106,16 @@ for (var i = 0; i < features.length; i++) {
 
 
 function toggleAndCheck () {
-  $(this).find('input').prop('checked', true);
+  
   $(this).toggleClass('active');
   
 }
 
 function justToggle() {
-  event.stopPropagation();
-  $(this).parent().toggleClass('active');
-  $(this).siblings('input').prop('checked', true)
 
+  $(this).parent('div').toggleClass('active');
+  return false;
+ 
 }
 
 function checkCheck () {
@@ -131,14 +134,33 @@ function checkCheck () {
             },
             10);
    }
-  
 
 }
 
-  $('#course-ui')
-    .on('tap', '.ui_menu_box, .ui_menu_box label', toggleAndCheck)
-    .on('mousedown tap', 'label', justToggle)
-    .on('end', '.ui_menu_box', checkCheck);
+
+function bindUI() {
+$('#course-ui')
+    .on('tap', '.ui_menu_box', toggleAndCheck)
+    .on('tap', 'label', justToggle)
+    .on('touchend mouseup', '.ui_menu_box', checkCheck);
+};
+
+
+function unBindUI() {
+ $('#course-ui')
+    .off('tap', '.ui_menu_box')
+    .off('tap', 'label')
+    .off('touchend mouseup', '.ui_menu_box');
+}
+
+map.on('move zoomstart dragstart', unBindUI);
+map.on('dragend moveend zoomend', bindUI);
+
+bindUI();
+
+
+
+
 });//end onReady for FeatureLayer
 
 
