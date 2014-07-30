@@ -19,6 +19,7 @@
 @import "map-ui.less";
 @import "lightbox.less";
 @import "videoWrapper.less";
+@import "info-box.less";
 
 
 
@@ -35,8 +36,9 @@ body {}
    ========================================================================== */
 
 .banner {
-   margin: 30px -15px 0;
-   padding: 0;
+   .make-row();
+   margin-top:30px;
+   // padding: 0;
    background-image: url("../img/dd_header_1200.jpg");
    background-size: cover;
    height: 346px;
@@ -59,15 +61,12 @@ body {}
 
 // }
 
-.gallery-strip {
-   .make-row();
-   .make-xs-column(12);
-}
+// .gallery-strip {
+//    .make-row();
+//    .make-xs-column(12);
+// }
 
-.info-boxes {
-   .make-row();
-   .make-xs-column(12);
-}
+
 
 #map-container {
    
@@ -88,7 +87,7 @@ body {}
    ========================================================================== */
 
 .main {
-// .container();
+
  }
 
 /* Gallery Shortcode */
@@ -141,7 +140,7 @@ body {}
    ========================================================================== */
 
 .content-info {
-   margin:0 -15px 0;
+   .make-row();
    background-color: @purple;
 
 

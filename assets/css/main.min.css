@@ -1,6 +1,10 @@
 /*!
  * Roots 6.5.2
  */
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -5070,16 +5074,16 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 #thin-strip div:after,
 .holder:before,
 .holder:after,
-.content .gallery-strip:before,
-.content .gallery-strip:after,
-.content .info-boxes:before,
-.content .info-boxes:after,
+.banner:before,
+.banner:after,
 .content .map-row:before,
 .content .map-row:after,
 .hentry .entry-content .copy-container:before,
 .hentry .entry-content .copy-container:after,
 .hentry .entry-content .copy-row:before,
-.hentry .entry-content .copy-row:after {
+.hentry .entry-content .copy-row:after,
+.content-info:before,
+.content-info:after {
   content: " ";
   display: table;
 }
@@ -5099,11 +5103,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .modal-footer:after,
 #thin-strip div:after,
 .holder:after,
-.content .gallery-strip:after,
-.content .info-boxes:after,
+.banner:after,
 .content .map-row:after,
 .hentry .entry-content .copy-container:after,
-.hentry .entry-content .copy-row:after {
+.hentry .entry-content .copy-row:after,
+.content-info:after {
   clear: both;
 }
 .center-block {
@@ -6157,6 +6161,72 @@ ul.dd-nav li a:hover {
   letter-spacing: .5px;
   padding: 1px 0;
 }
+.info-box h2 {
+  font-family: 'Ultra', serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 30px;
+  margin: 10px 0;
+}
+@media (max-width: 992px) {
+  .info-box h2 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 768px) {
+  .info-box h2 {
+    font-size: 30px;
+  }
+}
+.info-box p {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 1.22;
+  padding: 0 10px;
+  font-size: 22px;
+}
+@media (max-width: 992px) {
+  .info-box p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .info-box p {
+    font-size: 22px;
+  }
+}
+.info-box p:first-of-type {
+  margin-bottom: 12px;
+}
+.info-box p:last-of-type {
+  margin: 12px 0;
+}
+.info-box-content .link-button p {
+  font-family: 'Ultra', serif;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  line-height: 1;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: normal;
+  white-space: nowrap;
+}
+@media (max-width: 1200px) {
+  .info-box-content .link-button p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 992px) {
+  .info-box-content .link-button p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 768px) {
+  .info-box-content .link-button p {
+    font-size: 16px;
+  }
+}
 .entry-title {
   font-weight: 300;
   margin-top: 45px;
@@ -6937,6 +7007,41 @@ img.mfp-img {
   width: 100%;
   height: 100%;
 }
+.info-boxes .info-box {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 30px;
+}
+@media (min-width: 768px) {
+  .info-boxes .info-box {
+    float: left;
+    width: 33.33333333333333%;
+  }
+}
+.info-boxes .info-box .info-box-content {
+  margin: 0 auto;
+  background-color: #39275b;
+  color: #ffffff;
+  position: relative;
+  text-align: center;
+  padding: 10px 0 30px;
+  height: 230px;
+}
+.info-boxes .info-box .info-box-content .link-button {
+  position: absolute;
+  width: 100%;
+  bottom: -7%;
+  text-align: center;
+}
+.info-boxes .info-box .info-box-content .link-button p {
+  background-color: #d7a900;
+  color: #ffffff;
+  max-width: 65%;
+  width: auto;
+  padding: 10px;
+}
 /* ==========================================================================
    Base
    ========================================================================== */
@@ -6944,8 +7049,9 @@ img.mfp-img {
    Header
    ========================================================================== */
 .banner {
-  margin: 30px -15px 0;
-  padding: 0;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: 30px;
   background-image: url("../img/dd_header_1200.jpg");
   background-size: cover;
   height: 346px;
@@ -6954,26 +7060,6 @@ img.mfp-img {
 /* ==========================================================================
    Content
    ========================================================================== */
-.content .gallery-strip {
-  margin-left: -15px;
-  margin-right: -15px;
-  position: relative;
-  float: left;
-  width: 100%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-.content .info-boxes {
-  margin-left: -15px;
-  margin-right: -15px;
-  position: relative;
-  float: left;
-  width: 100%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
 .content .map-row {
   margin-left: -15px;
   margin-right: -15px;
@@ -7061,7 +7147,8 @@ img.mfp-img {
    Footer
    ========================================================================== */
 .content-info {
-  margin: 0 -15px 0;
+  margin-left: -15px;
+  margin-right: -15px;
   background-color: #39275b;
 }
 /* ==========================================================================

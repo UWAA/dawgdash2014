@@ -1,4 +1,4 @@
-$('body').flowtype({
+$('article').flowtype({
  minimum   : 320,
  maximum   : 1200,
  minFont   : 14,

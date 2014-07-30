@@ -9,4 +9,3 @@
         ?>
       </nav>
 </header>
-</div>  <!-- end branding/header (UW style) -->
