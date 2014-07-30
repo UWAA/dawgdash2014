@@ -7,18 +7,20 @@
             
     </header>
     <div class="entry-content">
-    <div class="copy-container"><div class="copy-row"><div class="copy-columns">
+    <div class="copy-container">
+    <div class="copy-row">
+    <div class="copy-columns">
     <h2 class="entry-title"><?php the_title(); ?></h2>
       <?php the_content(); ?>
     </div>
-    </div></div></div>
-
-    <div class="gallery-strip">
-       <?php get_template_part('templates/gallery-strip'); ?>
+    </div>
+    </div>
     </div>
 
+  
+
     <div class="info-boxes">
-          <?php /*get_template_part('templates/info-boxes');*/ echo "info boxes here"; ?>
+          <?php get_template_part('templates/info-boxes'); ?>
     </div>
    
     <footer>
