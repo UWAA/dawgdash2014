@@ -4,16 +4,17 @@
  while (have_posts()) : the_post(); ?>
   <article <?php post_class(); ?>>
     
-    <div class="container">
-    <div class="row">
-    <header>
-        <h2 class="entry-title"><?php the_title(); ?></h2>    
-    </header>    
-        
-        </div>
-      </div>
+    
     <div class="entry-content">
+    <div class="copy-container">
+
+    <div class="copy-row">
+    <div class="copy-columns">
+    <h1 class="entry-title"><?php the_title(); ?></h1> 
       <?php the_content(); ?>
+  </div>
+  </div>
+  </div>
     
     </div>
     

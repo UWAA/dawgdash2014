@@ -18,6 +18,7 @@ class dd_shortCodes {
     	add_shortcode('copyArea', array($this, 'copy_func'));
     	add_shortcode('sponsorGallery', array($this, 'sponsorGallery_func'));
     	add_shortcode('touchGallery', array($this, 'touchGallery_func'));
+    	add_shortcode('readMore', array($this, 'readMore_func'));
 	}
 
 
@@ -98,6 +99,15 @@ class dd_shortCodes {
 	        'class' => '',
 	    ), $atts );
     return   '<div class="gallery-row' . $a['class'] . '"><div class="holder">'.do_shortcode($content).'</div><span class="oi oi-chevron-left control-left" data-glyph="chevron-left"></span><span class="oi oi-chevron-right control-right" data-glyph="chevron-right"></span></div>';
+	}
+
+	public function readMore_func($atts, $content="")
+	{
+		$a = shortcode_atts( array(
+	        'toggleText' => 'Text for toggle',
+	        'target' => 'the ID of the element to collapese',
+	       	), $atts );
+	    return '<span class="read-more" data-toggle="collapse" href="#'.$a['target'].'">read more +</span><p class="collapse content-collapse" id="'.$a['target'].'">'.do_shortcode($content).'</p>'; 
 	}
 
 };

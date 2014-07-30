@@ -33,7 +33,16 @@ foreach ($racePosts as $post):  ?>
 		<p><?php echo get_post_meta(get_the_id(), '_uwaa_mb_dd_race_date', true); ?></p>
 		<p><?php echo get_post_meta(get_the_id(), '_uwaa_mb_dd_race_start_time', true); ?></p>
 		<div class="link-button">
-		<p>Learn More</p>
+		<a href="<?php echo wp_get_shortlink(); ?>">
+		<?php
+		if ($post->ID == 5) {
+			echo "register now";
+		} else {
+			echo "learn more";
+		}
+
+		?>
+		</a>
 		</div>
 		</div>
 		</div>

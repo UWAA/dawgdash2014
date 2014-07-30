@@ -8,6 +8,18 @@
 		.make-sm-column(4);
 		margin-bottom: 30px;
 
+		 @media (min-width: @screen-xs-max) {
+			&:first-child{
+				padding-left: 0;
+				padding-right:30px;
+			}
+
+			&:last-child{
+				padding-right: 0;
+				padding-left:30px;
+			}
+		 }
+
 		.info-box-content{
 		margin: 0 auto;
 		background-color: @purple;
@@ -27,12 +39,16 @@
 			
 
 			//Some type stuff here for postitioning.
-			p {
+			a {
 		background-color: @uw-gold;
 		color:@white;
 		max-width:65%;
 		width:auto;		
 		padding: 10px;
+
+		&:hover{
+		background-color: #edcb80; 
+		}
 			}
 		
 
