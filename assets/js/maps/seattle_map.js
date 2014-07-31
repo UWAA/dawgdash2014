@@ -153,8 +153,8 @@ function unBindUI() {
     .off('touchend mouseup', '.ui_menu_box');
 }
 
-map.on('move zoomstart dragstart', unBindUI);
-map.on('dragend moveend zoomend', bindUI);
+map.on('move', unBindUI);
+map.on('moveend', bindUI);
 
 bindUI();
 

@@ -6154,6 +6154,20 @@ ul.dd-nav li a:hover {
   padding: 12px;
   height: 29px;
 }
+.fb-link {
+  line-height: 30px;
+  font-weight: 300;
+}
+.fb-link * {
+  vertical-align: middle;
+  display: inline-block;
+}
+.fb-link img {
+  margin-right: 0.7em;
+}
+.fb-link img:hover {
+  opacity: 0.8;
+}
 .nav {
   font-family: 'Ultra', serif;
   text-transform: uppercase;

@@ -15,6 +15,7 @@ class dd_shortCodes {
     	add_shortcode('accordion', array($this, 'accordion_func'));
     	add_shortcode('video', array($this, 'videoWrapper_func'));
     	add_shortcode('registerButton', array($this, 'registerButton_func'));
+    	add_shortcode('facebookButton', array($this, 'facebookButton_func'));
     	add_shortcode('copyArea', array($this, 'copy_func'));
     	add_shortcode('sponsorGallery', array($this, 'sponsorGallery_func'));
     	add_shortcode('touchGallery', array($this, 'touchGallery_func'));
@@ -74,7 +75,16 @@ class dd_shortCodes {
 	        'link' => 'Link to Registration Page'
 	    ), $atts );
 
-	    return "<div class=\"registerButton-Container\"><a id=\"registerButton\" title=\"link to registration page\" href=\"{$a['link']}\">Register Now</a><p class=\"small\">This button will link to getmeregistered.com</p></div>";
+	    return "<div class=\"registerButton-Container\"><a id=\"registerButton\" title=\"link to registration page\" href=\"{$a['link']}\" target=\"_blank\">Register Now</a><p class=\"small\">This button will link to getmeregistered.com</p></div>";
+	}
+
+
+	public function facebookButton_func($atts) {
+		$a = shortcode_atts( array(
+	        
+	    ), $atts );
+
+		return '<div class="fb-link"><a href="http://www.facebook.com/dawgdash" target="_blank"><img src="'.get_template_directory_uri().'/assets/img/logo-fb-30.png" alt="facebook icon" width="30" height="30" /></a><a href="http://www.facebook.com/dawgdash" target="_blank">Visit the Dawg Dash Facebook Page!</a></div>';
 	}
 
 		public function copy_func($atts, $content="")	{
