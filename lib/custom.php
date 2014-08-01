@@ -5,7 +5,7 @@
 
 add_filter( 'use_default_gallery_style', '__return_false' );
 
-/*add_action('template_redirect', 'seattle_redirect');
+add_action('template_redirect', 'seattle_redirect');
 
 function seattle_redirect() {
 // Redirect until other pages are done
@@ -15,7 +15,7 @@ function seattle_redirect() {
   	wp_redirect(home_url('/races/seattle/'), 302); exit;
 	}
 }
-*/
+
 
 //Add RaceDetail Meta Boxes
 require (get_template_directory(). '/lib/custom/customMetaBuilder.php');

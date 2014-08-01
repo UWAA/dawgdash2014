@@ -2,11 +2,7 @@
 
 wp_enqueue_script('mapbox');
 wp_enqueue_style('mapbox');
-
-
-
 wp_enqueue_script('seattle_map');
-
 wp_enqueue_script('lightbox');
 wp_enqueue_script('lightboxInit');
 
