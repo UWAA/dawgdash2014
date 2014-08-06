@@ -1,4 +1,11 @@
-<?php while (have_posts()) : the_post(); ?>
+<?php 
+//For single posts in the blog
+
+while (have_posts()) : the_post();
+
+ ?>
+
+
   <article <?php post_class(); ?>>
      <div class="container">
           <div class="row">

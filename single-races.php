@@ -2,7 +2,7 @@
 
 wp_enqueue_script('mapbox');
 wp_enqueue_style('mapbox');
-wp_enqueue_script('seattle_map');
+// wp_enqueue_script('seattle_map');
 wp_enqueue_script('lightbox');
 wp_enqueue_script('lightboxInit');
 
@@ -32,10 +32,9 @@ wp_enqueue_script('lightboxInit');
 
 
 <div class="container-fluid">
- <div id="map-container">
- <nav id='course-ui' class='menu-ui'></nav><div id="map"></div>
-  
-  </div>
+<div id="map-container">
+<nav id='course-ui' class='menu-ui'></nav><div id="map"></div>
+</div>
 </div>
 <footer>
 

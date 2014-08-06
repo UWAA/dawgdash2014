@@ -561,7 +561,7 @@ a.bg-danger:hover {
 }
 .page-header {
   padding-bottom: 15.5px;
-  margin: 66px 0 33px;
+  margin: 0;
   border-bottom: 1px solid #eeeeee;
 }
 ul,
@@ -7098,6 +7098,22 @@ img.mfp-img {
 /* ==========================================================================
    Content
    ========================================================================== */
+.content .page-header {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.content .entry-summary {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .content .map-row {
   margin-left: -15px;
   margin-right: -15px;

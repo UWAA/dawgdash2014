@@ -11,9 +11,11 @@ function seattle_redirect() {
 // Redirect until other pages are done
 	global $post;
 	$post_slug=$post->post_name;
-	if ($post_slug != 'seattle') {	
-  	wp_redirect(home_url('/races/seattle/'), 302); exit;
-	}
+	if( ! current_user_can('moderate_comments') )	{
+		if ($post_slug != 'seattle') {	
+	  	wp_redirect(home_url('/races/seattle/'), 302); exit;
+		}
+	}  
 }
 
 

@@ -38,7 +38,6 @@ body {}
 .banner {
    .make-row();
    margin-top:30px;
-   // padding: 0;
    background-image: url("../img/dd_header_1200.jpg");
    background-size: cover;
    height: 346px;
@@ -55,6 +54,13 @@ body {}
 
 .content { 
 
+   .page-header{
+      .make-xs-column(12);
+   }
+
+.entry-summary{ 
+   .make-xs-column(12);
+}
 
 #map-container {
    
@@ -100,6 +106,9 @@ body {}
 .hentry header { .make-xs-column(12);}
 .hentry time { }
 .hentry .byline { }
+.hentry .entry-title{
+   // .make-sm-column(12);
+}
 .hentry .entry-content {
    
 .copy-container {
