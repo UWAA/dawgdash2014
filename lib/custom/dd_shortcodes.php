@@ -20,6 +20,7 @@ class dd_shortCodes {
     	add_shortcode('sponsorGallery', array($this, 'sponsorGallery_func'));
     	add_shortcode('touchGallery', array($this, 'touchGallery_func'));
     	add_shortcode('readMore', array($this, 'readMore_func'));
+    	add_shortcode('homeSlider', array($this, 'homeSlider_func'));
 	}
 
 
@@ -119,6 +120,27 @@ class dd_shortCodes {
 	       	), $atts );
 	    return '<span class="read-more" data-toggle="collapse" href="#'.$a['target'].'">read more +</span><p class="collapse content-collapse" id="'.$a['target'].'">'.do_shortcode($content).'</p>'; 
 	}
+
+	public function homeSlider_func($atts)
+	//could use some SERIOUS refactoring.
+	{
+		$a = shortcode_atts( array(
+	  
+	       	), $atts );
+
+		$output = '<ul class="rslides">';
+		$output.= '<li><img src="http://depts.washington.edu/alumni/blogs/dawgdash/files/2014/08/dd_sshow_01.jpg" alt="Three Dawg Dash participants and a dog" width="475" height="375" /></li>'; 
+		$output.= '<li><img src="http://depts.washington.edu/alumni/blogs/dawgdash/files/2014/08/dd_sshow_02.jpg" alt="Child holding a purple ribbon after completing the Kid\'s Dash" width="475" height="375" /></li>'; 
+		$output.= '<li><img src="http://depts.washington.edu/alumni/blogs/dawgdash/files/2014/08/dd_sshow_03.jpg" alt="Dawg Dash participants mingling during the event" width="475" height="375" /></li>'; 
+		$output.= '<li><img src="http://depts.washington.edu/alumni/blogs/dawgdash/files/2014/08/dd_sshow_04.jpg" alt="Three Dawg Dash participants talk before the event" width="475" height="375" /></li>'; 
+		$output.= '<li><img src="http://depts.washington.edu/alumni/blogs/dawgdash/files/2014/08/dd_sshow_05.jpg" alt="Five Dawg Dash participants showing off their purple t-shirts" width="475" height="375" /></li>'; 
+		$output.= '<li><img src="http://depts.washington.edu/alumni/blogs/dawgdash/files/2014/08/dd_sshow_06.jpg" alt="A Husky Marching Band trumpeter plays at the Dawg Dash" width="475" height="375" /></li>'; 
+		$output.= '<li><img src="http://depts.washington.edu/alumni/blogs/dawgdash/files/2014/08/dd_sshow_07.jpg" alt="Three Dawg Dash New York City participants in front of the Brooklyn Bridge" width="475" height="375" /></li>'; 
+		$output.= '</ul>';
+	    return $output;
+	}
+
+
 
 };
 

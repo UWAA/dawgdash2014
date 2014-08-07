@@ -13,14 +13,14 @@ ul.dd-nav {
 
 		
 		li.active {
-			background-color: @uw-gold;	
+			// background-color: @uw-gold;	
 
 
 			a {
-				color:@white;
+				// color:@white;
 
 				&:hover{
-					background-color: inherit;
+					// background-color: inherit;
 					cursor: pointer;
 				}
 			}
@@ -54,19 +54,22 @@ ul.dd-nav {
 .home {
 	ul.dd-nav {
 		li {
-			background-color: @uw-gold;
-			color:@white;
+			// background-color: @uw-gold;
+			// color:@white;
 			margin: 20px 0;
 			width: 248px;
+			@media (min-width: 479px) and (max-width:494px) {
+				width: 175px;
+			}
 			padding-left: 10px;
 
 			a {
-				color: @white;
+				// color: @white;
 				padding: 4px 0;
 
 				&:hover {
-					color: @white;
-					background-color: @purple;
+					// color: @white;
+					// background-color: @purple;
 				}
 		
 			}

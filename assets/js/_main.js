@@ -22,14 +22,38 @@ var Roots = {
   // All pages
   common: {
     init: function() {
-      // JavaScript to be fired on all pages
+      
     }
   },
   // Home page
   home: {
     init: function() {
-      // JavaScript to be fired on the home page
-    }
+      $(".rslides").responsiveSlides({
+    auto: true,             // Boolean: Animate automatically, true or false
+    speed: 700,            // Integer: Speed of the transition, in milliseconds
+    timeout: 3000,          // Integer: Time between slide transitions, in milliseconds
+    pager: false,           // Boolean: Show pager, true or false
+    nav: false,             // Boolean: Show navigation, true or false
+    random: false,          // Boolean: Randomize the order of the slides, true or false
+    pause: true,           // Boolean: Pause on hover, true or false
+    pauseControls: true,    // Boolean: Pause when hovering controls, true or false
+    prevText: "Previous",   // String: Text for the "previous" button
+    nextText: "Next",       // String: Text for the "next" button
+    maxwidth: "475",           // Integer: Max-width of the slideshow, in pixels
+    navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
+    manualControls: "",     // Selector: Declare custom pager navigation
+    namespace: "rslides",   // String: Change the default namespace used
+    before: function(){},   // Function: Before callback
+    after: function(){}     // Function: After callback
+  });
+
+$(".link-button .disabled").click(function(event) {
+    event.preventDefault();
+  });
+  }
+  //end init for slider
+
+  
   },
   // About us page, note the change from about-us to about_us.
   about_us: {
@@ -139,12 +163,6 @@ for (var i = 0; i < features.length; i++) {
 //Make the entire button clickable, and bind active classes to the 
 
 //var ui_menu_box = $('#course-ui');
-
-
-
-
-
-
 
 function toggleAndCheck () {
   

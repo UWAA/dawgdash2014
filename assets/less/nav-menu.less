@@ -50,20 +50,30 @@ ul.dd-nav {
 
 .home {
 	ul.dd-nav {
+
+		li{
+		color:@white;
+		background-color: @uw-gold;
+		// margin: 20px 0;
+		// width: 248px;
+		// padding-left: 10px;
+
+		&:hover {
+			background-color: @purple;
+		}
+		}
+
 		li {
 			background-color: @uw-gold;
-			color:@white;
-			margin: 20px 0;
-			width: 248px;
-			padding-left: 10px;
+			
 
 			a {
 				color: @white;
-				padding: 4px 0;
+				// padding: 4px 0;
 
 				&:hover {
 					color: @white;
-					background-color: @purple;
+					background-color: inherit;
 				}
 		
 			}
