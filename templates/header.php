@@ -1,6 +1,7 @@
 <header class="banner" role="banner">
-	<div class="patch-container"><?php get_template_part('templates/patch'); ?></div>
-        <!-- <a class="brand" href="<?php /*echo home_url('/')*/ ?>"><?php /*bloginfo('name');*/ ?></a> -->
+	<div class="patch-container"><?php get_template_part('templates/patch'); ?>
+        <a class="homelink" href="<?php echo home_url('/') ?>"></a>
+    </div>
       <nav class="nav-main" role="navigation">
         <?php
           if (has_nav_menu('primary_navigation')) :

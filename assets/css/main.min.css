@@ -6582,6 +6582,26 @@ ul.dd-nav li a:hover {
 .menu-ui div.active:hover {
   background: #39275b;
 }
+#scrolltop {
+  position: absolute;
+  right: 0px;
+  bottom: 30px;
+  background: none repeat scroll 0% 0% #493868;
+  height: 50px;
+  width: 50px;
+  border-radius: 3px 0px 0px 3px;
+  text-align: center;
+  cursor: pointer;
+  color: #6C6C7A;
+}
+#scrolltop span {
+  line-height: 47px;
+  font-size: 22px !important;
+}
+#scrolltop:hover {
+  background-color: #39275b;
+  color: #ffffff;
+}
 .leaflet-bottom,
 .leaflet-top {
   z-index: 3;
@@ -7133,6 +7153,12 @@ img.mfp-img {
   height: 346px;
   position: relative;
 }
+.banner .homelink {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
 /* ==========================================================================
    Content
    ========================================================================== */
@@ -7429,7 +7455,7 @@ figure.alignnone {
     margin-right: -15px;
     margin-left: -15px;
   }
-  .patch-container:after {
+  .patch-container .homelink {
     content: "";
     background: url(../img/dd_logo_hm_768.png) no-repeat;
     z-index: 1;
@@ -7439,7 +7465,7 @@ figure.alignnone {
     width: 309px;
     height: 171px;
   }
-  .seattle .patch-container:after {
+  .seattle .patch-container .homelink {
     background: url(../img/dd_logo_Seattle_768.png) no-repeat;
   }
   .patch {
@@ -7559,7 +7585,7 @@ figure.alignnone {
     margin-right: -15px;
     margin-left: -15px;
   }
-  .patch-container:after {
+  .patch-container .homelink {
     content: "";
     background: url(../img/dd_logo_hm_768.png) no-repeat;
     z-index: 1;
@@ -7569,7 +7595,7 @@ figure.alignnone {
     width: 309px;
     height: 171px;
   }
-  .seattle .patch-container:after {
+  .seattle .patch-container .homelink {
     background: url(../img/dd_logo_Seattle_768.png) no-repeat;
   }
   .patch {
@@ -7713,7 +7739,7 @@ figure.alignnone {
     margin-right: -15px;
     margin-left: -15px;
   }
-  .patch-container:after {
+  .patch-container .homelink {
     content: "";
     background: url(../img/dd_logo_hm_1200.png) no-repeat;
     z-index: 1 !important;
@@ -7723,7 +7749,7 @@ figure.alignnone {
     width: 471px;
     height: 260px;
   }
-  .seattle .patch-container:after {
+  .seattle .patch-container .homelink {
     background: url(../img/dd_logo_Seattle_1200.png) no-repeat;
   }
   .patch {

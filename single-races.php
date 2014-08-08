@@ -33,7 +33,9 @@ wp_enqueue_script('lightboxInit');
 
 <div class="container-fluid">
 <div id="map-container">
-<nav id='course-ui' class='menu-ui'></nav><div id="map"></div>
+<nav id='course-ui' class='menu-ui'></nav>
+<div id="map"></div>
+<div id="scrolltop"><span class="oi oi-chevron-top"></span></div>
 </div>
 </div>
 <footer>
