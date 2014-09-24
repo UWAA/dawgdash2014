@@ -11,14 +11,14 @@
  * 3. /theme/assets/js/main.min.js (in footer)
  */
 function roots_scripts() {
-  wp_enqueue_style('roots_main', get_template_directory_uri() . '/assets/css/main.min.css', false, '46a4f09de307e9a8245a44f25ee3f1bb');
+  wp_enqueue_style('roots_main', get_template_directory_uri() . '/assets/css/main.min.css', false, '21bbf1ae913518a3cf053d2b083bb0c2');
   wp_enqueue_style('web_fonts', 'https://fonts.googleapis.com/css?family=Open+Sans:300,600,700|Ultra', array(), null, false);
   // jQuery is loaded using the same method from HTML5 Boilerplate:
   // Grab Google CDN's latest jQuery with a protocol relative URL; fallback to local if offline
   // It's kept in the header instead of footer to avoid conflicts with plugins.
   if (!is_admin() && current_theme_supports('jquery-cdn')) {
     wp_deregister_script('jquery');
-    wp_register_script('jquery', '//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js', array(), null, false);
+    wp_register_script('jquery', '//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js', array(), null, true);
     add_filter('script_loader_src', 'roots_jquery_local_fallback', 10, 2);
   }
 
@@ -28,9 +28,9 @@ function roots_scripts() {
 
 //
 // Flowtype, Modernizr Register
-  wp_register_script('flowtype', get_template_directory_uri() . '/assets/js/vendor/flowtype.js', array(), null, false);
-  wp_register_script('modernizr', get_template_directory_uri() . '/assets/js/vendor/modernizr-2.7.0.min.js', array(), null, false);
-  wp_register_script('roots_scripts', get_template_directory_uri() . '/assets/js/scripts.min.js', array(), 'd422cb947b3b485c7aaef69a45fa5164', true);
+  wp_register_script('flowtype', get_template_directory_uri() . '/assets/js/vendor/flowtype.js', array(), null, true);
+  wp_register_script('modernizr', get_template_directory_uri() . '/assets/js/vendor/modernizr-2.7.0.min.js', array(), null, true);
+  wp_register_script('roots_scripts', get_template_directory_uri() . '/assets/js/scripts.min.js', array(), '633ae58b6bf3041494003f242d8de9d3', true);
   wp_enqueue_script('modernizr');
   wp_enqueue_script('jquery');
   wp_enqueue_script('flowtype');
@@ -39,17 +39,17 @@ function roots_scripts() {
 add_action('wp_enqueue_scripts', 'roots_scripts', 100);
 
 //MapBox Scripts for Race Course Maps
-wp_register_script('mapbox', '//api.tiles.mapbox.com/mapbox.js/v1.6.4/mapbox.js', array(), null, false);
+wp_register_script('mapbox', '//api.tiles.mapbox.com/mapbox.js/v1.6.4/mapbox.js', array(), null, true);
 wp_register_script('seattle_map', get_template_directory_uri(). '/assets/js/maps/seattle_map.js');
 wp_register_script('lightboxInit', get_template_directory_uri(). '/assets/js/lightboxInit.js');
 
 
 //MapBox Stylesheet for Race Course Map
-wp_register_style('mapbox', '//api.tiles.mapbox.com/mapbox.js/v1.6.4/mapbox.css', array(), false, 'screen' );
+wp_register_style('mapbox', '//api.tiles.mapbox.com/mapbox.js/v1.6.4/mapbox.css', array(), true, 'screen' );
 
 
 //Lightbox for main homepage Stylesheet for Race Course Map
-wp_register_script('lightbox', get_template_directory_uri().'/assets/js/vendor/jquery.magnific-popup.min.js', array(), null, false);
+wp_register_script('lightbox', get_template_directory_uri().'/assets/js/vendor/jquery.magnific-popup.min.js', array(), null, true);
 
 // http://wordpress.stackexchange.com/a/12450
 function roots_jquery_local_fallback($src, $handle = null) {

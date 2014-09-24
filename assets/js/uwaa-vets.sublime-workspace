@@ -1,0 +1,2938 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"vets",
+				"vets"
+			],
+			[
+				"else",
+				"elseif	elseif …"
+			],
+			[
+				"pag",
+				"page_information"
+			],
+			[
+				"page",
+				"page_dateNum"
+			],
+			[
+				"pa",
+				"page_post_classes"
+			],
+			[
+				"event",
+				"eventDate"
+			],
+			[
+				"eve",
+				"eventTitle"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"re",
+				"removeClass"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"de",
+				"detail-container"
+			],
+			[
+				"dei",
+				"displayedGroup"
+			],
+			[
+				"di",
+				"displayedGroup"
+			],
+			[
+				"ba",
+				"background-origin"
+			],
+			[
+				"race",
+				"racePosts"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"ra",
+				"racePosts"
+			],
+			[
+				"curr",
+				"currentGroup"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"gallery-",
+				"gallery-width"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"overfl",
+				"overflow"
+			],
+			[
+				"overflow",
+				"overflow-x"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"light",
+				"lightboxInit"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"bo",
+				"bolder"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"sho",
+				"shortcode_atts"
+			],
+			[
+				"r",
+				"rgba(r,g,b,a)"
+			],
+			[
+				"wp_re",
+				"wp_register_script"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"is",
+				"isChecked"
+			],
+			[
+				"togg",
+				"toggleAndCheck"
+			],
+			[
+				"cour",
+				"course-ui"
+			],
+			[
+				"menu",
+				"ui_menu_box"
+			],
+			[
+				"dd_",
+				"dd_meta_fields_content"
+			],
+			[
+				"current",
+				"current_user_can"
+			],
+			[
+				"post",
+				"post_id"
+			],
+			[
+				"post_",
+				"post_type"
+			],
+			[
+				"def",
+				"defined"
+			],
+			[
+				"pubic",
+				"public"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"feild",
+				"fieldDefID"
+			],
+			[
+				"fil",
+				"filterParam"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"resul",
+				"results_array"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"min-",
+				"min-width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/css/main.min.css",
+			"settings":
+			{
+				"buffer_size": 148933,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/typography-ALL.less",
+			"settings":
+			{
+				"buffer_size": 5104,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/teaser-boxes-DESK.less",
+			"settings":
+			{
+				"buffer_size": 46,
+				"line_ending": "Windows",
+				"name": "teaser-boxes-tab.less"
+			}
+		},
+		{
+			"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/lib/scripts.php",
+			"settings":
+			{
+				"buffer_size": 3504,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<?php namespace \n\nclass UWAA_Tours_Taxonomy\n{\n    function __construct()\n    {\n        add_action( 'init', array($this, 'setup_tours_taxonomy'), 0 );\n    }  \n\n        public static function setup_tours_taxonomy() \n        {             \n        $labels = array(\n            'name'                       => _x( 'Tour Categories', 'Taxonomy General Name'),\n            'singular_name'              => _x( 'Tour Category', 'Taxonomy Singular Name'),\n            'menu_name'                  => __( 'Tour Categories'),\n            'all_items'                  => __( 'All Tour Categories'),\n            'parent_item'                => __( 'Parent location'),\n            'parent_item_colon'          => __( 'Parent location:'),\n            'new_item_name'              => __( 'New Tour Category Name'),\n            'add_new_item'               => __( 'Add New Tour Category'),\n            'edit_item'                  => __( 'Edit Tour Category'),\n            'update_item'                => __( 'Update Tour Category'),\n            'separate_items_with_commas' => __( 'Separate Tour Categories with commas'),\n            'search_items'               => __( 'Search Tour Categories'),\n            'add_or_remove_items'        => __( 'Add or remove destinations'),\n            'choose_from_most_used'      => __( 'Choose from the most used tour categories'),\n            'not_found'                  => __( 'Tour Category not found'),\n        );\n        \n        $rewrite = array(\n        'slug'                       => 'tours/destinations',\n        'with_front'                 => true,\n        'hierarchical'               => true,\n        );\n\n        $args = array(\n            'labels'                     => $labels,\n            'hierarchical'               => true,\n            'public'                     => true,\n            'show_ui'                    => true,\n            'show_admin_column'          => true,\n            'show_in_nav_menus'          => true,\n            'show_tagcloud'              => false,\n            'rewrite'                    => $rewrite,\n        );\n           \n            register_taxonomy( 'destinations', array( 'tours' ), $args );\n        }\n\n} ",
+			"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-2014/uwaa-functions/setup/Taxonomies/Tours.php",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 2183,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/js/_flowtype.js",
+			"settings":
+			{
+				"buffer_size": 398,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/date-nav-DESK.less",
+			"settings":
+			{
+				"buffer_size": 953,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/date-nav-TAB.less",
+			"settings":
+			{
+				"buffer_size": 1105,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/banner-MOB.less",
+			"settings":
+			{
+				"buffer_size": 305,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/.gitignore",
+			"settings":
+			{
+				"buffer_size": 180,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/banner-PHONE.less",
+			"settings":
+			{
+				"buffer_size": 322,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/branding-TAB.less",
+			"settings":
+			{
+				"buffer_size": 255,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/branding-DESK.less",
+			"settings":
+			{
+				"buffer_size": 184,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/banner-TAB.less",
+			"settings":
+			{
+				"buffer_size": 236,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/banner-WIDE.less",
+			"settings":
+			{
+				"buffer_size": 239,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/date-nav.less",
+			"settings":
+			{
+				"buffer_size": 1573,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/style.less",
+			"settings":
+			{
+				"buffer_size": 4446,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/templates/content-home.php",
+			"settings":
+			{
+				"buffer_size": 479,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/teaser-boxes.less",
+			"settings":
+			{
+				"buffer_size": 1460,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/templates/home-event-teasers.php",
+			"settings":
+			{
+				"buffer_size": 1481,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/teaser-boxes-TAB.less",
+			"settings":
+			{
+				"buffer_size": 54,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"js",
+				"JSHint"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans"
+	],
+	"file_history":
+	[
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-2014/uwaa-functions/setup/class.uwaa.cpt.php",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/templates/header-home.php",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/date-nav.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/lib/custom.php",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/banner-DESK.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/date-nav-MOB.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/js/vendor/flowtype.js",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/functions.php",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/templates/home-story-teasers.php",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/bootstrap/tooltip.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/teaser-boxes.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/node_modules/grunt-contrib-less/node_modules/less/tmp/browser/test-runner-production.html",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/node_modules/grunt-contrib-less/node_modules/less/node_modules/source-map/build/prefix-utils.jsm",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/package.json",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/banner-ALL.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/branding-ALL.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/templates/vets-nav.php",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/bootstrap/variables.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/js/_flowtype.js",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/typography-ALL.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/templates/home-event-teasers.php",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/css/main.min.css",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/style.css",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/lib/scripts.php",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/custom-mixins.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/thinstrip-MOB-UW.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/style.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/lib/custom/ie9styles.php",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/css/ie9.css",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/page-home.php",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/banner-WIDE.less",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/less/banner-MOB.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/templates/header.php",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/templates/head.php",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/lib/custom/vets_shortcodes.php",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/js/_vetsNav.js",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/bootstrap/mixins.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/node_modules/grunt-contrib-less/node_modules/less/test/css/mixins-important.css",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/manifest.json",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/template-custom.php",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/node_modules/grunt-contrib-watch/node_modules/gaze/test/safewrite_test.js",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/node_modules/grunt-contrib-less/node_modules/less/test/less/colors.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/node_modules/grunt-contrib-less/node_modules/less/test/css/colors.css",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/node_modules/grunt-contrib-less/node_modules/less/lib/less/colors.js",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/node_modules/grunt/node_modules/colors/colors.js",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/js/plugins/bootstrap/collapse.js",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/node_modules/grunt-contrib-clean/docs/clean-options.md",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/node_modules/grunt-contrib-less/node_modules/less/test/browser/less/console-errors/test-error.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/buttons-ALL.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/branding-TAB.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/branding-PHONE.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/branding-MOB.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/single.php",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/templates/calendar-nav.php",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/js/_main.js",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/js/vendor/velocity.min.js",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/templates/hamburger-menu.php",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/templates/content-single.php",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/thinstrip-MOB.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/thin-strip-TAB.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/banner-PHONE.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/banner-MOB.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/banner-TAB.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/thinstrip-ALL.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/thinstrip-DESK.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/base.php",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/img/logo_UWAA_footer.svg",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/node_modules/grunt-contrib-less/node_modules/less/tmp/browser/test-runner-global-vars.html",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/fonts/glyphicons-halflings-regular.svg",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/fonts/open-iconic.svg",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/node_modules/grunt-contrib-less/node_modules/less/test/less/errors/svg-gradient3.txt",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/node_modules/grunt-contrib-less/node_modules/less/test/less/errors/svg-gradient3.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/node_modules/grunt-contrib-less/node_modules/less/test/less/errors/svg-gradient2.txt",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/node_modules/grunt-contrib-less/node_modules/less/test/less/errors/svg-gradient2.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/node_modules/grunt-contrib-less/node_modules/less/test/less/errors/svg-gradient1.txt",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/node_modules/grunt-contrib-less/node_modules/less/test/less/errors/svg-gradient1.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/node_modules/grunt-contrib-less/node_modules/less/lib/less/join-selector-visitor.js",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/esprima.js",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/hamburger-navbar-PHONE.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/node_modules/grunt-contrib-less/node_modules/less/node_modules/request/index.js",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/branding-DESK.less",
+		"/C/development/projects/training/backbone/index.html",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/Gruntfile.js",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/node_modules/grunt/node_modules/glob/test/bash-results.json",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/img/logo_UWAA_footer (2).svg",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/nav-menu.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/lib/nav.php",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/bootstrap/navbar.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/bootstrap/navs.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/nav-menu-DESK.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/nav-menu-MOB.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/nav-menu-PHONE.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/nav-menu-TAB.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/node_modules/grunt-contrib-watch/test/tasks/events_test.js",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/break-single-events.php",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/js/_accordionPlusMinus.js",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/node_modules/grunt-wp-assets/docs/version-options.md",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/node_modules/grunt-wp-assets/docs/version-examples.md",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/hamburger-navbar-ALL.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action_container.js",
+		"/C/Users/bperick.NETID/Desktop/blank.html",
+		"/C/Users/bperick.NETID/AppData/Local/Temp/fz3temp-1/.htaccess",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/sub_commands.js",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/lang/da_DK.mo",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/buttons-TAB.less",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/node_modules/grunt-contrib-less/test/expected/variablesAsLess.css",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/lang/vi_VN.mo",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/lib/custom/dd_shortcodes.php",
+		"/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/node_modules/grunt-contrib-clean/test/fixtures/sample_short/short.txt",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/less/nav-menu-MOB.less",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/less/thinstrip-MOB-UW.less",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/less/branding-TAB.less",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/less/branding-ALL.less",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/less/bootstrap/variables.less",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/less/thinstrip-ALL.less",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/less/info-bar-ALL.less",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/less/typography-ALL.less",
+		"/Z/.htaccess",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/less/banner-TAB.less",
+		"/Z/subscribe/address-change.html",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/lib/custom/dd_shortcodes.php",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/less/open-iconic-bootstrap.less",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/fonts/open-iconic-master/font/css/open-iconic-bootstrap.less",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/less/style.less",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/lib/config.php",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/js/vendor/hammerjs-2.0.0-min.js",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/assets/js/_galleryPan.js",
+		"/C/development/projects/wordpress/wp-content/themes/dawgdash/lib/scripts.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			">>>>>>> two-row-nav",
+			"=======",
+			"!important",
+			"height: 76px;",
+			"margin: 30px 64px;",
+			"lead",
+			"78",
+			"38",
+			"width: 38px;",
+			"6",
+			"height: 76px;",
+			".teaser-day-numeral;",
+			") {",
+			"86",
+			"85",
+			"height: 76px;\n    width: 85px;\n    position: relative;\n    float:left;\n    margin-right: 2px",
+			"85",
+			"85p",
+			" 85",
+			"85px;",
+			"85",
+			"8",
+			"44",
+			"xs-max",
+			"my_styles",
+			"226",
+			"krogs_custom_field_body_class",
+			"active",
+			"\"",
+			"animate",
+			"\"",
+			"000000",
+			"#FFFFFF",
+			"TEASER",
+			"event-",
+			"event-group",
+			"event-",
+			"TEXT",
+			"args",
+			"927b4c",
+			"[accordion-title",
+			"accordion-title",
+			"accordion",
+			"accordion]",
+			"[accordion]",
+			"p",
+			"a",
+			"span",
+			"hidden-xs hidden-sm hidden-md",
+			"visible-lg",
+			"md",
+			"sm",
+			"hidden",
+			"line-height:",
+			"font-size:",
+			"font-size: 21px;",
+			"#accordion",
+			".collapse",
+			"e",
+			"accordion",
+			"sm",
+			"xs",
+			"_start",
+			"\n	",
+			"_start",
+			"gallery",
+			"dl",
+			"\\\"",
+			"flowtype",
+			"\"img/mobi",
+			"img",
+			"xs",
+			"sm",
+			"visible-phone",
+			"1",
+			"dd_races",
+			"dd_raceInfo",
+			"root",
+			"title",
+			"properties",
+			"i",
+			"title",
+			"start",
+			"static",
+			"CustomMetaBox",
+			"foo",
+			"bartag",
+			"foo",
+			"h3",
+			"race_alt_length_2",
+			"race_alt_length_1",
+			"dd_race_alt_length_1",
+			"length_1",
+			"_uwaa_mb_dd_race_date",
+			"h2",
+			"dawgdash_post_meta_setup",
+			"border-radius",
+			"app.less",
+			"app",
+			"js/",
+			"css/",
+			"less/",
+			"vendor",
+			"vendo",
+			"essay",
+			"</option>",
+			"academic",
+			"a",
+			"button",
+			"<button",
+			"button",
+			"			○",
+			"		○",
+			"</label>",
+			"</tr><tr>",
+			"<td>",
+			"\">",
+			"selectLis",
+			".dev.",
+			">>",
+			"a href",
+			"“",
+			"”",
+			"10px",
+			"cleanBenefitData($results_array);\n		stripURL($results_array['benefit_content']);	\n		extractURL($results_array['url']);",
+			"p",
+			"featu",
+			"p"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/css/main.min.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 148933,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								146164,
+								146164
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 108204.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/typography-ALL.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5104,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								858,
+								858
+							],
+							[
+								1700,
+								1700
+							],
+							[
+								1875,
+								1875
+							],
+							[
+								2171,
+								2171
+							],
+							[
+								2282,
+								2282
+							],
+							[
+								2354,
+								2354
+							],
+							[
+								3508,
+								3508
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1630.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/teaser-boxes-DESK.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 46,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								46,
+								46
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "teaser-boxes-tab.less",
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/lib/scripts.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3504,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								417,
+								389
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-2014/uwaa-functions/setup/Taxonomies/Tours.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2183,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16,
+								16
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/js/_flowtype.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 398,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								398,
+								279
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/date-nav-DESK.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 953,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								346,
+								346
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/date-nav-TAB.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								573,
+								573
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/banner-MOB.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 305,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								222,
+								222
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/.gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 180,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								179,
+								179
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/banner-PHONE.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 322,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								290,
+								290
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/branding-TAB.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 255,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97,
+								97
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/branding-DESK.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 184,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								115,
+								115
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/banner-TAB.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 236,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								153,
+								153
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/banner-WIDE.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 239,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								153,
+								131
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 15,
+					"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/date-nav.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1573,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								285,
+								285
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 315.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/style.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4446,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4160,
+								4160
+							],
+							[
+								4363,
+								4363
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2949.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/templates/content-home.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 479,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7,
+								7
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/teaser-boxes.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1460,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								827,
+								827
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/templates/home-event-teasers.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1481,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "/C/development/projects/wordpress/wp-content/themes/uwaa-veterans/assets/less/teaser-boxes-TAB.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 54,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								52,
+								15
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 193.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "uwaa-vets.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"assets\\js\\_flowtype.js"
+			],
+			[
+				"flow",
+				"assets\\js\\vendor\\flowtype.js"
+			],
+			[
+				"typ",
+				"assets\\less\\typography-ALL.less"
+			],
+			[
+				"bann",
+				"assets\\less\\banner-ALL.less"
+			],
+			[
+				"ty",
+				"assets\\less\\typography-ALL.less"
+			],
+			[
+				"da",
+				"assets\\less\\date-nav.less"
+			],
+			[
+				"sty",
+				"assets\\less\\style.less"
+			],
+			[
+				"vari",
+				"assets\\less\\bootstrap\\variables.less"
+			],
+			[
+				"phon",
+				"assets\\less\\banner-PHONE.less"
+			],
+			[
+				"banner",
+				"assets\\less\\banner-ALL.less"
+			],
+			[
+				"vet",
+				"templates\\vets-nav.php"
+			],
+			[
+				"custom",
+				"assets\\less\\custom-mixins.less"
+			],
+			[
+				"mix",
+				"assets\\less\\bootstrap\\mixins.less"
+			],
+			[
+				"vets",
+				"templates\\vets-nav.php"
+			],
+			[
+				"date",
+				"assets\\less\\date-nav.less"
+			],
+			[
+				"style.le",
+				"assets\\less\\style.less"
+			],
+			[
+				"styel",
+				"style.css"
+			],
+			[
+				"colo",
+				"node_modules\\grunt-contrib-less\\node_modules\\less\\test\\less\\colors.less"
+			],
+			[
+				"teas",
+				"assets\\less\\teaser-boxes.less"
+			],
+			[
+				"svg",
+				"assets\\img\\logo_UWAA_footer.svg"
+			],
+			[
+				"brand",
+				"assets\\less\\branding-ALL.less"
+			],
+			[
+				"nav",
+				"templates\\vets-nav.php"
+			],
+			[
+				"veta",
+				"templates\\vets-nav.php"
+			],
+			[
+				"single",
+				"templates\\content-single.php"
+			],
+			[
+				"date-n",
+				"assets\\less\\date-nav.less"
+			],
+			[
+				"navphp",
+				"templates\\calendar-nav.php"
+			],
+			[
+				"scri",
+				"lib\\scripts.php"
+			],
+			[
+				"var",
+				"assets\\less\\bootstrap\\variables.less"
+			],
+			[
+				"short",
+				"lib\\custom\\dd_shortcodes.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\development\\projects\\uwaa-2014-site.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"date",
+				"date-box"
+			],
+			[
+				"purple",
+				"purple-box"
+			],
+			[
+				"date-box",
+				"date-box"
+			],
+			[
+				"h",
+				"header"
+			],
+			[
+				"nav",
+				"nav-group-teaser.active"
+			],
+			[
+				"patch",
+				"patch"
+			],
+			[
+				"register",
+				"registerButton"
+			]
+		],
+		"width": 624.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 259.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}

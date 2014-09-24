@@ -22,7 +22,7 @@ var Roots = {
   // All pages
   common: {
     init: function() {
-      
+
     }
   },
   // Home page

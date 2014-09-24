@@ -61,19 +61,21 @@ class dd_shortCodes {
     return   '<div id="accordion">'.do_shortcode($content).'</div>';
 	}
 
-	public function videoWrapper_func ($atts, $content="") {
+	public function videoWrapper_func ($atts) {
 		$a = shortcode_atts( array(
-	        
+	        'link' => 'Link to YouTube Video',
+	        'screenshot' => 'Link to Screenshot URL'
 	    ), $atts );
 		
-		return "<div class=\"videoWrapper pull-right\">$content</div>";
+		return "<a class=\"videoWrapper\" href=\"{$a['link']}\"><img class=\"img img-responsive\" src=\"{$a['screenshot']}\" /></a>";
 
 		
 	}
 
 	public function registerButton_func($atts)	{
 		$a = shortcode_atts( array(
-	        'link' => 'Link to Registration Page'
+	        'link' => 'Link to Registration Page',
+	        
 	    ), $atts );
 
 	    return "<div class=\"registerButton-Container\"><a id=\"registerButton\" title=\"link to registration page\" href=\"{$a['link']}\" target=\"_blank\">Register Now</a><p class=\"small\">This button will link to getmeregistered.com</p></div>";
