@@ -6,7 +6,9 @@ var bounds = L.latLngBounds(SW, NE);
 
 var clientWidth = $(window).width();
 
-var map = L.mapbox.map('map', 'bperick.ilp0kaof', {
+// var map = L.mapbox.map('map', 'bperick.ilp0kaof', {
+  L.mapbox.accessToken = 'pk.eyJ1IjoiYnBlcmljayIsImEiOiJrT2xBSUNzIn0.n-CVAwFlqHGqkiDUxsIdSQ';
+  var map = L.mapbox.map('map', 'bperick.io0079f9', {
 	tileLayer: {
 		detectRetina:true,
   },

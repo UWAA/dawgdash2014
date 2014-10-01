@@ -70,22 +70,23 @@ var NE = L.latLng(47.6774957780179, -122.274227142334);
 var bounds = L.latLngBounds(SW, NE);
 
 var clientWidth = $(window).width();
-
-var map = L.mapbox.map('map', 'bperick.ilp0kaof', {
+L.mapbox.accessToken = 'pk.eyJ1IjoiYnBlcmljayIsImEiOiJrT2xBSUNzIn0.n-CVAwFlqHGqkiDUxsIdSQ';
+var map = L.mapbox.map('map', 'bperick.io0079f9', {
+// var map = L.mapbox.map('map', 'bperick.ilp0kaof', {
   tileLayer: {
     detectRetina:true,
   },
   maxBounds:bounds,
-  minZoom:15,
+  minZoom:13,
   scrollWheelZoom:false,
   doubleClickZoom:false,
   tap:false
   });
 
   if (clientWidth < 480) {
-    map.setView([47.6570, -122.3080], 16);
+    map.setView([47.6570, -122.3080], 14);
   } else {
-    map.setView([47.6560, -122.3095], 16);
+    map.setView([47.6670, -122.3095], 14);
   }
     
 
@@ -110,7 +111,7 @@ map.featureLayer.on('ready', function(){
 
 for (var i = 0; i < features.length; i++) {
     typesObj[features[i].properties.title] = true;
-    //typesObj[features[i].geometry.type] = true;
+    // typesObj[features[i].geometry.type] = true;
   }
   for (var k in typesObj) {
     types.push(k);
@@ -136,25 +137,35 @@ for (var i = 0; i < features.length; i++) {
      return (feature.properties.title in enabled);
      //return (feature.properties.title in enabled);
     });
+    console.log(checkboxes);
   }
 
   // Create a filter interface.
   for (var ii = 0; ii < types.length; ii++) {
     // Create an an input checkbox and label inside.
-    var item = course_ui.appendChild(document.createElement('div'));
-    var checkbox = item.appendChild(document.createElement('input'));
-    var label = item.appendChild(document.createElement('label'));
-    checkbox.type = 'checkbox';
-    checkbox.id = types[ii];
-    checkbox.checked = true;
-    item.className='active ui_menu_box';
-    // create a label to the right of the checkbox with explanatory text
-    label.innerHTML = types[ii];
-    label.setAttribute('for', types[ii]);
-    // Whenever a person clicks on this checkbox, call the update().
-    //checkbox.addEventListener('change', update);
-    checkboxes.push(checkbox);
-  }
+    if (types[ii] === '10K Course' || types[ii] === '5K Course' ) {
+      var item = course_ui.appendChild(document.createElement('div'));
+      var checkbox = item.appendChild(document.createElement('input'));
+      var label = item.appendChild(document.createElement('label'));
+      checkbox.type = 'checkbox';
+      checkbox.id = types[ii];
+      checkbox.checked = true;
+      item.className='active ui_menu_box';
+      // create a label to the right of the checkbox with explanatory text
+      label.innerHTML = types[ii];
+      label.setAttribute('for', types[ii]);
+      // Whenever a person clicks on this checkbox, call the update().
+      //checkbox.addEventListener('change', update);
+      checkboxes.push(checkbox);
+    } else {
+      var nonUIElement = {};
+      nonUIElement.id = types[ii];
+      nonUIElement.checked = true;
+      checkboxes.push(nonUIElement);
+    }
+      console.log(checkboxes);
+    }
+ 
 
   // This function is called whenever someone clicks on a checkbox and changes
   // the selection of markers to be displayed.

@@ -50,9 +50,9 @@ module.exports = function(grunt) {
           ]
         },
         options: {
-          mangle: true,
-          compress: true,
-          beautify: false
+          mangle: false,
+          compress: false,
+          beautify: true
           // JS source map: to enable, uncomment the lines below and update sourceMappingURL based on your install
           // sourceMap: 'assets/js/scripts.min.js.map',
           // sourceMappingURL: '/app/themes/roots/assets/js/scripts.min.js.map'
