@@ -30,7 +30,7 @@ wp_enqueue_script('lightboxInit');
       
   </article>
 
-
+<a name="coursemap" class="anchor"></a>
 <div class="container-fluid">
 <div id="map-container">
 <nav id='course-ui' class='menu-ui'></nav>

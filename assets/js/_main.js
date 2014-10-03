@@ -28,7 +28,7 @@ var Roots = {
   // Home page
   home: {
     init: function() {
-      $(".rslides").responsiveSlides({
+      $('.rslides').responsiveSlides({
     auto: true,             // Boolean: Animate automatically, true or false
     speed: 700,            // Integer: Speed of the transition, in milliseconds
     timeout: 3000,          // Integer: Time between slide transitions, in milliseconds
@@ -37,17 +37,17 @@ var Roots = {
     random: false,          // Boolean: Randomize the order of the slides, true or false
     pause: true,           // Boolean: Pause on hover, true or false
     pauseControls: true,    // Boolean: Pause when hovering controls, true or false
-    prevText: "Previous",   // String: Text for the "previous" button
-    nextText: "Next",       // String: Text for the "next" button
-    maxwidth: "475",           // Integer: Max-width of the slideshow, in pixels
-    navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
-    manualControls: "",     // Selector: Declare custom pager navigation
-    namespace: "rslides",   // String: Change the default namespace used
+    prevText: 'Previous',   // String: Text for the 'previous' button
+    nextText: 'Next',       // String: Text for the 'next' button
+    maxwidth: '475',           // Integer: Max-width of the slideshow, in pixels
+    navContainer: '',       // Selector: Where controls should be appended to, default is after the 'ul'
+    manualControls: '',     // Selector: Declare custom pager navigation
+    namespace: 'rslides',   // String: Change the default namespace used
     before: function(){},   // Function: Before callback
     after: function(){}     // Function: After callback
   });
 
-$(".link-button .disabled").click(function(event) {
+$('.link-button .disabled').click(function(event) {
     event.preventDefault();
   });
   }
@@ -65,14 +65,30 @@ seattle: {
     init: function() {
       
 
-var SW = L.latLng(47.6430704492123, -122.334308624268);
-var NE = L.latLng(47.6774957780179, -122.274227142334);
+var SW = L.latLng(47.5430704492123, -122.434308624268);
+var NE = L.latLng(47.7774957780179, -122.174227142334);
 var bounds = L.latLngBounds(SW, NE);
 
 var clientWidth = $(window).width();
+//Always get the current window width
+  $(window).resize(function() {
+    clientWidth = $(window).width();
+    map.closePopup();
+  });
+
+  //Set up the initial map 
+  var startingClientWidth = $(window).width();
+
+  if (startingClientWidth < 480) {
+    setCenter = [47.6580, -122.3030];
+    zoomCenter = 14;
+  } else {
+    setCenter = [47.6575, -122.3095];
+    zoomCenter = 15;
+  }
+
 L.mapbox.accessToken = 'pk.eyJ1IjoiYnBlcmljayIsImEiOiJrT2xBSUNzIn0.n-CVAwFlqHGqkiDUxsIdSQ';
 var map = L.mapbox.map('map', 'bperick.io0079f9', {
-// var map = L.mapbox.map('map', 'bperick.ilp0kaof', {
   tileLayer: {
     detectRetina:true,
   },
@@ -80,15 +96,32 @@ var map = L.mapbox.map('map', 'bperick.io0079f9', {
   minZoom:13,
   scrollWheelZoom:false,
   doubleClickZoom:false,
-  tap:false
+  tap:false,
+  center: setCenter,
+  zoom: zoomCenter
+
   });
 
-  if (clientWidth < 480) {
-    map.setView([47.6570, -122.3080], 14);
-  } else {
-    map.setView([47.6670, -122.3095], 14);
-  }
+
+  
     
+    //https://github.com/Leaflet/Leaflet/issues/859
+  L.Map.prototype.panToOffset = function (latlng, offset, options) {
+    var x = this.latLngToContainerPoint(latlng).x - offset[0];
+    var y = this.latLngToContainerPoint(latlng).y - offset[1];
+    var point = this.containerPointToLatLng([x, y]);
+    return this.setView(point, this._zoom, { pan: options });
+};
+
+    //Pan to the feature layer minus a little bit so the tooltip stays in frame.
+    map.featureLayer.on('click', function(e) {
+      if (clientWidth > 480) {
+        var yOffset = $('#map').height() / 3;
+        map.panToOffset(e.layer.getLatLng(), ['0', yOffset]);
+     } else {
+      return;
+     }
+    });
 
 
 
@@ -107,17 +140,17 @@ map.featureLayer.on('ready', function(){
   var typesObj = {};
   var types = [];
   var features = map.featureLayer.getGeoJSON().features;
+  var checkboxes = [];
 
+  for (var i = 0; i < features.length; i++) {
+      typesObj[features[i].properties.title] = true;
+      // typesObj[features[i].geometry.type] = true;
+    }
+    for (var k in typesObj) {
+      types.push(k);
+    }
 
-for (var i = 0; i < features.length; i++) {
-    typesObj[features[i].properties.title] = true;
-    // typesObj[features[i].geometry.type] = true;
-  }
-  for (var k in typesObj) {
-    types.push(k);
-  }
-
- var checkboxes = [];
+ 
 
  function update() {
     var enabled = {};
@@ -137,7 +170,7 @@ for (var i = 0; i < features.length; i++) {
      return (feature.properties.title in enabled);
      //return (feature.properties.title in enabled);
     });
-    console.log(checkboxes);
+    
   }
 
   // Create a filter interface.
@@ -150,9 +183,9 @@ for (var i = 0; i < features.length; i++) {
       checkbox.type = 'checkbox';
       checkbox.id = types[ii];
       checkbox.checked = true;
-      item.className='active ui_menu_box';
+      item.className='active ui_menu_box toggle_box';
       // create a label to the right of the checkbox with explanatory text
-      label.innerHTML = types[ii];
+      label.textContent = types[ii];
       label.setAttribute('for', types[ii]);
       // Whenever a person clicks on this checkbox, call the update().
       //checkbox.addEventListener('change', update);
@@ -163,8 +196,25 @@ for (var i = 0; i < features.length; i++) {
       nonUIElement.checked = true;
       checkboxes.push(nonUIElement);
     }
-      console.log(checkboxes);
+      
     }
+
+
+    //Add the legend to the interface
+    var Legend = [
+      ['Mad Campus', 'mad-campus' ],
+      [ 'Campus Landmarks', 'landmarks'],
+      ['Start', 'start'],
+      ['Finish', 'finish']
+    ];
+
+    Legend.forEach(function(element, index, array) {
+      var Legenditem = course_ui.appendChild(document.createElement('div'));
+      var LegendText = Legenditem.appendChild(document.createElement('p'));
+      Legenditem.className='ui_menu_box legend '+Legend[index][1]+'';
+      LegendText.textContent = Legend[index][0];
+
+    });
  
 
   // This function is called whenever someone clicks on a checkbox and changes
@@ -210,27 +260,22 @@ function checkCheck () {
 
 function bindUI() {
 $('#course-ui')
-    .on('tap', '.ui_menu_box', toggleAndCheck)
+    .on('tap', '.toggle_box', toggleAndCheck)
     .on('tap', 'label', justToggle)
-    .on('touchend mouseup', '.ui_menu_box', checkCheck);
+    .on('touchend mouseup', '.toggle_box', checkCheck);
 }
 
 
 function unBindUI() {
  $('#course-ui')
-    .off('tap', '.ui_menu_box')
+    .off('tap', '.toggle_box')
     .off('tap', 'label')
-    .off('touchend mouseup', '.ui_menu_box');
+    .off('touchend mouseup', '.toggle_box');
 }
 
 map.on('move', unBindUI);
 map.on('moveend', bindUI);
-
 bindUI();
-
-
-
-
 });//end onReady for FeatureLayer
 
 
