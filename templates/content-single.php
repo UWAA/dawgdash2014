@@ -25,9 +25,6 @@ while (have_posts()) : the_post();
       <?php wp_link_pages(array('before' => '<nav class="page-nav"><p>' . __('Pages:', 'roots'), 'after' => '</p></nav>')); ?>
     </footer>
     </div></div>
-     <div class="container">
-          <div class="row">
-    <?php comments_template('/templates/comments.php'); ?>
-    </div></div>
+     
   </article>
 <?php endwhile; ?>

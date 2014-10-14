@@ -164,8 +164,12 @@ body {}
    ========================================================================== */
 
 .aligncenter { display: block; margin: 0 auto; }
-.alignleft { float: left; }
-.alignright { float: right; }
+// .alignleft { float: left; }
+// .alignright { float: right; }
+.alignleft, .alignright {
+      float:none;
+      margin: 0 auto 10px;
+   }
 figure.alignnone { margin-left: 0; margin-right: 0; }
 
 
@@ -182,6 +186,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
    @import "nav-menu-PHONE.less";
    @import "branding-PHONE.less";
 
+ 
+
    .responsive-break{display:block;}
 }
 
@@ -193,6 +199,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @import "branding-MOB.less";
 @import "nav-menu-MOB.less";
 @import "thinstrip-MOB.less";
+
+
  }
 
 
@@ -204,9 +212,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 .rslides {
    margin: 0 0 50px 20px;
-   float:right;
-   
+   float:right;   
 }
+
+
 
 
 }
@@ -219,6 +228,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @import "nav-menu-DESK.less";
 @import "branding-DESK.less";
 
+.alignleft { float: left;margin-right:15px;margin-bottom:15px; }
+.alignright { float: right;margin-left:15px;margin-bottom:15px; }
 
 
 
