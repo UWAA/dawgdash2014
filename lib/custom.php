@@ -72,8 +72,8 @@ array(
 )
 ));
 
-function mytheme_tinymce_config( $init ) {
-    $valid_iframe = 'iframe[id|class|title|style|align|frameborder|height|longdesc|marginheight|marginwidth|name|scrolling|src|width]';
+function add_spotify_iframe( $init ) {
+    $valid_iframe = 'iframe[id|class|title|style|align|frameborder|height|longdesc|marginheight|marginwidth|name|scrolling|src|width|allowtransparency]';
     if ( isset( $init['extended_valid_elements'] ) ) {
         $init['extended_valid_elements'] .= ',' . $valid_iframe;
     } else {
@@ -81,4 +81,4 @@ function mytheme_tinymce_config( $init ) {
     }
     return $init;
 }
-add_filter('tiny_mce_before_init', 'mytheme_tinymce_config');
+add_filter('tiny_mce_before_init', 'add_spotify_iframe');

@@ -39,6 +39,10 @@ foreach ($racePosts as $post):  ?>
 			echo '<div class="link-button">';
 			echo '<a href="'.wp_get_shortlink().'" role="button">';
 			echo "register now</a>";
+		} elseif ($post->post_name == 'nyc' ) {
+			echo '<div class="link-button">';
+			echo '<a href="'.wp_get_shortlink().'" role="button">';
+			echo "learn more</a>";
 		} else {
 			echo '<div class="link-button">';
 			echo '<a href="" class="disabled" role="button">';

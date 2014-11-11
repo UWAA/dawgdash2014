@@ -2,7 +2,7 @@
 
 wp_enqueue_script('mapbox');
 wp_enqueue_style('mapbox');
-// wp_enqueue_script('seattle_map');
+// wp_enqueue_script('seattle_map');  Pull this back out for the NYC Map, and get it on a page/page basis...
 wp_enqueue_script('lightbox');
 wp_enqueue_script('lightboxInit');
 
@@ -30,14 +30,20 @@ wp_enqueue_script('lightboxInit');
       
   </article>
 
-<a name="coursemap" class="anchor"></a>
-<div class="container-fluid">
-<div id="map-container">
-<nav id='course-ui' class='menu-ui'></nav>
-<div id="map"></div>
-<div id="scrolltop"><span class="oi oi-chevron-top"></span></div>
-</div>
-</div>
+<?php 
+if ($post->post_name == 'seattle' ) {     
+
+echo "<a name=\"coursemap\" class=\"anchor\"></a>";
+echo "<div class=\"container-fluid\">";
+echo "<div id=\"map-container\">";
+echo "<nav id='course-ui' class='menu-ui'></nav>";
+echo "<div id=\"map\"></div>";
+echo "<div id=\"scrolltop\"><span class=\"oi oi-chevron-top\"></span></div>";
+echo "</div>";
+echo "</div>";
+}
+?>
+
 <footer>
 
 </footer>
