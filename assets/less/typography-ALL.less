@@ -27,25 +27,32 @@
 
 
 .info-box{
-	h2{
+	h2, a{
 	font-family: 'Ultra', serif;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	font-size: 30px;
-	@media (max-width: @screen-sm-max) { font-size:25px;}
+	font-size: 27px;
+	@media (max-width: @screen-sm-max) { font-size:24px;}
 	@media (max-width: @screen-xs-max) { font-size:30px;}
 	// @media (max-width: @screen-xs) { font-size:30px;}
-	margin:10px 0;
+	margin:10px 0 15px;
+	color: @white;
+
+	&:hover{
+		text-decoration: none;
+
+	}
 	}
 
 	p {
+	font-family: "Open Sans",Helvetica,Arial,sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin: 0;
-	line-height: 1.22;
+	line-height: 1.27;
 	padding: 0 10px;
-	font-size: 22px;
-	@media (max-width: @screen-sm-max) { font-size:20px;}
+	font-size: 17px;
+	@media (max-width: @screen-sm-max) { font-size:18px; padding:0 15px;}
 	@media (max-width: @screen-xs-max) { font-size:22px;}
 	// @media (max-width: @screen-xs) { font-size:22px;}
 	
@@ -69,9 +76,9 @@
 		letter-spacing: 1.4px;
 		line-height: 1;
 		margin: 0 auto;
-		font-size: 16px;
-		@media (max-width: @screen-md-max) { font-size:15px;}
-		@media (max-width: @screen-sm-max) { font-size:12px;}
+		font-size: 15px;
+		@media (max-width: @screen-md-max) { font-size:14px;}
+		@media (max-width: @screen-sm-max) { font-size:15px;}
 		@media (max-width: @screen-xs-max) { font-size:16px;}
 		text-decoration: none;
 		font-weight: normal;

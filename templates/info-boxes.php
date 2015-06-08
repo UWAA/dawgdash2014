@@ -11,6 +11,18 @@ $args = array(
 $racePosts = get_posts($args);
 
 foreach ($racePosts as $post):  ?>
+
+
+<?php
+		if (get_post_meta(get_the_id(), '_uwaa_mb_dd_front_info_box_link', true)) {			
+			echo '<a href="'.get_post_meta(get_the_id(), '_uwaa_mb_dd_front_info_box_link', true).'">';			
+	
+		} else {			
+			echo '<a class="disabled">';
+			
+		}
+
+		?>
 		
 		<div class="info-box">
 		<div class="info-box-content">
@@ -35,17 +47,13 @@ foreach ($racePosts as $post):  ?>
 		<p><?php echo get_post_meta(get_the_id(), '_uwaa_mb_dd_race_start_time', true); ?></p>
 		
 		<?php
-		if ($post->post_name == 'seattle') {
-			echo '<div class="link-button">';
-			echo '<a href="'.wp_get_shortlink().'" role="button">';
-			echo "register now</a>";
-		} elseif ($post->post_name == 'nyc' ) {
-			echo '<div class="link-button">';
-			echo '<a href="'.wp_get_shortlink().'" role="button">';
-			echo "learn more</a>";
-		} else {
-			echo '<div class="link-button">';
-			echo '<a href="" class="disabled" role="button">';
+		if (get_post_meta(get_the_id(), '_uwaa_mb_dd_front_info_box_text', true)) {
+			echo '<a href="'.get_post_meta(get_the_id(), '_uwaa_mb_dd_front_info_box_link', true).'">';
+			echo '<div class="link-button">';						
+			echo ''. get_post_meta(get_the_id(), '_uwaa_mb_dd_front_info_box_text', true).'</a>';		
+		}  else {
+			echo '<a class="disabled">';
+			echo '<div class="link-button">';			
 			echo "coming soon</a>";
 		}
 
@@ -53,7 +61,7 @@ foreach ($racePosts as $post):  ?>
 		</div>
 		</div>
 		</div>
-
+		</a>
 
 
 

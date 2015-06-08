@@ -68,6 +68,16 @@ array(
 'id' => 'dd_race_alt_length_2',
 'type' => 'text',
 ),
+array(
+'name' => 'Front Info Box Text',
+'id' => 'dd_front_info_box_text',
+'type' => 'text',
+),
+array(
+'name' => 'Front Info Box Text',
+'id' => 'dd_front_info_box_link',
+'type' => 'text',
+),
 
 )
 ));
