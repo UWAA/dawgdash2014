@@ -74,7 +74,7 @@ array(
 'type' => 'text',
 ),
 array(
-'name' => 'Front Info Box Text',
+'name' => 'Front Info Box Link',
 'id' => 'dd_front_info_box_link',
 'type' => 'text',
 ),
