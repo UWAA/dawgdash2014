@@ -11,6 +11,7 @@
   <div class="entry-summary">
     <?php the_excerpt(); ?>
   </div>
-  </div></div>
+  </div>
+  </div>
   </article>
   
