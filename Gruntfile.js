@@ -20,7 +20,7 @@ module.exports = function(grunt) {
           ]
         },
         options: {
-          compress: true,
+          compress: false,
           // LESS source map
           // To enable, set sourceMap to true and update sourceMapRootpath based on your install
           sourceMap: false,
@@ -71,8 +71,7 @@ module.exports = function(grunt) {
     watch: {
       less: {
         files: [
-          'assets/less/*.less',
-          'assets/less/bootstrap/*.less'
+          'assets/less/**/*.less'
         ],
         tasks: ['less', 'version']
       },

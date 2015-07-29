@@ -2,8 +2,23 @@
  * Roots 6.5.2
  */
 
+@import "uw-2014/style.less";
 
-@import "bootstrap/bootstrap.less";
+
+
+
+// 
+@purple: #39275b;
+@uw-gold: #d7a900;
+@purple-overlay: fade(#1F002F, 80%);
+@gray-border: #dedede;
+@accordion-rule: #888888;
+@nav-disabled: #6c6c7a;
+@uw-bright-blue: rgb(0, 70, 173);
+@white: #FFFFFF;
+
+@import "bootstrap/type-custom.less";
+@import "bootstrap/variables.less";
 @import "open-iconic-bootstrap.less";
 @import "custom-mixins.less";
 @import "thinstrip-ALL.less";
@@ -28,7 +43,9 @@
    Base
    ========================================================================== */
 
-body {}
+body {
+   margin: 0;
+}
 
 
 
@@ -37,8 +54,7 @@ body {}
    ========================================================================== */
 
 .banner {
-   .make-row();
-   margin-top:30px;
+   .make-row();   
    background-image: url("../img/dd_header_1200.jpg");
    background-size: cover;
    height: 346px;

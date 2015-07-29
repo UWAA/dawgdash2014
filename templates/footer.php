@@ -11,3 +11,10 @@
 </footer>
 
 <?php wp_footer(); ?>
+
+
+
+<!-- Closing new container classes -->
+</div>
+
+</div>
