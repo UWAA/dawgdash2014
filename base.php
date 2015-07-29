@@ -1,6 +1,6 @@
 <?php get_template_part('templates/head'); ?>
 <body <?php body_class(); ?>>
-<div class="container-fluid">
+<!-- <div class="container-fluid"> -->
 
   <!--[if lt IE 8]>
     <div class="alert alert-warning">
@@ -23,7 +23,7 @@
       </main><!-- /.main -->
     </div><!-- /.content -->
   </div><!-- /.wrap -->
-  </div>
+  <!-- </div> -->
   <?php get_template_part('templates/footer'); ?>
 
 

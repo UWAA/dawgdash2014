@@ -18,14 +18,15 @@
     
     </div>
     
+     <div class="info-boxes">
+          <?php get_template_part('templates/info-boxes'); ?>
+    </div>
 
     
           
   </article>
 
-  <div class="info-boxes">
-          <?php get_template_part('templates/info-boxes'); ?>
-    </div>
+ 
 
 
    
