@@ -24,7 +24,7 @@
           
   </article>
 
-     <div class="info-boxes">
+     <div class="uwaa-info-boxes">
           <?php get_template_part('templates/info-boxes'); ?>
     </div>
 
