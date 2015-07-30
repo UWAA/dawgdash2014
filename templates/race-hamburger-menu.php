@@ -1,8 +1,7 @@
 <nav class="navbar navbar-default navbar-fixed-top race-hamburger-navbar" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <?php get_template_part('templates/patch'); ?>
+    <div class="navbar-header">      
       <a class="pull-right hamburger-toggle" data-toggle="collapse" data-target="#race-hamburger">
         <span class="sr-only">Toggle navigation</span>
         RACES

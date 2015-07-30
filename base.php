@@ -10,8 +10,7 @@
 
 
   <?php
-  get_template_part('templates/race-hamburger-menu');
-  get_template_part('templates/header-top-navbar');
+  get_template_part('templates/race-hamburger-menu');  
   do_action('get_header');
   get_template_part('templates/header');
   ?>

@@ -20,7 +20,7 @@ wp_enqueue_script('lightboxInit');
             <?php get_template_part('templates/info-bar'); ?>
           </header>
           </div>
-        </div>
+        
         
  
        
@@ -28,8 +28,10 @@ wp_enqueue_script('lightboxInit');
         <?php the_content(); ?>
       </div>
       
+      </div>
   </article>
 
+<div class="container-fluid">
 <?php 
 if ($post->post_name == 'seattle' ) {     
 
@@ -43,6 +45,8 @@ echo "</div>";
 echo "</div>";
 }
 ?>
+
+</div>
 
 <footer>
 

@@ -13400,6 +13400,9 @@ ul.uwaa-social li a:focus.email {
   height: 24px;
   width: 24px;
 }
+#uwaa-footer .footer-links {
+  font-size: .95em;
+}
 #uwaa-footer .contact-links {
   height: 4.706em;
   position: relative;
@@ -13518,15 +13521,6 @@ ul.uwaa-social li a:focus.email {
 }
 #uwaa-footer .uwaa-logo svg g path {
   fill: #ffffff;
-}
-.tours-footer-logo {
-  padding-bottom: 20px;
-  padding-left: 40px;
-}
-@media only screen and (max-width: 991px) {
-  .tours-footer-logo {
-    padding-left: 0;
-  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   #uwaa-footer .social-icons {
@@ -14523,16 +14517,20 @@ ul.uwaa-social li a:focus.email {
   right: 0;
   top: 40%;
   z-index: 1;
+  transition: none;
 }
 ul.dd-nav li.active {
   background-color: #b7a57a;
+  transition: none;
 }
 ul.dd-nav li.active a {
   color: #ffffff;
+  transition: none;
 }
 ul.dd-nav li.active a:hover {
   background-color: inherit;
   cursor: pointer;
+  transition: none;
 }
 ul.dd-nav li {
   background-color: #39275b;
@@ -14540,6 +14538,7 @@ ul.dd-nav li {
   margin: 20px 0;
   width: 248px;
   padding-left: 10px;
+  transition: none;
 }
 ul.dd-nav li a {
   color: #6c6c7a;
@@ -14548,19 +14547,24 @@ ul.dd-nav li a {
 ul.dd-nav li a:hover {
   color: #ffffff;
   background-color: inherit;
+  transition: none;
 }
 .home ul.dd-nav li {
   color: #ffffff;
   background-color: #b7a57a;
+  transition: none;
 }
 .home ul.dd-nav li:hover {
   background-color: #39275b;
+  transition: none;
 }
 .home ul.dd-nav li {
   background-color: #b7a57a;
+  transition: none;
 }
 .home ul.dd-nav li a {
   color: #ffffff;
+  transition: none;
 }
 .home ul.dd-nav li a:hover {
   color: #ffffff;
@@ -15312,6 +15316,7 @@ td.race-hamburger-navbar {
   color: #ffffff;
   margin: 1px 0 0 24px;
   line-height: 1;
+  font-size: 13px;
 }
 .legend div:hover {
   box-shadow: none !important;
@@ -16599,10 +16604,6 @@ figure.alignnone {
     margin-top: 0;
     overflow-y: visible;
   }
-  .seattle .banner {
-    background-image: url("../img/dd_logo_Seattle_320.png");
-    background-clip: none;
-  }
   .race-hamburger-navbar {
     display: block !important;
   }
@@ -16967,9 +16968,6 @@ figure.alignnone {
     width: 328px;
     height: 166px;
   }
-  .seattle .patch-container .homelink {
-    background: url(../img/dd_logo_Seattle_768.png) no-repeat;
-  }
   .nav-main {
     position: absolute;
     right: 0;
@@ -17249,9 +17247,6 @@ figure.alignnone {
     top: 30px;
     width: 328px;
     height: 166px;
-  }
-  .seattle .patch-container .homelink {
-    background: url(../img/dd_logo_Seattle_768.png) no-repeat;
   }
   .patch {
     position: absolute;
@@ -17587,9 +17582,6 @@ figure.alignnone {
     top: 70px;
     width: 513px;
     height: 260px;
-  }
-  .seattle .patch-container .homelink {
-    background: url(../img/dd_logo_Seattle_1200.png) no-repeat;
   }
   .patch {
     position: absolute;
