@@ -21,6 +21,7 @@ class dd_shortCodes {
     	add_shortcode('touchGallery', array($this, 'touchGallery_func'));
     	add_shortcode('readMore', array($this, 'readMore_func'));
     	add_shortcode('homeSlider', array($this, 'homeSlider_func'));
+    	add_shortcode('uwaa-button', array($this, 'button_handler'));
 	}
 
 
@@ -141,6 +142,52 @@ class dd_shortCodes {
 		$output.= '</ul>';
 	    return $output;
 	}
+
+	public function button_handler($atts, $content)
+    {
+
+    	$buttonTypes = array('slant-right', 'slant-left');
+
+        $attributes = (object) $atts;
+
+        $classes = array('uwaa-btn');
+
+        $btnColors = shortcode_atts( array(
+            'color' => 'none',
+        ), $atts );       
+ 
+
+        $color = 'btn-' . $btnColors['color'];
+                   
+        if(empty($content)){
+            echo 'No text in this button';
+            return;
+        }      
+
+        if (isset($attributes->type)){
+            $type = strtolower($attributes->type);
+            if (in_array($type, $buttonTypes)){
+                array_push($classes, 'btn-' . $type);
+            }
+        }
+
+        $url = '#';
+        if (isset($attributes->url)){
+            $url = $attributes->url;
+        }
+
+        if (property_exists($attributes, 'small')){
+            array_push($classes, 'btn-sm');
+        }
+
+        $target = '';
+        if (property_exists($attributes, 'new')){
+            $target = "target=\"_blank\"";
+        }
+
+        $class_string = implode($classes, ' ');        
+        return sprintf('<div class="uwaa-btn-wrapper"><a class="%s %s" href="%s" %s>%s</a></div>', $class_string, $color, $url, $target, $content);
+    }
 
 
 
