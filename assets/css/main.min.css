@@ -15912,6 +15912,7 @@ img.mfp-img {
   padding: .412em;
   padding-top: .32em;
   display: inline-block;
+  font-size: 17px;
 }
 .uwaa-btn.btn-gold {
   background-color: #b7a57a;
@@ -15950,10 +15951,13 @@ img.mfp-img {
   position: relative;
   z-index: 0;
   margin: 6px 40px 18px 0;
+  font-size: 17px;
 }
 a.uwaa-btn:hover,
 a.uwaa-btn:active {
   border-bottom: none;
+  text-decoration: none;
+  color: #b7a57a;
 }
 @media only screen and (max-width: 320px) {
   .uwaa-btn-wrapper {
