@@ -11,7 +11,7 @@
  * 3. /theme/assets/js/main.min.js (in footer)
  */
 function roots_scripts() {
-  wp_enqueue_style('roots_main', get_template_directory_uri() . '/assets/css/main.min.css', false, 'b9823e56e770bffb2646e098b1d2cdcc');
+  wp_enqueue_style('roots_main', get_template_directory_uri() . '/assets/css/main.min.css', false, '39cf815c3b5ce29cc298588405926184');
   wp_enqueue_style('web_fonts', 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Ultra', array(), null, false);
   // jQuery is loaded using the same method from HTML5 Boilerplate:
   // Grab Google CDN's latest jQuery with a protocol relative URL; fallback to local if offline

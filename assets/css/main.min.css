@@ -16240,6 +16240,8 @@ body {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .hentry .entry-content .copy-container:before,
 .hentry .entry-content .copy-container:after {
@@ -16681,8 +16683,8 @@ figure.alignnone {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-color: #4b2e83;
-    background-size: 211px 107px;
-    height: 126px;
+    background-size: 213px 126px;
+    height: 164px;
     position: relative;
     margin-top: 0;
     overflow-y: visible;
@@ -16845,7 +16847,7 @@ figure.alignnone {
   .banner {
     background-image: url("../img/dd_header_768.jpg");
     background-size: cover;
-    height: 221px;
+    height: 242px;
     position: relative;
   }
   .patch-container {
@@ -17046,10 +17048,10 @@ figure.alignnone {
     background: url(../img/dd_logo_hm_768.png) no-repeat;
     z-index: 1;
     position: absolute;
-    left: 10px;
+    left: 25px;
     top: 30px;
     width: 328px;
-    height: 156px;
+    height: 221px;
   }
   .nav-main {
     position: absolute;
@@ -17326,10 +17328,10 @@ figure.alignnone {
     background: url(../img/dd_logo_hm_768.png) no-repeat;
     z-index: 1;
     position: absolute;
-    left: 10px;
+    left: 25px;
     top: 30px;
     width: 328px;
-    height: 166px;
+    height: 221px;
   }
   .patch {
     position: absolute;
@@ -17664,7 +17666,7 @@ figure.alignnone {
     left: 0;
     top: 55px;
     width: 513px;
-    height: 260px;
+    height: 275px;
   }
   .patch {
     position: absolute;
