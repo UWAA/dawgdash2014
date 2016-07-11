@@ -30,7 +30,7 @@ function roots_scripts() {
 // Flowtype, Modernizr Register
   wp_register_script('flowtype', get_template_directory_uri() . '/assets/js/vendor/flowtype.js', array(), null, true);
   wp_register_script('modernizr', get_template_directory_uri() . '/assets/js/vendor/modernizr-2.7.0.min.js', array(), null, true);
-  wp_register_script('roots_scripts', get_template_directory_uri() . '/assets/js/scripts.min.js', array(), '691e8e044d2e06a75d8f79c789a8384b', true);
+  wp_register_script('roots_scripts', get_template_directory_uri() . '/assets/js/scripts.min.js', array(), 'e27dd583de4ac5a945b3490bfff57ffa', true);
   wp_enqueue_script('modernizr');
   wp_enqueue_script('jquery');
   wp_enqueue_script('flowtype');

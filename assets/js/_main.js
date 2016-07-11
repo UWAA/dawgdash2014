@@ -202,7 +202,6 @@ map.featureLayer.on('ready', function(){
 
     //Add the legend to the interface
     var Legend = [
-      ['Mad Campus', 'mad-campus' ],
       [ 'Campus Landmarks', 'landmarks'],
       ['Start', 'start'],
       ['Finish', 'finish']
