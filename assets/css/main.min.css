@@ -17044,6 +17044,7 @@ figure.alignnone {
     margin-left: -15px;
   }
   .patch-container .homelink {
+    display: none;
     content: "";
     background: url(../img/dd_logo_hm_768.png) no-repeat;
     z-index: 1;
@@ -17324,6 +17325,7 @@ figure.alignnone {
     margin-left: -15px;
   }
   .patch-container .homelink {
+    display: none;
     content: "";
     background: url(../img/dd_logo_hm_768.png) no-repeat;
     z-index: 1;
@@ -17659,6 +17661,7 @@ figure.alignnone {
     margin-left: -15px;
   }
   .patch-container .homelink {
+    display: none;
     content: "";
     background: url(../img/dd_logo_hm_1200.png) no-repeat;
     z-index: 1 !important;
